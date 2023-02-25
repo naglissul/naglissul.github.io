@@ -1,9 +1,9 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           index
@@ -17,12 +17,12 @@ function App() {
               <ul>
                 <li>
                   <h3>
-                    <a href="/blog">Blog</a>
+                    <a href="/#/blog">Blog</a>
                   </h3>
                 </li>
                 <li>
                   <h3>
-                    <a href="/contacts">Contacts</a>
+                    <a href="/#/contacts">Contacts</a>
                   </h3>
                 </li>
               </ul>
@@ -57,7 +57,7 @@ function App() {
                 </li>
                 <li>
                   <h3>
-                    <a href="/contacts">Contacts</a>
+                    <a href="/#/contacts">Contacts</a>
                   </h3>
                 </li>
               </ul>
@@ -85,7 +85,7 @@ function App() {
                 </li>
                 <li>
                   <h3>
-                    <a href="/blog">Blog</a>
+                    <a href="/#/blog">Blog</a>
                   </h3>
                 </li>
               </ul>
@@ -97,9 +97,9 @@ function App() {
             </div>
           }
         />
-        <Route path="/*" element={<div>This page doesn't exist</div>} />
+        <Route path="*" element={<div>This page doesn't exist</div>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
