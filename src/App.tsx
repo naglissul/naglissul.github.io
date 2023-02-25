@@ -43,7 +43,7 @@ function App() {
           }
         />
         <Route
-          path="blog"
+          path="/blog"
           element={
             <div>
               <h1>Blog</h1>
@@ -71,7 +71,7 @@ function App() {
           }
         />
         <Route
-          path="contacts"
+          path="/contacts"
           element={
             <div>
               <h1>Contacts</h1>
@@ -97,7 +97,7 @@ function App() {
             </div>
           }
         />
-        <Route path="*" element={<div>This page doesn't exist</div>} />
+        <Route path="/*" element={<div>This page doesn't exist</div>} />
       </Routes>
     </BrowserRouter>
   );
