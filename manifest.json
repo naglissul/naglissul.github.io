@@ -1,0 +1,15 @@
+{
+  "short_name": "Nopointwritings",
+  "name": "No Point Writings",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "191x191"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
