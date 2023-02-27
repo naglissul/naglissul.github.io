@@ -3,6 +3,20 @@ import { useState } from "react";
 function JumperGame() {
   const [x, setX] = useState(100);
   const [y, setY] = useState(50);
+  const [velY, setVelY] = useState(1);
+  const delay = (ms: any) => new Promise((resolve) => setTimeout(resolve, ms));
+  const gameloop = async () => {
+    await delay(20);
+    setY(y + velY);
+    if (y < 290) {
+      setVelY(velY + 1);
+    }
+    if (y > 290) {
+      setY(290);
+      setVelY(0);
+    }
+  };
+  gameloop();
   return (
     <>
       <div>for now this game does nothing</div>
@@ -11,17 +25,14 @@ function JumperGame() {
         value="Press here to play"
         readOnly
         onKeyDown={(event) => {
-          if (event.key === "ArrowUp") {
-            setY(y - 5);
-          }
-          if (event.key === "ArrowDown") {
-            setY(y + 5);
-          }
           if (event.key === "ArrowLeft") {
             setX(x - 5);
           }
           if (event.key === "ArrowRight") {
             setX(x + 5);
+          }
+          if (event.key === " ") {
+            setVelY(-10);
           }
         }}
       />
