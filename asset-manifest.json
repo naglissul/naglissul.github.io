@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.0b189192.js",
+    "main.js": "/static/js/main.502f6985.js",
     "static/js/787.1c3da537.chunk.js": "/static/js/787.1c3da537.chunk.js",
+    "static/media/1-marvel-karo-vertybes.md": "/static/media/1-marvel-karo-vertybes.9707d89fa23b04051af0.md",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.0b189192.js.map": "/static/js/main.0b189192.js.map",
+    "main.502f6985.js.map": "/static/js/main.502f6985.js.map",
     "787.1c3da537.chunk.js.map": "/static/js/787.1c3da537.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0b189192.js"
+    "static/js/main.502f6985.js"
   ]
 }
