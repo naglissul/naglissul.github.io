@@ -15,7 +15,7 @@ function BlogPage() {
   };
 
   useEffect(() => {
-    fetchMarkdown("posts/1-marvel-karo-vertybes.md");
+    fetchMarkdown("./posts/1-marvel-karo-vertybes.md");
   }, []);
 
   return (
@@ -30,7 +30,7 @@ function BlogPage() {
         <h1>Blog</h1>
 
         <h3>
-          <a href="/">Home</a>
+          <a href="/#/home">Home</a>
         </h3>
 
         <h3>

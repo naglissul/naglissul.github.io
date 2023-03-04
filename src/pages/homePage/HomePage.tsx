@@ -1,6 +1,6 @@
 function HomePage() {
   return (
-    <div>
+    <div style={{ paddingLeft: "10px" }}>
       <h1>No Point Writings</h1>
       <h5>
         <em>Blog. And more</em>
@@ -9,7 +9,7 @@ function HomePage() {
       <ul>
         <li>
           <h3>
-            <a href="/#/blog">Blog</a>
+            <a href="/">Blog</a>
           </h3>
         </li>
         <li>
