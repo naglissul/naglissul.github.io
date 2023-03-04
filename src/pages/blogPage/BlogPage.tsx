@@ -15,7 +15,7 @@ function BlogPage() {
   };
 
   useEffect(() => {
-    fetchMarkdown("./posts/1-marvel-karo-vertybes.md");
+    fetchMarkdown(require("./../../posts/1-marvel-karo-vertybes.md"));
   }, []);
 
   return (
