@@ -4,10 +4,12 @@ function JumperGame() {
   const [x, setX] = useState(100);
   const [y, setY] = useState(50);
   const [velY, setVelY] = useState(1);
+  const [velX, setVelX] = useState(0);
   const delay = (ms: any) => new Promise((resolve) => setTimeout(resolve, ms));
   const gameloop = async () => {
     await delay(20);
     setY(y + velY);
+    setX(x + velX);
     if (y < 290) {
       setVelY(velY + 1);
     }
