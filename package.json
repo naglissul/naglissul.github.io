@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^6.8.1"
+    "react-router-dom": "^6.8.1",
+    "webpack": "^5.76.1"
   }
 }
