@@ -25,6 +25,7 @@ function BlogPage() {
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-evenly",
+          alignItems: "center",
         }}
       >
         <h1>Blog</h1>
