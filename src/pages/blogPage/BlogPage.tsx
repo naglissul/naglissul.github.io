@@ -16,7 +16,7 @@ function BlogPage() {
 
   useEffect(() => {
     fetchMarkdown(
-      "https://raw.githubusercontent.com/naglissul/blog-posts/main/1-marvel-karo-vertybes.md?token=GHSAT0AAAAAAB7GBKE5RRKVR7S5MKZU5MDCZA7IB6Q"
+      "https://raw.githubusercontent.com/naglissul/blog-posts/main/1-marvel-karo-vertybes.md"
     );
   }, []);
 
