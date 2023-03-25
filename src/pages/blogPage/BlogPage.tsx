@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import GitHub from "github-api";
 
 function BlogPage() {
   const [text, setText] = useState("");
