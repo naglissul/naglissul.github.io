@@ -17,11 +17,6 @@ function HomePage() {
             <a href="/#/contacts">Contacts</a>
           </h3>
         </li>
-        <li>
-          <h3>
-            <a href="/#/jumper">Jumper Game</a>
-          </h3>
-        </li>
       </ul>
 
       <br />
