@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import GitHub from "github-api";
 
 function BlogPage() {
   const [text, setText] = useState("");
@@ -16,7 +15,9 @@ function BlogPage() {
   };
 
   useEffect(() => {
-    fetchMarkdown(require("./../../posts/1-marvel-karo-vertybes.md"));
+    fetchMarkdown(
+      "https://raw.githubusercontent.com/naglissul/blog-posts/main/1-marvel-karo-vertybes.md?token=GHSAT0AAAAAAB7GBKE5RRKVR7S5MKZU5MDCZA7IB6Q"
+    );
   }, []);
 
   return (
