@@ -29,6 +29,13 @@ function ContactsPage() {
         <a href="https://www.instagram.com/naglisaudrius/"> @naglisaudrius</a>
       </h5>
       <h5>
+        writing email:
+        <a href="mailto:tyliunas.audrius@gmail.com">
+          {" "}
+          tyliunas.audrius@gmail.com
+        </a>
+      </h5>
+      <h5>
         writing ig:
         <a href="https://www.instagram.com/audriustyliunas/">
           @audriustyliunas
