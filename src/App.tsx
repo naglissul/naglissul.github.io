@@ -1,18 +1,28 @@
-import React from "react";
 import { Routes, Route, HashRouter } from "react-router-dom";
-import BlogPage from "./pages/blogPage/BlogPage";
-import ContactsPage from "./pages/contactsPage/ContactsPage";
-import HomePage from "./pages/homePage/HomePage";
+import { routes } from "./constants";
+import NavHeader from "./generalComponents/NavHeader";
 
 function App() {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/home" element={<HomePage />} />
-        <Route index element={<BlogPage />} />
-        <Route path="/contacts" element={<ContactsPage />} />
-        <Route path="*" element={<div>This page doesn't exist</div>} />
-      </Routes>
+      <NavHeader />
+      <div style={{ marginTop: "62px" }}>
+        <Routes>
+          {routes.map((route) => (
+            <Route path={route.path} element={route.element} />
+          ))}
+        </Routes>
+      </div>
+      <footer style={{ position: "fixed", bottom: "2px", right: "2px" }}>
+        {" "}
+        <button
+          onClick={() => {
+            alert("haha, not yet. Dar nepadarytas vertimas :((");
+          }}
+        >
+          Lietuviškai prašyčiau
+        </button>
+      </footer>
     </HashRouter>
   );
 }

@@ -21,34 +21,25 @@ function BlogPage() {
   }, []);
 
   return (
-    <>
-      <header
+    <div>
+      <h1 style={{ textAlign: "center", paddingTop: "1em" }}>Blog</h1>
+      <br />
+      <div
         style={{
           display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-evenly",
           alignItems: "center",
+          justifyContent: "center",
+          padding: "0 10%",
         }}
       >
-        <h1>Blog</h1>
-
-        <h3>
-          <a href="/#/home">Home</a>
-        </h3>
-
-        <h3>
-          <a href="/#/contacts">Contacts</a>
-        </h3>
-      </header>
-      <br />
-      <br />
-      <div style={{ paddingLeft: "20%", paddingRight: "20%" }}>
-        <ReactMarkdown>{text}</ReactMarkdown>
+        <div style={{ width: "750px" }}>
+          <ReactMarkdown>{text}</ReactMarkdown>
+        </div>
       </div>
       <br />
       <br />
       <footer>Naglis/Audrius 2023</footer>
-    </>
+    </div>
   );
 }
 
