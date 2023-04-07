@@ -1,16 +1,20 @@
-import { BsMusicNoteBeamed } from "react-icons/bs";
 function BestMusic() {
   return (
     <div
       style={{
         display: "flex",
         justifyContent: "center",
-        alignItems: "center",
       }}
     >
-      <BsMusicNoteBeamed style={{ padding: "0 1em", fontSize: "25px" }} />
-      <h3>This week's music: Jean Sibelius - Etude Op. 76 No. 2</h3>
-      <BsMusicNoteBeamed style={{ padding: "0 1em", fontSize: "25px" }} />
+      <iframe
+        style={{ height: "80px", margin: "0 10%", padding: "1em 0" }}
+        src="https://open.spotify.com/embed/track/4StypY6VnE9BqgqQ0ni1tg?utm_source=generator&theme=0"
+        width="100%"
+        frameBorder="0"
+        allowFullScreen
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
     </div>
   );
 }
