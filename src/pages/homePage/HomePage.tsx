@@ -19,8 +19,9 @@ function HomePage() {
       <h3 style={{ paddingTop: "5%" }}>
         <em>More coming soon...</em>
       </h3>
-      <div style={{ display: "flex", margin: "10%", gap: "10%" }}>
-        {" "}
+      <div
+        style={{ display: "flex", margin: "10%", gap: "2em", flexWrap: "wrap" }}
+      >
         <Archive />
         <Contacts />
       </div>
