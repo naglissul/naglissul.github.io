@@ -5,14 +5,8 @@ import Contacts from "./components/Contacts";
 function HomePage() {
   return (
     <div style={{ textAlign: "center" }}>
-      <h1 style={{ paddingTop: "1em", textAlign: "center" }}>
-        No Point Writings
-      </h1>
-
-      <hr style={{ margin: "0 10%" }} />
-
       <BestMusic />
-      <hr style={{ margin: "0 10%" }} />
+      <hr />
       <h5>
         <em>Blog. And more</em>
       </h5>
@@ -20,7 +14,12 @@ function HomePage() {
         <em>More coming soon...</em>
       </h3>
       <div
-        style={{ display: "flex", margin: "10%", gap: "2em", flexWrap: "wrap" }}
+        style={{
+          display: "flex",
+          marginTop: "10%",
+          gap: "2em",
+          flexWrap: "wrap",
+        }}
       >
         <Archive />
         <Contacts />
