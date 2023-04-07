@@ -20,7 +20,7 @@ function App() {
             alert("haha, not yet. Dar nepadarytas vertimas :((");
           }}
         >
-          Lietuviškai prašyčiau
+          Lietuviškai, prašyčiau
         </button>
       </footer>
     </HashRouter>

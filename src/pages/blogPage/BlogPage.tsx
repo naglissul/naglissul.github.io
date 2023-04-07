@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 function BlogPage() {
-  const [text, setText] = useState("");
+  const [text, setText] = useState("Loading...");
 
   const fetchMarkdown = (readmePath: string) => {
     fetch(readmePath)
@@ -22,8 +22,11 @@ function BlogPage() {
 
   return (
     <div>
-      <h1 style={{ textAlign: "center", paddingTop: "1em" }}>Blog</h1>
-      <br />
+      <h1 style={{ paddingTop: "1em", textAlign: "center" }}>Blog</h1>
+      <hr style={{ margin: "0 10%" }} />
+      <h3 style={{ paddingTop: "5%", textAlign: "center" }}>
+        <em>More coming soon...</em>
+      </h3>
       <div
         style={{
           display: "flex",
@@ -36,9 +39,6 @@ function BlogPage() {
           <ReactMarkdown>{text}</ReactMarkdown>
         </div>
       </div>
-      <br />
-      <br />
-      <footer>Naglis/Audrius 2023</footer>
     </div>
   );
 }
