@@ -18,3 +18,29 @@ export const routes = [
   { path: "/teach", element: <TeachPage />, name: "Teach", title: "Teach" },
   { path: "*", element: <NotFoundPage />, name: "NotFound", title: "404" },
 ];
+
+export const readingsSniegas = [
+  {
+    name: "Pirmasis sniegas. Pirmas skyrius. Klaidžiojimas",
+    date: "2022-08-17",
+    wordCount: 9960,
+    fileName: "pirmasis-sniegas-pirmas-skyrius-klaidziojimas.docx",
+  },
+];
+
+export const readingsSlam = [
+  {
+    name: "Trumpas sapnas",
+    date: "2021-11-25",
+    wordCount: 368,
+    fileName: "trumpas-sapnas.docx",
+  },
+];
+export const readingsOther = [
+  {
+    name: "Saldainiai",
+    date: "2020-10-20",
+    wordCount: 493,
+    fileName: "saldainiai.docx",
+  },
+];

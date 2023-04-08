@@ -26,6 +26,15 @@ function Contacts() {
           @audriustyliunas
         </a>
       </h5>
+      <h5>
+        <a href="https://open.spotify.com/user/0labnwjaw8ife28ldwgqjpknh?si=93bc027711194fe1">
+          Spotify acc
+        </a>
+      </h5>
+      <h5>
+        all for Curiculum Vitae, if someone is interested
+        <a href="https://www.linkedin.com/in/naglissul/">LinkedIn</a>
+      </h5>
     </div>
   );
 }

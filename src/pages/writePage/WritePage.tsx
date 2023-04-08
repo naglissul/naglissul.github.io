@@ -1,3 +1,4 @@
+import { readingsSlam } from "../../constants";
 import Reading from "./components/Reading";
 
 function WritePage() {
@@ -16,16 +17,19 @@ function WritePage() {
       </a>
 
       <div>Blog newest</div>
+      <div>ABOUT ME</div>
       <div>Sniegas: about, texts</div>
 
       <div>Slemai: about, texts</div>
       <div style={{ display: "flex", flexDirection: "column", gap: "2em" }}>
-        <Reading
-          name="Trumpas sapnas"
-          src="assets/readings/slam/trumpas-sapnas.docx"
-          date="2021-11-25"
-          wordCount={368}
-        />
+        {readingsSlam.map((reading) => (
+          <Reading
+            name={reading.name}
+            src={`assets/readings/slam/${reading.fileName}`}
+            date={reading.date}
+            wordCount={reading.wordCount}
+          />
+        ))}
       </div>
       <div>Kiti tekstai: about, texts</div>
       <div>contacts</div>
