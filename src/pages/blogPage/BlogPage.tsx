@@ -21,22 +21,17 @@ function BlogPage() {
   }, []);
 
   return (
-    <div>
-      <h3 style={{ paddingTop: "5%", textAlign: "center" }}>
-        <em>More coming soon...</em>
-      </h3>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <div style={{ width: "750px" }}>
+    <>
+      <main>
+        <aside></aside>
+        <section>
+          <nav style={{}}>This gonna be a filter bar</nav>
           <ReactMarkdown>{text}</ReactMarkdown>
-        </div>
-      </div>
-    </div>
+        </section>
+        <aside></aside>
+      </main>
+      <footer></footer>
+    </>
   );
 }
 
