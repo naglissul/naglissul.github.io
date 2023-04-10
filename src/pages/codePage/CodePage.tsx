@@ -22,7 +22,8 @@ function CodePage() {
           learning a lot of basics for different programming languages and
           frameworks, but mainly learning about deployment and project
           structure. Therefore I am also building a list of my own development
-          standards:
+          standards (basically all my knowledge, except for the basics, will be
+          stucturized and put here):
           <a href="https://github.com/naglissul/dev-standards">
             My Dev Standards
           </a>

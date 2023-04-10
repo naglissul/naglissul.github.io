@@ -15,7 +15,11 @@ function HomePage() {
           </h5>
           <h1>Currently</h1>
           working on CODING and WRITING (check out these category pages with the
-          links above)
+          links above). And in addition I am working on piano compositions,
+          learning some piano pieces - planning to upload it to youtube and
+          maybe decently record my compositions for soundCloud of even Spotify.
+          And also I'm still studying and tutoring, so also have to deal with
+          that
           <div
             style={{
               display: "flex",
