@@ -4,9 +4,12 @@ function TeachPage() {
       <main>
         <aside></aside>
         <section>
-          <h3 style={{ paddingTop: "5%", textAlign: "center" }}>
-            <em>More coming soon...</em>
-          </h3>
+          <h1>Currently</h1>working on other projects (Coding and Writing), but
+          when I get to the teaching category - first I will be creating some
+          rules as of a teacher and writing summaries/tutorials about school
+          maths/physics according to the national education programme in
+          Lithuania. After that maybe improve my, as a math and physics tutor,
+          work. Everything will be listed in this page
         </section>
         <aside></aside>
       </main>

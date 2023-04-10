@@ -9,6 +9,8 @@ function WritePage() {
       <main>
         <aside></aside>
         <section>
+          <h1>Currently</h1>working on my novel "Pirmasis sniegas". Editing the
+          second chapter (out of three)
           <h3 style={{ paddingTop: "5%", textAlign: "center" }}>
             <em>More coming soon...</em>
           </h3>

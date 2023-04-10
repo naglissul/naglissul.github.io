@@ -13,6 +13,9 @@ function HomePage() {
           <h5>
             <em>Blog. And more</em>
           </h5>
+          <h1>Currently</h1>
+          working on CODING and WRITING (check out these category pages with the
+          links above)
           <div
             style={{
               display: "flex",
