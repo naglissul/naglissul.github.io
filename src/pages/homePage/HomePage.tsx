@@ -20,6 +20,7 @@ function HomePage() {
           maybe decently record my compositions for soundCloud of even Spotify.
           And also I'm still studying and tutoring, so also have to deal with
           that
+          <a href="https://youtu.be/b-iR1_1BqbQ">Youtube Gymnopedia no 1</a>
           <div
             style={{
               display: "flex",

@@ -32,8 +32,11 @@ function Contacts() {
         </a>
       </h5>
       <h5>
-        all for Curiculum Vitae, if someone is interested
-        <a href="https://www.linkedin.com/in/naglissul/">LinkedIn</a>
+        all for Curiculum Vitae, if someone is interested:
+        <a href="https://www.linkedin.com/in/naglissul/"> LinkedIn</a>
+      </h5>
+      <h5>
+        <a href="https://www.youtube.com/@naglisaudrius">Youtube</a>
       </h5>
     </div>
   );
