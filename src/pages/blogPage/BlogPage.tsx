@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import BlogPost from "./components/BlogPost";
 
 function BlogPage() {
