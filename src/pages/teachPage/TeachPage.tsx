@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import BlogPost from "../blogPage/components/BlogPost";
 
 function TeachPage() {
-  const [text, setText] = useState("Loading...");
+  const [tutorials, setTutorials] = useState<Set<string>>(new Set());
 
   const fetchMarkdown = (readmePath: string) => {
     fetch(readmePath)
@@ -10,13 +11,16 @@ function TeachPage() {
         return response.text();
       })
       .then((txt) => {
-        setText(txt);
+        setTutorials((prevTutorials) => {
+          const newSet = new Set(prevTutorials);
+          newSet.add(txt);
+          return newSet;
+        });
       });
   };
-
   useEffect(() => {
     fetchMarkdown(
-      "https://raw.githubusercontent.com/naglissul/blog-posts/main/fizika-8-kl-bangos.md"
+      "https://raw.githubusercontent.com/naglissul/blog-posts/main/tutorials/fizika-8-kl-bangos.md"
     );
   }, []);
   return (
@@ -39,7 +43,9 @@ function TeachPage() {
           <a href="https://sodas.ugdome.lt/viesieji-puslapiai/7300">
             LT education programme till 2024-08-31
           </a>
-          <ReactMarkdown>{text}</ReactMarkdown>
+          {Array.from(tutorials).map((tutorial) => (
+            <BlogPost key={tutorial} text={tutorial} />
+          ))}
         </section>
         <aside></aside>
       </main>

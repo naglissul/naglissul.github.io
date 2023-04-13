@@ -11,7 +11,7 @@ function App() {
         <TitleHeader />
         <Routes>
           {routes.map((route) => (
-            <Route path={route.path} element={route.element} />
+            <Route key={route.name} path={route.path} element={route.element} />
           ))}
         </Routes>
       </div>

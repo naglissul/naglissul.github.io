@@ -1,4 +1,8 @@
-function BestMusic() {
+interface spotifySrc {
+  src: string;
+}
+
+function BestMusic(props: spotifySrc) {
   return (
     <div
       style={{
@@ -7,8 +11,9 @@ function BestMusic() {
       }}
     >
       <iframe
+        title={props.src}
         style={{ height: "80px", padding: "1em 0" }}
-        src="https://open.spotify.com/embed/track/4StypY6VnE9BqgqQ0ni1tg?utm_source=generator&theme=0"
+        src={props.src}
         width="100%"
         frameBorder="0"
         allowFullScreen

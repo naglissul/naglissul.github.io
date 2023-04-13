@@ -35,6 +35,7 @@ function WritePage() {
           >
             {readingsSnow.map((reading) => (
               <Reading
+                key={reading.name}
                 name={reading.name}
                 src={`assets/readings/snow/${reading.fileName}`}
                 date={reading.date}
@@ -53,6 +54,7 @@ function WritePage() {
           >
             {readingsSlam.map((reading) => (
               <Reading
+                key={reading.name}
                 name={reading.name}
                 src={`assets/readings/slam/${reading.fileName}`}
                 date={reading.date}
@@ -71,6 +73,7 @@ function WritePage() {
           >
             {readingsOther.map((reading) => (
               <Reading
+                key={reading.name}
                 name={reading.name}
                 src={`assets/readings/other/${reading.fileName}`}
                 date={reading.date}

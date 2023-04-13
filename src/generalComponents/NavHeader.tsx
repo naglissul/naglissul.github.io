@@ -21,7 +21,7 @@ function NavHeader() {
         {routes.map(
           (route) =>
             route.name !== "NotFound" && (
-              <h3>
+              <h3 key={route.name}>
                 <a href={`/#${route.path}`}>{route.name}</a>
               </h3>
             )

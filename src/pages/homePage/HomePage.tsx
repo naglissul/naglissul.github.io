@@ -8,7 +8,7 @@ function HomePage() {
       <main>
         <aside></aside>
         <section>
-          <BestMusic />
+          <BestMusic src="https://open.spotify.com/embed/track/4RUKTGXjyRM3wdksLgC6Ca?utm_source=generator&theme=0" />
           <hr />
           <h5>
             <em>Blog. And more</em>
@@ -19,7 +19,9 @@ function HomePage() {
           learning some piano pieces - planning to upload it to youtube and
           maybe decently record my compositions for soundCloud of even Spotify.
           And also I'm still studying and tutoring, so also have to deal with
-          that
+          that...
+          <br />
+          <br />
           <a href="https://youtu.be/b-iR1_1BqbQ">Youtube Gymnopedia no 1</a>
           <div
             style={{
@@ -32,6 +34,8 @@ function HomePage() {
             <Archive />
             <Contacts />
           </div>
+          Previous Best Music:
+          <BestMusic src="https://open.spotify.com/embed/track/4StypY6VnE9BqgqQ0ni1tg?utm_source=generator&theme=0" />
         </section>
         <aside></aside>
       </main>
