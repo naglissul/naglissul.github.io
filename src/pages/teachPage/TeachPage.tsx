@@ -1,27 +1,57 @@
 import { useEffect, useState } from "react";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import BlogPost from "../blogPage/components/BlogPost";
+import { TUTORIALS_URL } from "../../constants";
+
+interface post {
+  name: string;
+  content: string;
+}
+
+const fetchPosts = async (): Promise<post[] | null> => {
+  const files: post[] = [];
+  let i = 0;
+
+  while (true) {
+    const url = `${TUTORIALS_URL}${i}.md`;
+    try {
+      const response = await fetch(url);
+
+      if (response.status === 404) {
+        break;
+      }
+      if (!response.ok) {
+        console.error(`Error fetching file ${i}.md: ${response.statusText}`);
+        return null;
+      }
+
+      const content = await response.text();
+      files.push({ name: `${i}.md`, content });
+    } catch (error: any) {
+      console.error(`Error fetching file ${i}.md: ${error}`);
+      return null;
+    }
+    i++;
+  }
+
+  if (files.length === 0) {
+    return [{ name: "no-files-pseudo.file", content: "NO FILES FOUND..." }];
+  }
+
+  return files;
+};
 
 function TeachPage() {
-  const [tutorials, setTutorials] = useState<Set<string>>(new Set());
+  const [files, setFiles] = useState<post[] | null>([
+    { name: "loading-pseudo.file", content: "LOADING CONTENT..." },
+  ]);
 
-  const fetchMarkdown = (readmePath: string) => {
-    fetch(readmePath)
-      .then((response) => {
-        return response.text();
-      })
-      .then((txt) => {
-        setTutorials((prevTutorials) => {
-          const newSet = new Set(prevTutorials);
-          newSet.add(txt);
-          return newSet;
-        });
-      });
-  };
   useEffect(() => {
-    fetchMarkdown(
-      "https://raw.githubusercontent.com/naglissul/blog-posts/main/tutorials/fizika-8-kl-bangos.md"
-    );
+    const fetchFiles = async () => {
+      const fetchedFiles = await fetchPosts();
+      setFiles(fetchedFiles);
+    };
+
+    fetchFiles();
   }, []);
   return (
     <>
@@ -43,9 +73,11 @@ function TeachPage() {
           <a href="https://sodas.ugdome.lt/viesieji-puslapiai/7300">
             LT education programme till 2024-08-31
           </a>
-          {Array.from(tutorials).map((tutorial) => (
-            <BlogPost key={tutorial} text={tutorial} />
-          ))}
+          {files
+            ? files.map((file: post) => (
+                <BlogPost key={file.name} text={file.content} />
+              ))
+            : null}
         </section>
         <aside></aside>
       </main>

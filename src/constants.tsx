@@ -5,6 +5,11 @@ import NotFoundPage from "./pages/notFoundPage/NotFoundPage";
 import TeachPage from "./pages/teachPage/TeachPage";
 import WritePage from "./pages/writePage/WritePage";
 
+export const POSTS_URL =
+  "https://raw.githubusercontent.com/naglissul/blog-posts/main/posts/";
+export const TUTORIALS_URL =
+  "https://raw.githubusercontent.com/naglissul/blog-posts/main/tutorials/";
+
 export const routes = [
   {
     path: "/",
