@@ -75,7 +75,7 @@ function TeachPage() {
           </a>
           {files
             ? files.map((file: post) => (
-                <BlogPost key={file.name} text={file.content} />
+                <BlogPost id={file.name} key={file.name} text={file.content} />
               ))
             : null}
         </section>

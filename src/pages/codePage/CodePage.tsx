@@ -27,6 +27,8 @@ function CodePage() {
           <a href="https://github.com/naglissul/dev-standards">
             My Dev Standards
           </a>
+          When I will learn enough about deployment and sdlc - I will make a
+          team to work on some projects
         </section>
         <aside></aside>
       </main>

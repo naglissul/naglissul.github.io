@@ -84,7 +84,7 @@ function BlogPage() {
           </ul>
           {files
             ? files.map((file: post) => (
-                <BlogPost key={file.name} text={file.content} />
+                <BlogPost key={file.name} id={file.name} text={file.content} />
               ))
             : null}
         </section>
