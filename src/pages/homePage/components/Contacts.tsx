@@ -38,6 +38,9 @@ function Contacts() {
       <h5>
         <a href="https://www.youtube.com/@naglisaudrius">Youtube</a>
       </h5>
+      <h5>
+        <a href="https://www.github.com/naglissul/">GitHub</a>
+      </h5>
     </div>
   );
 }

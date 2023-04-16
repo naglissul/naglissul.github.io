@@ -73,6 +73,35 @@ function TeachPage() {
           <a href="https://sodas.ugdome.lt/viesieji-puslapiai/7300">
             LT education programme till 2024-08-31
           </a>
+          <h3>Here, in posts, you will find:</h3>
+          <ul>
+            <li>
+              MATH:{" "}
+              <ul>
+                <li>
+                  PROBLEMS - all types of problems (for VBE/12th grade course)
+                </li>
+                <li>
+                  EVERYTHING - theory and all the content (for 5-8th grades)
+                </li>
+                <li>
+                  ABOUT - rules from me, as a teacher, explanations and thoughts
+                  about math and everything else that is not entioned
+                </li>
+              </ul>
+            </li>
+            <li>PHYSICS - whatever I write about physics</li>
+          </ul>
+          <h3>5-8 grade branches of math:</h3>
+          <ul>
+            <li>Arithmetic</li>
+            <li>Algebra</li>
+            <li>Geometry</li>
+            <li>Number Theory</li>
+            <li>Statistics</li>
+            <li>Combinatorics</li>
+            <li>Probability???</li>
+          </ul>
           {files
             ? files.map((file: post) => (
                 <BlogPost id={file.name} key={file.name} text={file.content} />
