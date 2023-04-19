@@ -9,11 +9,13 @@ function WritePage() {
       <main>
         <aside></aside>
         <section>
-          <h1>Currently</h1>working on my novel "Pirmasis sniegas". Editing the
-          second chapter (out of three)
-          <h3 style={{ paddingTop: "5%", textAlign: "center" }}>
-            <em>More coming soon...</em>
-          </h3>
+          <h1>Currently</h1>
+          working on my novel "Pirmasis sniegas". Editing the second chapter
+          (out of three)
+          <h1>Future projects</h1>
+          <ul>
+            <li>Continue writing "Pernykštis sniegas"</li>
+          </ul>
           <div>RadioVilnius (Blog most important)</div>
           <a
             href="https://radiovilnius.live/marija-kavtaradze-2/"
@@ -81,6 +83,8 @@ function WritePage() {
               />
             ))}
           </div>
+          © Naglis Šuliokas 2023. All rights reserved (regarding the files with
+          text)
         </section>
 
         <aside></aside>
