@@ -23,6 +23,7 @@ function HomePage() {
           <h1>Future projects</h1>
           <ul>
             <li>Tutorials about after school math/physics/computerScience</li>
+            <li>Electronics project - making SMP-1</li>
           </ul>
           <br />
           <br />
