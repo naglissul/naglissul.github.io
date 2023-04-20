@@ -8,7 +8,8 @@ function HomePage() {
       <main>
         <aside></aside>
         <section>
-          <BestMusic src="https://open.spotify.com/embed/track/4RUKTGXjyRM3wdksLgC6Ca?utm_source=generator&theme=0" />
+          <BestMusic src="https://open.spotify.com/embed/track/5z0Wa1EiCoaUafx83WszRY?utm_source=generator" />
+          <BestMusic src="https://open.spotify.com/embed/playlist/2knht5lNl5ht9BwH0yFiP2?utm_source=generator" />
           <hr />
           <h5>
             <em>Blog. And more</em>
@@ -53,6 +54,7 @@ function HomePage() {
             <Contacts />
           </div>
           Previous Best Music:
+          <BestMusic src="https://open.spotify.com/embed/track/4RUKTGXjyRM3wdksLgC6Ca?utm_source=generator&theme=0" />
           <BestMusic src="https://open.spotify.com/embed/track/4StypY6VnE9BqgqQ0ni1tg?utm_source=generator&theme=0" />
         </section>
         <aside></aside>
