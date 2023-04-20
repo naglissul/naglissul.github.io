@@ -24,6 +24,10 @@ function HomePage() {
           <ul>
             <li>Tutorials about after school math/physics/computerScience</li>
             <li>Electronics project - making SMP-1</li>
+            <li>
+              Projects (and/or tutorials) according to the uni (|CS|, phy, math)
+              courses
+            </li>
           </ul>
           <br />
           <br />
