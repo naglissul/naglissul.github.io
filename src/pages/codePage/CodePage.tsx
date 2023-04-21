@@ -31,6 +31,8 @@ function CodePage() {
             <li>Program for STM32 with C</li>
             <li>Assembly project(s)</li>
             <li>Arcade type games</li>
+            <li>OS in ASM</li>
+            <li>New language</li>
           </ul>
           <br />
           While building all of that (yeah, I don't have a team yet), I'm
