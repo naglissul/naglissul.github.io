@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import BlogPost from "../blogPage/components/BlogPost";
 import { TUTORIALS_URL } from "../../constants";
+import CalcGrade from "./components/CalcGrade";
 
 interface post {
   name: string;
@@ -102,6 +103,7 @@ function TeachPage() {
             <li>Combinatorics</li>
             <li>Probability???</li>
           </ul>
+          <CalcGrade />
           {files
             ? files.map((file: post) => (
                 <BlogPost id={file.name} key={file.name} text={file.content} />

@@ -39,7 +39,7 @@ function WritePage() {
               <Reading
                 key={reading.name}
                 name={reading.name}
-                src={`assets/readings/snow/${reading.fileName}`}
+                src={`assets/readings/sniegas/${reading.fileName}`}
                 date={reading.date}
                 wordCount={reading.wordCount}
               />

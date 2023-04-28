@@ -32,7 +32,8 @@ function CodePage() {
             <li>Assembly project(s)</li>
             <li>Arcade type games</li>
             <li>OS in ASM</li>
-            <li>New language</li>
+            <li>New language - compiler in Haskell or Rust</li>
+            <li>journal - Mokyklos dienynas</li>
           </ul>
           <br />
           While building all of that (yeah, I don't have a team yet), I'm

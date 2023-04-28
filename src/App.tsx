@@ -2,8 +2,10 @@ import { Routes, Route, HashRouter } from "react-router-dom";
 import { routes } from "./constants";
 import NavHeader from "./generalComponents/NavHeader";
 import TitleHeader from "./generalComponents/TitleHeader";
+import { useState } from "react";
 
 function App() {
+  const [isEn, setIsEn] = useState(true);
   return (
     <HashRouter>
       <NavHeader />
@@ -18,10 +20,10 @@ function App() {
       <footer style={{ position: "fixed", bottom: "2px", right: "2px" }}>
         <button
           onClick={() => {
-            alert("haha, not yet. Dar nepadarytas vertimas :((");
+            setIsEn(!isEn);
           }}
         >
-          Lietuviškai, prašyčiau
+          {isEn ? "Lietuviškai, prašyčiau" : "English, please"}
         </button>
       </footer>
     </HashRouter>
