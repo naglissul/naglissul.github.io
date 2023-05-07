@@ -71,6 +71,7 @@ function TeachPage() {
             <li>Dictionary for definitions EN-LT (or platform for that)</li>
           </ul>
           Links:
+          <br />
           <a href="https://sodas.ugdome.lt/viesieji-puslapiai/7300">
             LT education programme till 2024-08-31
           </a>
@@ -87,21 +88,11 @@ function TeachPage() {
                 </li>
                 <li>
                   ABOUT - rules from me, as a teacher, explanations and thoughts
-                  about math and everything else that is not entioned
+                  about math and everything else that is not mentioned
                 </li>
               </ul>
             </li>
             <li>PHYSICS - whatever I write about physics</li>
-          </ul>
-          <h3>5-8 grade branches of math:</h3>
-          <ul>
-            <li>Arithmetic</li>
-            <li>Algebra</li>
-            <li>Geometry</li>
-            <li>Number Theory</li>
-            <li>Statistics</li>
-            <li>Combinatorics</li>
-            <li>Probability???</li>
           </ul>
           <CalcGrade />
           {files
@@ -109,6 +100,11 @@ function TeachPage() {
                 <BlogPost id={file.name} key={file.name} text={file.content} />
               ))
             : null}
+          <h3>ARCHIVE</h3>
+          <img
+            src="assets\func-basic-10.png"
+            alt="basics of functions problems 10 grade"
+          ></img>
         </section>
         <aside></aside>
       </main>

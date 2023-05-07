@@ -5,14 +5,78 @@ function CodePage() {
         <aside></aside>
         <section>
           <h1>Currently</h1>
-          working on three projects:
+          working on two projects:
           <ul>
             <li>No Point Writings. "Portfolio" website</li>
-            <li>
-              JSGD - jumping multiplayer javascript game{" "}
-              <a href="https://jsgd.web.app">jsgd.web.app</a>
-            </li>
+            <li>Time Loop Cave 1.0 - pixel art web game</li>
           </ul>
+          <hr />
+          <img
+            style={{ float: "right", paddingTop: "20px" }}
+            src="/assets/images/LOGO.png"
+            data-canonical-src="/assets/images/LOGO.png"
+            width="200"
+            height="200"
+            alt="LOGO"
+          />
+          <h1>
+            JSGD - Java Script Game Development OR Just Some Great Dancing :)
+          </h1>
+          Multiplayer web game, where players are jumping around the canvas
+          trying to pixel-draw the mario.
+          <h3>
+            <a href="https://jsgd.web.app">Play here</a>
+          </h3>
+          <h3>
+            <a href="https://github.com/naglissul/jsgd">
+              Find source code here
+            </a>
+          </h3>
+          © Naglis Šuliokas 2023
+          <h2>Screenshots</h2>
+          <img
+            style={{ paddingTop: "20px" }}
+            src="/assets/images/SS2.png"
+            data-canonical-src="/assets/images/SS2.png"
+            alt="Enter Name Screenshot"
+          />
+          <img
+            style={{ paddingTop: "20px" }}
+            src="/assets/images/SS.png"
+            data-canonical-src="/assets/images/SS.png"
+            alt="Pixel Art Room Screenshot"
+          />
+          <h2>Pseudo-legal docs</h2>
+          <h3>Licence</h3>
+          <p>Shortly - you can do whatever you want</p>
+          This is free and unencumbered software released into the public
+          domain. Anyone is free to copy, modify, publish, use, compile, sell,
+          or distribute this software, either in source code form or as a
+          compiled binary, for any purpose, commercial or non-commercial, and by
+          any means. In jurisdictions that recognize copyright laws, the author
+          or authors of this software dedicate any and all copyright interest in
+          the software to the public domain. We make this dedication for the
+          benefit of the public at large and to the detriment of our heirs and
+          successors. We intend this dedication to be an overt act of
+          relinquishment in perpetuity of all present and future rights to this
+          software under copyright law. THE SOFTWARE IS PROVIDED "AS IS",
+          WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+          LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+          PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE
+          FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+          CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+          WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. For
+          more information, please refer to http://unlicense.org/
+          <h3>Privacy Policy</h3>
+          No personal data is collected. Only the data about player coordinates,
+          or data about the objects, created by the player is collected and used
+          for the purpose of successful game process.
+          <h3>Terms and conditions</h3>
+          There's no terms and no conditions for using this software. Anyone can
+          use it with no additional obligations
+          <br />
+          <br />
+          <hr />
           <h1>Future projects</h1>
           <ul>
             <li>
@@ -49,38 +113,6 @@ function CodePage() {
           <br />
           When I will learn enough about deployment and sdlc - I will make a
           team to work on some projects
-          <h1>JSGD</h1>
-          <a href="https://jsgd.web.app">Play here</a>
-          <br />
-          <a href="https://github.com/naglissul/jsgd">Find source code here</a>
-          <br />
-          <h3>Licence</h3>
-          <p>Shortly - you can do whatever you want</p>
-          This is free and unencumbered software released into the public
-          domain. Anyone is free to copy, modify, publish, use, compile, sell,
-          or distribute this software, either in source code form or as a
-          compiled binary, for any purpose, commercial or non-commercial, and by
-          any means. In jurisdictions that recognize copyright laws, the author
-          or authors of this software dedicate any and all copyright interest in
-          the software to the public domain. We make this dedication for the
-          benefit of the public at large and to the detriment of our heirs and
-          successors. We intend this dedication to be an overt act of
-          relinquishment in perpetuity of all present and future rights to this
-          software under copyright law. THE SOFTWARE IS PROVIDED "AS IS",
-          WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
-          LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
-          PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE
-          FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
-          CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-          WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. For
-          more information, please refer to http://unlicense.org/
-          <h3>Privacy Policy</h3>
-          No personal data is collected. Only the data about player coordinates,
-          or data about the objects, created by the player is collected and used
-          for the purpose of successful game process.
-          <h3>Terms and conditions</h3>
-          There's no terms and no conditions for using this software. Anyone can
-          use it with no additional obligations
         </section>
         <aside></aside>
       </main>

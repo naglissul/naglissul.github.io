@@ -41,6 +41,20 @@ function Contacts() {
       <h5>
         <a href="https://www.github.com/naglissul/">GitHub</a>
       </h5>
+      <h5>
+        <a href="https://www.reddit.com/user/naglis-audrius">Reddit</a>
+      </h5>
+      <h5>
+        <a href="https://www.facebook.com/profile.php?id=100014978984368">Fb</a>
+      </h5>
+      <h5>
+        <a href="https://www.facebook.com/profile.php?id=100090809108632">
+          Fb Audrius Tyliūnas
+        </a>
+      </h5>
+      <h5>
+        <a href="https://www.tiktok.com/@naglisaudrius">TikTok</a>
+      </h5>
     </div>
   );
 }
