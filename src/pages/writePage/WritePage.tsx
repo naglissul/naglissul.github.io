@@ -26,6 +26,13 @@ function WritePage() {
           </a>
           <div>Blog newest</div>
           <div>ABOUT ME</div>
+          <h1>Lifetime idea:</h1>
+          <p>
+            Write at least 3 parts of novel Snow. Would be great to write maybe
+            5 or 6 parts in total. Then have it in good quality and have a movie
+            or animation made about it. And would be nice if people would read
+            it :)
+          </p>
           <WritingCategory name="Snow" />
           <div
             style={{

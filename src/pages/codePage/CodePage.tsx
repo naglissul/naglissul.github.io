@@ -113,6 +113,12 @@ function CodePage() {
           <br />
           When I will learn enough about deployment and sdlc - I will make a
           team to work on some projects
+          <h1>Lifetime idea:</h1>
+          <p>
+            Make a game that would be played by everyone. Sth like angry birds,
+            or flappy bird, or mario, but better. With mind bending story. Maybe
+            that would be the TimeLoopCave game?
+          </p>
         </section>
         <aside></aside>
       </main>

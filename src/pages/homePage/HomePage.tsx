@@ -8,7 +8,9 @@ function HomePage() {
       <main>
         <aside></aside>
         <section>
-          <BestMusic src="https://open.spotify.com/embed/track/35UePqF4pjXRtIsF7jLBFi?utm_source=generator" />
+          <BestMusic src="https://open.spotify.com/embed/track/5RX8T3EoTuXcybAxe6oPAw?utm_source=generator" />
+          <BestMusic src="https://open.spotify.com/embed/track/58X7dPjUgODIOKKB1m0xo8?utm_source=generator" />
+          <BestMusic src="https://open.spotify.com/embed/track/0UtnpKaReKUg2GquaSxCyD?utm_source=generator" />
           <hr />
           <h5>
             <em>Blog. And more</em>
@@ -16,7 +18,8 @@ function HomePage() {
           <h1>Currently</h1>
           working on CODING and WRITING (check out these category pages with the
           links above). And also I'm still studying and tutoring, so also have
-          to deal with that...
+          to deal with that... ALSO: Writing "the Book of everything" (about
+          logic rules and paradigms).
           <h1>Future projects</h1>
           <ul>
             <li>Tutorials about after school math/physics/computerScience</li>
@@ -26,6 +29,11 @@ function HomePage() {
               courses
             </li>
           </ul>
+          <h1>Lifetime idea:</h1>
+          <p>
+            Understand everything. Make something big out of it (something like
+            a new ideology)
+          </p>
           <br />
           <a href="https://youtu.be/0Nwi_o2NJ1g">
             Youtube Noname no 7 - Audrius Tyliūnas composition
@@ -78,6 +86,7 @@ function HomePage() {
             <Contacts />
           </div>
           Previous Best Music:
+          <BestMusic src="https://open.spotify.com/embed/track/35UePqF4pjXRtIsF7jLBFi?utm_source=generator" />
           <BestMusic src="https://open.spotify.com/embed/playlist/2knht5lNl5ht9BwH0yFiP2?utm_source=generator" />
           <BestMusic src="https://open.spotify.com/embed/track/5z0Wa1EiCoaUafx83WszRY?utm_source=generator" />
           <BestMusic src="https://open.spotify.com/embed/track/4RUKTGXjyRM3wdksLgC6Ca?utm_source=generator&theme=0" />

@@ -70,6 +70,11 @@ function TeachPage() {
             <li>Kahoot</li>
             <li>Dictionary for definitions EN-LT (or platform for that)</li>
           </ul>
+          <h1>Lifetime idea:</h1>
+          <p>
+            To make a revolution in education system (everywhere) - add more
+            phylosophy (related with math)
+          </p>
           Links:
           <br />
           <a href="https://sodas.ugdome.lt/viesieji-puslapiai/7300">
