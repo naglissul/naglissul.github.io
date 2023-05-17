@@ -5,14 +5,26 @@ function CodePage() {
         <aside></aside>
         <section>
           <h1>Currently</h1>
-          working on two projects:
+          working on these projects:
           <ul>
-            <li>No Point Writings. "Portfolio" website</li>
+            <li>
+              No Point Writings. "Portfolio" website.{" "}
+              <a href="https://github.com/naglissul/naglissul.github.io">
+                link to the source code
+              </a>
+            </li>
             <li>
               Time Loop Cave 1.0 - pixel art web game.{" "}
               <a href="https://github.com/naglissul/time-loop-cave">
                 link to the source code
               </a>
+            </li>
+            <li>
+              <li>jour.lt - Mokyklos dienynas</li>
+            </li>
+            <li>
+              Caramoi - Hot Caramel Croissants. App for finding hot, just out of
+              the oven, caramel croissants in your nearest market
             </li>
           </ul>
           <hr />
@@ -84,10 +96,6 @@ function CodePage() {
           <hr />
           <h1>Future projects</h1>
           <ul>
-            <li>
-              Caramoi - Hot Caramel Croissants. App for finding hot, just out of
-              the oven, caramel croissants in your nearest market
-            </li>
             <li>MessG. All in one messaging app</li>
             <li>TimeLoopCave - C++ game based on time travel idea</li>
             <li>
@@ -102,7 +110,6 @@ function CodePage() {
             <li>Arcade type games</li>
             <li>OS in ASM</li>
             <li>New language - compiler in Haskell or Rust</li>
-            <li>journal - Mokyklos dienynas</li>
           </ul>
           <br />
           While building all of that (yeah, I don't have a team yet), I'm

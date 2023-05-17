@@ -15,6 +15,10 @@ function App() {
           {routes.map((route) => (
             <Route key={route.name} path={route.path} element={route.element} />
           ))}
+          <Route
+            path="/treasurehunt"
+            element={<h1>This gonna be a page for treasurehunt</h1>}
+          />
         </Routes>
       </div>
       <footer style={{ position: "fixed", bottom: "2px", right: "2px" }}>

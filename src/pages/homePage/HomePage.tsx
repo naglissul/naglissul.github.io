@@ -17,9 +17,10 @@ function HomePage() {
           </h5>
           <h1>Currently</h1>
           working on CODING and WRITING (check out these category pages with the
-          links above). And also I'm still studying and tutoring, so also have
-          to deal with that... ALSO: Writing "the Book of everything" (about
-          logic rules and paradigms).
+          links above). And also I'm still studying, learning dutch, writing
+          music sheet for my piano pieces and tutoring, so also have to deal
+          with that... ALSO: Writing "the Book of everything" (about logic rules
+          and paradigms).
           <h1>Future projects</h1>
           <ul>
             <li>Tutorials about after school math/physics/computerScience</li>
@@ -76,10 +77,10 @@ function HomePage() {
           >
             <h3>Best piano music list</h3>
             <ul>
-              <li>Listz - La campanella</li>
               <li>Listz - Hungarian Rhapsody no. 2</li>
+              <li>Listz - La campanella</li>
               <li>Bethoven - Moonlight sonata Mvt1 & 3</li>
-              <li>---------other===----------</li>
+              <li>Debussy - je te veux</li>
               <li>Chopin - Etude Op. 25 No. 11</li>
             </ul>
             <Archive />
