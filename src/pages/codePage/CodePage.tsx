@@ -8,7 +8,12 @@ function CodePage() {
           working on two projects:
           <ul>
             <li>No Point Writings. "Portfolio" website</li>
-            <li>Time Loop Cave 1.0 - pixel art web game</li>
+            <li>
+              Time Loop Cave 1.0 - pixel art web game.{" "}
+              <a href="https://github.com/naglissul/time-loop-cave">
+                link to the source code
+              </a>
+            </li>
           </ul>
           <hr />
           <img
