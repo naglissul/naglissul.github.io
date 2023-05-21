@@ -8,14 +8,14 @@ function HomePage() {
       <main>
         <aside></aside>
         <section>
-          <BestMusic src="https://open.spotify.com/embed/track/5RX8T3EoTuXcybAxe6oPAw?utm_source=generator" />
-          <BestMusic src="https://open.spotify.com/embed/track/58X7dPjUgODIOKKB1m0xo8?utm_source=generator" />
-          <BestMusic src="https://open.spotify.com/embed/track/0UtnpKaReKUg2GquaSxCyD?utm_source=generator" />
+          <BestMusic src="https://open.spotify.com/embed/track/2LcmbuYX7tyR4DWy3b273L?utm_source=generator" />
           <hr />
           <h5>
             <em>Blog. And more</em>
           </h5>
           <h1>Currently</h1>
+          putting everything aside and enjoying Erasmus in Netherlands. So
+          everything you read in this website is suspended. <br />
           working on CODING and WRITING (check out these category pages with the
           links above). And also I'm still studying, learning dutch, writing
           music sheet for my piano pieces and tutoring, so also have to deal
@@ -88,6 +88,9 @@ function HomePage() {
             <Contacts />
           </div>
           Previous Best Music:
+          <BestMusic src="https://open.spotify.com/embed/track/5RX8T3EoTuXcybAxe6oPAw?utm_source=generator" />
+          <BestMusic src="https://open.spotify.com/embed/track/58X7dPjUgODIOKKB1m0xo8?utm_source=generator" />
+          <BestMusic src="https://open.spotify.com/embed/track/0UtnpKaReKUg2GquaSxCyD?utm_source=generator" />
           <BestMusic src="https://open.spotify.com/embed/track/35UePqF4pjXRtIsF7jLBFi?utm_source=generator" />
           <BestMusic src="https://open.spotify.com/embed/playlist/2knht5lNl5ht9BwH0yFiP2?utm_source=generator" />
           <BestMusic src="https://open.spotify.com/embed/track/5z0Wa1EiCoaUafx83WszRY?utm_source=generator" />

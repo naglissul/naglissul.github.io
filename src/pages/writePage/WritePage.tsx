@@ -33,7 +33,7 @@ function WritePage() {
             5 or 6 parts in total. Then have it in good quality and have a movie
             or animation made about it. And would be nice if people read it :)
           </p>
-          <WritingCategory name="Snow" />
+          <WritingCategory name="Snow. EXCERPTS ONLY" />
           <div
             style={{
               display: "flex",
