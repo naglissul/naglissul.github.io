@@ -16,22 +16,22 @@ function WritePage() {
           <ul>
             <li>Continue writing "Pernykštis sniegas"</li>
           </ul>
-          <div>RadioVilnius (Blog most important)</div>
+          <h1>Blog pinned</h1>
           <a
             href="https://radiovilnius.live/marija-kavtaradze-2/"
             rel="noreferrer"
             target="_blank"
           >
-            01:10:46
+            "Suodžiai" reading on RadioVilnius
           </a>
-          <div>Blog newest</div>
-          <div>ABOUT ME</div>
+          <div>Time stamp: 01:10:46</div>
+          <h1>Blog latest</h1>
+          <h1>About me</h1>
           <h1>Lifetime idea:</h1>
           <p>
             Write at least 3 parts of novel Snow. Would be great to write maybe
             5 or 6 parts in total. Then have it in good quality and have a movie
-            or animation made about it. And would be nice if people would read
-            it :)
+            or animation made about it. And would be nice if people read it :)
           </p>
           <WritingCategory name="Snow" />
           <div
@@ -90,8 +90,9 @@ function WritePage() {
               />
             ))}
           </div>
-          © Naglis Šuliokas 2023. All rights reserved (regarding the files with
-          text)
+          © Naglis Šuliokas{" "}
+          {/*2023 Later make that all the pdf files be stored in blog-posts repository, and there would be the copyright. And for this repository code you could make whatever you want */}
+          {/*Also make a new repository, so that the old writing files would ACTUALLY not be able to find */}
         </section>
 
         <aside></aside>

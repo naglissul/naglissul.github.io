@@ -81,6 +81,7 @@ function HomePage() {
               <li>Listz - La campanella</li>
               <li>Bethoven - Moonlight sonata Mvt1 & 3</li>
               <li>Debussy - je te veux</li>
+              <li>Debussy - Golliwogg's Cakewalk</li>
               <li>Chopin - Etude Op. 25 No. 11</li>
             </ul>
             <Archive />
