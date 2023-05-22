@@ -2,13 +2,22 @@ import Archive from "./components/Archive";
 import BestMusic from "./components/BestMusic";
 import Contacts from "./components/Contacts";
 
+// USE SASS
+// Add more pages - branching from Home (or add "Other" thingy for the things that are permanently accomodated and leave Home for new/crumbs)
+// Branch tree for pages/section in a page in aside
+// Also about cookies... And spotify embeds - make just a double link (youtube&spotify)
+
+// Separate pages for articles. And write articles MOSLY WITH STRUCTURE. Other articles could be more informal
+// ARTICLES formal (e.g. https://complianz.io/youtube-and-the-gdpr-how-to-embed-youtube-on-your-site/) or informal (Whats the diff between blog posts???) - BUT NOT UPDATES!!! all updates can be written in Currently section
+// Articles can be fr Teach section (only (?) then use latex - otherwise md (?))
+
 function HomePage() {
   return (
     <>
       <main>
         <aside></aside>
         <section>
-          <BestMusic src="https://open.spotify.com/embed/track/2LcmbuYX7tyR4DWy3b273L?utm_source=generator" />
+          <BestMusic name="Goldband - Noodgeval" />
           <hr />
           <h5>
             <em>Blog. And more</em>
@@ -35,33 +44,13 @@ function HomePage() {
             Understand everything. Make something big out of it (something like
             a new ideology)
           </p>
+          <h1>Piano</h1>
           <br />
           <a href="https://youtu.be/0Nwi_o2NJ1g">
             Youtube Noname no 7 - Audrius Tyliūnas composition
           </a>
           <br />
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/0Nwi_o2NJ1g"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-          <br />
-          <br />
           <a href="https://youtu.be/b-iR1_1BqbQ">Youtube Gymnopedia no 1</a>
-          <br />
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/b-iR1_1BqbQ"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
           <br />
           <br />
           Who's Audrius? It my creative personality. Or in other words, writing
@@ -84,18 +73,20 @@ function HomePage() {
               <li>Debussy - Golliwogg's Cakewalk</li>
               <li>Chopin - Etude Op. 25 No. 11</li>
             </ul>
+            <h1>Learning Can Be Interesting</h1>
+            <p>
+              {" "}
+              (liet.: mokslas gali būti įdomus) - Lectures by students - uni in
+              highschool style +Stud-stud (?)
+            </p>
+            {/* <h1>Treasure hunt (private) (also make a platform?) </h1> */}
+            <h1>Geo cachy thingy</h1>
+            <h3>NL</h3>
+            <br />
+            {/* <p>LIN spinteles - QR codes... to this web. As a key to open encoded file?</p> */}
             <Archive />
             <Contacts />
           </div>
-          Previous Best Music:
-          <BestMusic src="https://open.spotify.com/embed/track/5RX8T3EoTuXcybAxe6oPAw?utm_source=generator" />
-          <BestMusic src="https://open.spotify.com/embed/track/58X7dPjUgODIOKKB1m0xo8?utm_source=generator" />
-          <BestMusic src="https://open.spotify.com/embed/track/0UtnpKaReKUg2GquaSxCyD?utm_source=generator" />
-          <BestMusic src="https://open.spotify.com/embed/track/35UePqF4pjXRtIsF7jLBFi?utm_source=generator" />
-          <BestMusic src="https://open.spotify.com/embed/playlist/2knht5lNl5ht9BwH0yFiP2?utm_source=generator" />
-          <BestMusic src="https://open.spotify.com/embed/track/5z0Wa1EiCoaUafx83WszRY?utm_source=generator" />
-          <BestMusic src="https://open.spotify.com/embed/track/4RUKTGXjyRM3wdksLgC6Ca?utm_source=generator&theme=0" />
-          <BestMusic src="https://open.spotify.com/embed/track/4StypY6VnE9BqgqQ0ni1tg?utm_source=generator&theme=0" />
         </section>
         <aside></aside>
       </main>

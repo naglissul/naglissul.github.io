@@ -1,8 +1,8 @@
-interface spotifySrc {
-  src: string;
+interface music {
+  name: string;
 }
 
-function BestMusic(props: spotifySrc) {
+function BestMusic({ name }: music) {
   return (
     <div
       style={{
@@ -10,16 +10,7 @@ function BestMusic(props: spotifySrc) {
         justifyContent: "center",
       }}
     >
-      <iframe
-        title={props.src}
-        style={{ height: "80px", padding: "1em 0" }}
-        src={props.src}
-        width="100%"
-        frameBorder="0"
-        allowFullScreen
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
-      ></iframe>
+      This week's music: {name}
     </div>
   );
 }

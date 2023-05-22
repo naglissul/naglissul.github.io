@@ -69,6 +69,7 @@ function TeachPage() {
             <li>Overleaf - slides...with more, with papildomi...</li>
             <li>Kahoot</li>
             <li>Dictionary for definitions EN-LT (or platform for that)</li>
+            <li>Assignments/exams problems (but encrypted)</li>
           </ul>
           <h1>Lifetime idea:</h1>
           <p>
