@@ -14,14 +14,76 @@ export const routes = [
   {
     path: "/",
     element: <HomePage />,
-    name: "Home",
     title: "No Point Writings",
   },
-  { path: "/blog", element: <BlogPage />, name: "Blog", title: "Blog" },
-  { path: "/code", element: <CodePage />, name: "Code", title: "Code" },
-  { path: "/write", element: <WritePage />, name: "Write", title: "Write" },
-  { path: "/teach", element: <TeachPage />, name: "Teach", title: "Teach" },
-  { path: "*", element: <NotFoundPage />, name: "NotFound", title: "404" },
+  { path: "/blog", title: "Blog", element: <BlogPage /> },
+  { path: "/code", title: "Code", element: <CodePage /> },
+  { path: "/write", title: "Write", element: <WritePage /> },
+  {
+    path: "/write/fiction",
+    title: "Fiction",
+    element: <h1>Sniegas, slam, kiti tekstai... Language categories</h1>,
+  },
+  {
+    path: "/write/other",
+    title: "Other writings",
+    element: <h1>Book of everything</h1>,
+  },
+  { path: "/teach", title: "Teach", element: <TeachPage /> },
+  {
+    path: "/teach/mgbi",
+    title: "MGBI",
+    element: <h1>Mokslas gali būti įdomus. Mostly addressed for LT</h1>,
+  },
+  {
+    path: "/teach/korep",
+    title: "Korepetitorius",
+    element: (
+      <h1>
+        LT, cuz for now addressed only for LT (but options are open for English)
+      </h1>
+    ),
+  },
+  {
+    path: "/teach/school",
+    title: "Mokykla",
+    element: (
+      <h1>
+        Viskas apie LT švietimą. Įstatymai, egzaminai bei mano, kaip mokytojo,
+        taisyklės
+      </h1>
+    ),
+  },
+  {
+    path: "/teach/konsp",
+    title: "Konspektai",
+    element: (
+      <h1>
+        Čia bus patalpinti visi konspektai - tik uždaviniai arba visa teorija
+      </h1>
+    ),
+  },
+  { path: "/music", title: "Music", element: <h1>About the music...</h1> },
+  {
+    path: "/music/listen",
+    title: "Music to listen",
+    element: <h1>Here about the music that I listen</h1>,
+  },
+  {
+    path: "/music/compose",
+    title: "My compositions",
+    element: <h1>Fistly, the piano...</h1>,
+  },
+  {
+    path: "/music/piano",
+    title: "All about the classical piano music",
+    element: (
+      <h1>
+        I play on youtube, list of the best pieces..., places to play piano
+      </h1>
+    ),
+  },
+  { path: "*", title: "404", element: <NotFoundPage /> },
 ];
 
 export const readingsSnow = [
@@ -120,6 +182,7 @@ export const readingsSlam = [
     fileName: "zudyti-arba-buti-nuzudytam.docx",
   },
 ];
+
 export const readingsOther = [
   {
     name: "Saldainiai",

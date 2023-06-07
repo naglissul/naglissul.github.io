@@ -17,7 +17,7 @@ function HomePage() {
       <main>
         <aside></aside>
         <section>
-          <BestMusic name="Goldband - Noodgeval" />
+          <BestMusic name="Royal Blood - Mountains At Midnight" />
           <hr />
           <h5>
             <em>Blog. And more</em>
@@ -38,6 +38,21 @@ function HomePage() {
               Projects (and/or tutorials) according to the uni (|CS|, phy, math)
               courses
             </li>
+            <li>
+              New pages/categories (with articles about what might be
+              interesting to regular people): Studies(PS and other INFO),
+              Chemistry(KURMIS is pure NaOH), Physics, ComputerScience and Math
+              (separated from teaching, can overlap with MGBI), Electronics
+              (overlapping a lot...)
+            </li>
+            <li>Film development at home</li>
+            <li>MGBI</li>
+            <li>korep</li>
+            <li>
+              Animation. 3d models, animations. stop motion. (For music videos,
+              writing, gamedev)
+            </li>
+            <li>Creating and performing rock or indie music</li>
           </ul>
           <h1>Lifetime idea:</h1>
           <p>

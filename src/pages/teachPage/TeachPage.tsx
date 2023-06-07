@@ -59,6 +59,7 @@ function TeachPage() {
       <main>
         <aside></aside>
         <section>
+          <h1>In LT. Cuz addressed for LT</h1>
           <h1>Currently</h1>working on other projects (Coding and Writing), but
           when I get to the teaching category - first I will be creating some
           rules as of a teacher and writing summaries/tutorials about school

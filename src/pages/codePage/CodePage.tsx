@@ -40,7 +40,7 @@ function CodePage() {
             JSGD - Java Script Game Development OR Just Some Great Dancing :)
           </h1>
           Multiplayer web game, where players are jumping around the canvas
-          trying to pixel-draw the mario.
+          trying to pixel-draw the cave explorer Macro.
           <h3>
             <a href="https://jsgd.web.app">Play here</a>
           </h3>
@@ -99,17 +99,26 @@ function CodePage() {
             <li>MessG. All in one messaging app</li>
             <li>TimeLoopCave - C++ game based on time travel idea</li>
             <li>
+              Treasure hunt website - website for generating maps, organizing
+              clues and more...
+            </li>
+            <li>
               Messenger - basic messenger program with C, using basic networking
               concepts
             </li>
             <li>Python Machine Learning - no conrete ideas yet</li>
             <li>3D and VR games with Unity</li>
             <li>Command line app with C</li>
-            <li>Program for STM32 with C</li>
+            <li>Program qith STM32 and PIC10F200 with C</li>
             <li>Assembly project(s)</li>
             <li>Arcade type games</li>
             <li>OS in ASM</li>
             <li>New language - compiler in Haskell or Rust</li>
+            <li>e-shop with springboot</li>
+            <li>
+              Lowest level parallel programming (like C with OpenMP and MPI and
+              OpenCL)
+            </li>
           </ul>
           <br />
           While building all of that (yeah, I don't have a team yet), I'm
