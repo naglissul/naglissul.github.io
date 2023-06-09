@@ -93,6 +93,7 @@ function WritePage() {
           © Naglis Šuliokas{" "}
           {/*2023 Later make that all the pdf files be stored in blog-posts repository, and there would be the copyright. And for this repository code you could make whatever you want */}
           {/*Also make a new repository, so that the old writing files would ACTUALLY not be able to find */}
+          "the Book of everything" (about logic rules and paradigms).
         </section>
 
         <aside></aside>

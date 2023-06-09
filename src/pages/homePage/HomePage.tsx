@@ -20,17 +20,16 @@ function HomePage() {
           <BestMusic name="Royal Blood - Mountains At Midnight" />
           <hr />
           <h5>
-            <em>Blog. And more</em>
+            <em>
+              This is... Blog. And more. Currently putting everything aside and
+              enjoying Erasmus in Netherlands. So everything you read in this
+              website is suspended.
+            </em>
           </h5>
-          <h1>Currently</h1>
-          putting everything aside and enjoying Erasmus in Netherlands. So
-          everything you read in this website is suspended. <br />
-          working on CODING and WRITING (check out these category pages with the
-          links above). And also I'm still studying, learning dutch, writing
-          music sheet for my piano pieces and tutoring, so also have to deal
-          with that... ALSO: Writing "the Book of everything" (about logic rules
-          and paradigms).
-          <h1>Future projects</h1>
+          <h1>Newest</h1>
+          <h1>Structure to browse</h1>
+
+          <h1>Future projects/ideas</h1>
           <ul>
             <li>Tutorials about after school math/physics/computerScience</li>
             <li>Electronics project - making SMP-1</li>
@@ -46,62 +45,24 @@ function HomePage() {
               (overlapping a lot...)
             </li>
             <li>Film development at home</li>
-            <li>MGBI</li>
-            <li>korep</li>
+            <li>Languages</li>
             <li>
               Animation. 3d models, animations. stop motion. (For music videos,
               writing, gamedev)
             </li>
             <li>Creating and performing rock or indie music</li>
           </ul>
-          <h1>Lifetime idea:</h1>
+
+          <br />
+          <h1>About Me + Contacts</h1>
+          <h3>Lifetime idea:</h3>
           <p>
             Understand everything. Make something big out of it (something like
             a new ideology)
           </p>
-          <h1>Piano</h1>
-          <br />
-          <a href="https://youtu.be/0Nwi_o2NJ1g">
-            Youtube Noname no 7 - Audrius Tyliūnas composition
-          </a>
-          <br />
-          <a href="https://youtu.be/b-iR1_1BqbQ">Youtube Gymnopedia no 1</a>
-          <br />
-          <br />
-          Who's Audrius? It my creative personality. Or in other words, writing
-          nickname. For composition haven't come up with an idea how to sign my
-          work. So for now I'm borrowing Audrius Tyliūnas name from the writer.
-          <div
-            style={{
-              display: "flex",
-              marginTop: "10%",
-              gap: "2em",
-              flexWrap: "wrap",
-            }}
-          >
-            <h3>Best piano music list</h3>
-            <ul>
-              <li>Listz - Hungarian Rhapsody no. 2</li>
-              <li>Listz - La campanella</li>
-              <li>Bethoven - Moonlight sonata Mvt1 & 3</li>
-              <li>Debussy - je te veux</li>
-              <li>Debussy - Golliwogg's Cakewalk</li>
-              <li>Chopin - Etude Op. 25 No. 11</li>
-            </ul>
-            <h1>Learning Can Be Interesting</h1>
-            <p>
-              {" "}
-              (liet.: mokslas gali būti įdomus) - Lectures by students - uni in
-              highschool style +Stud-stud (?)
-            </p>
-            {/* <h1>Treasure hunt (private) (also make a platform?) </h1> */}
-            <h1>Geo cachy thingy</h1>
-            <h3>NL</h3>
-            <br />
-            {/* <p>LIN spinteles - QR codes... to this web. As a key to open encoded file?</p> */}
-            <Archive />
-            <Contacts />
-          </div>
+          <h1>Footer (same with contacts)</h1>
+          <Archive />
+          <Contacts />
         </section>
         <aside></aside>
       </main>

@@ -13,14 +13,6 @@ function App() {
           {routes.map((route) => (
             <Route key={route.path} path={route.path} element={route.element} />
           ))}
-          <Route
-            path="/treasurehunt"
-            element={
-              <h1 style={{ paddingTop: "4em", textAlign: "center" }}>
-                This gonna be a page for permanent treasurehunt in NL and LT
-              </h1>
-            }
-          />
         </Routes>
       </div>
     </HashRouter>

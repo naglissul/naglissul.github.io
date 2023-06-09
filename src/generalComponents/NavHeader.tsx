@@ -46,43 +46,51 @@ function NavHeader() {
         </div>
         <div style={{ width: "100px" }}>
           <details style={{ backgroundColor: "wheat" }}>
-            <summary>Write</summary>
+            <summary>
+              <button
+                onClick={() => {
+                  navigate("/write");
+                }}
+              >
+                Write
+              </button>
+            </summary>
             <ul>
-              <li>
-                <button
-                  onClick={() => {
-                    navigate("/write");
-                  }}
-                >
-                  Fiction
-                </button>
-              </li>
+              <li>Fiction</li>
               <li>Other</li>
             </ul>
           </details>
         </div>
         <div style={{ width: "100px" }}>
           <details style={{ backgroundColor: "wheat" }}>
-            <summary>Teach</summary>
+            <summary>
+              <button
+                onClick={() => {
+                  navigate("/teach");
+                }}
+              >
+                Teach
+              </button>
+            </summary>
             <ul>
               <li>School</li>
               <li>Korep</li>
-              <li>
-                <button
-                  onClick={() => {
-                    navigate("/teach");
-                  }}
-                >
-                  Konsp
-                </button>
-              </li>
+              <li>Konsp</li>
               <li>MGBI</li>
             </ul>
           </details>
         </div>
         <div style={{ width: "100px" }}>
           <details style={{ backgroundColor: "wheat" }}>
-            <summary>Music</summary>
+            <summary>
+              <button
+                onClick={() => {
+                  navigate("/music");
+                }}
+              >
+                Music
+              </button>
+            </summary>
             <ul>
               <li>Listen</li>
               <li>Piano</li>

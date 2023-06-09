@@ -112,6 +112,11 @@ function TeachPage() {
             src="assets\func-basic-10.png"
             alt="basics of functions problems 10 grade"
           ></img>
+          <h1>Learning Can Be Interesting</h1>
+          <p>
+            (liet.: mokslas gali būti įdomus) - Lectures by students - uni in
+            highschool style +Stud-stud (?)
+          </p>
         </section>
         <aside></aside>
       </main>

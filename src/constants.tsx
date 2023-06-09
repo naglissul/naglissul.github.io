@@ -1,6 +1,7 @@
 import BlogPage from "./pages/blogPage/BlogPage";
 import CodePage from "./pages/codePage/CodePage";
 import HomePage from "./pages/homePage/HomePage";
+import MusicPage from "./pages/musicPages/MusicPage";
 import NotFoundPage from "./pages/notFoundPage/NotFoundPage";
 import TeachPage from "./pages/teachPage/TeachPage";
 import WritePage from "./pages/writePage/WritePage";
@@ -63,7 +64,7 @@ export const routes = [
       </h1>
     ),
   },
-  { path: "/music", title: "Music", element: <h1>About the music...</h1> },
+  { path: "/music", title: "Music", element: <MusicPage /> },
   {
     path: "/music/listen",
     title: "Music to listen",
