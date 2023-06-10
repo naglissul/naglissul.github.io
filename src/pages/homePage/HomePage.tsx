@@ -1,3 +1,4 @@
+import NavHeader from "../../generalComponents/NavHeader";
 import Archive from "./components/Archive";
 import BestMusic from "./components/BestMusic";
 import Contacts from "./components/Contacts";
@@ -13,61 +14,53 @@ import Contacts from "./components/Contacts";
 
 function HomePage() {
   return (
-    <>
-      <main>
-        <aside></aside>
-        <section>
-          <BestMusic name="Royal Blood - Mountains At Midnight" />
-          <hr />
-          <h5>
-            <em>
-              This is... Blog. And more. Currently putting everything aside and
-              enjoying Erasmus in Netherlands. So everything you read in this
-              website is suspended.
-            </em>
-          </h5>
-          <h1>Newest</h1>
-          <h1>Structure to browse</h1>
+    <section>
+      <BestMusic name="Royal Blood - Mountains At Midnight" />
+      <hr />
+      <h5>
+        <em>
+          This is... Blog. And more. Currently putting everything aside and
+          enjoying Erasmus in Netherlands. So everything you read in this
+          website is suspended.
+        </em>
+      </h5>
+      <h1>Newest</h1>
+      <h1>Structure to browse</h1>
 
-          <h1>Future projects/ideas</h1>
-          <ul>
-            <li>Tutorials about after school math/physics/computerScience</li>
-            <li>Electronics project - making SMP-1</li>
-            <li>
-              Projects (and/or tutorials) according to the uni (|CS|, phy, math)
-              courses
-            </li>
-            <li>
-              New pages/categories (with articles about what might be
-              interesting to regular people): Studies(PS and other INFO),
-              Chemistry(KURMIS is pure NaOH), Physics, ComputerScience and Math
-              (separated from teaching, can overlap with MGBI), Electronics
-              (overlapping a lot...)
-            </li>
-            <li>Film development at home</li>
-            <li>Languages</li>
-            <li>
-              Animation. 3d models, animations. stop motion. (For music videos,
-              writing, gamedev)
-            </li>
-            <li>Creating and performing rock or indie music</li>
-          </ul>
+      <h1>Future projects/ideas</h1>
+      <ul>
+        <li>Tutorials about after school math/physics/computerScience</li>
+        <li>Electronics project - making SMP-1</li>
+        <li>
+          Projects (and/or tutorials) according to the uni (|CS|, phy, math)
+          courses
+        </li>
+        <li>
+          New pages/categories (with articles about what might be interesting to
+          regular people): Studies(PS and other INFO), Chemistry(KURMIS is pure
+          NaOH), Physics, ComputerScience and Math (separated from teaching, can
+          overlap with MGBI), Electronics (overlapping a lot...)
+        </li>
+        <li>Film development at home</li>
+        <li>Languages</li>
+        <li>
+          Animation. 3d models, animations. stop motion. (For music videos,
+          writing, gamedev)
+        </li>
+        <li>Creating and performing rock or indie music</li>
+      </ul>
 
-          <br />
-          <h1>About Me + Contacts</h1>
-          <h3>Lifetime idea:</h3>
-          <p>
-            Understand everything. Make something big out of it (something like
-            a new ideology)
-          </p>
-          <h1>Footer (same with contacts)</h1>
-          <Archive />
-          <Contacts />
-        </section>
-        <aside></aside>
-      </main>
-      <footer>Naglis/Audrius 2023</footer>
-    </>
+      <br />
+      <h1>About Me + Contacts</h1>
+      <h3>Lifetime idea:</h3>
+      <p>
+        Understand everything. Make something big out of it (something like a
+        new ideology)
+      </p>
+
+      <Archive />
+      <Contacts />
+    </section>
   );
 }
 
