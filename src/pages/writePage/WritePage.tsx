@@ -1,5 +1,4 @@
 import { readingsOther, readingsSlam, readingsSnow } from "../../constants";
-import Contacts from "../homePage/components/Contacts";
 import Reading from "./components/Reading";
 import WritingCategory from "./components/WritingCategory";
 

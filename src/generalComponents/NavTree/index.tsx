@@ -1,8 +1,10 @@
 import { useNavigate } from "react-router-dom";
-function NavHeader({ style }: any) {
+import { StyledNavTree } from "./NavTree.styled";
+
+function NavTree() {
   const navigate = useNavigate();
   return (
-    <nav style={style}>
+    <StyledNavTree>
       <div style={{ width: "100px" }}>
         <button
           onClick={() => {
@@ -84,8 +86,8 @@ function NavHeader({ style }: any) {
           </ul>
         </details>
       </div>
-    </nav>
+    </StyledNavTree>
   );
 }
 
-export default NavHeader;
+export default NavTree;

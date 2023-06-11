@@ -1,5 +1,3 @@
-import Contacts from "../homePage/components/Contacts";
-
 function MusicPage() {
   return (
     <section>
