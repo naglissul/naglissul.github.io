@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Archive from "./components/Archive";
 import BestMusic from "./components/BestMusic";
-import Contacts from "./components/Contacts";
+import ContactsFooter from "../../generalComponents/ContactsFooter";
 
 // USE SASS
 // Add more pages - branching from Home (or add "Other" thingy for the things that are permanently accomodated and leave Home for new/crumbs)
@@ -66,7 +66,6 @@ function HomePage() {
       </p>
 
       <Archive />
-      <Contacts />
     </section>
   );
 }

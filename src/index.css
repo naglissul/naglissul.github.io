@@ -18,6 +18,7 @@ main {
 
 section {
   flex: 10 10 0;
+  padding-bottom: 2em;
 }
 
 aside {
@@ -39,4 +40,8 @@ img {
 
 iframe {
   max-width: 100%;
+}
+
+button {
+  cursor: pointer;
 }

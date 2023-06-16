@@ -58,6 +58,8 @@ const NavHeader: React.FC<INavProps> = ({ routes }) => {
 
   return (
     <StyledNavHeader>
+      <img src="logo.png" alt="logo" />
+
       {routes
         .filter(
           (route) =>

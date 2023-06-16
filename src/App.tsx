@@ -3,7 +3,7 @@ import { routes } from "./constants";
 import NavHeader from "./generalComponents/NavHeader";
 import TitleHeader from "./generalComponents/TitleHeader";
 import NavTree from "./generalComponents/NavTree";
-import Contacts from "./pages/homePage/components/Contacts";
+import ContactsFooter from "./generalComponents/ContactsFooter";
 
 function App() {
   return (
@@ -22,10 +22,8 @@ function App() {
           </Routes>
           <aside></aside>
         </main>
-        <footer>
-          <Contacts />
-          <p>Naglis/Audrius 2023</p>
-        </footer>
+
+        <ContactsFooter />
       </div>
     </HashRouter>
   );
