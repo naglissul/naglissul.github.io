@@ -5,36 +5,42 @@ interface IRoute {
   path: string;
   title: string;
   element: JSX.Element;
-  routes?: Array<IRoute>;
 }
 
 interface INavProps {
   routes: Array<IRoute>;
 }
 
-const SubTree: React.FC<IRoute> = ({ path, title, routes }) => {
+const SubRoute: React.FC<IRoute> = ({ path, title }) => {
   const navigate: NavigateFunction = useNavigate();
 
   return (
-    <details style={{ backgroundColor: "wheat", width: "100px" }}>
-      <summary>
-        <button onClick={() => navigate(path)}>{title}</button>
-      </summary>
-      <ul>
-        {routes?.map((route: IRoute, index: number) => (
-          <SubTree key={index} {...route} />
-        ))}
-      </ul>
-    </details>
+    <span style={{ backgroundColor: "wheat" }}>
+      <button onClick={() => navigate(path)}>{title}</button>
+    </span>
+  );
+};
+
+const SuperRoute: React.FC<IRoute> = ({ path, title }) => {
+  const navigate: NavigateFunction = useNavigate();
+
+  return (
+    <span style={{ backgroundColor: "red" }}>
+      <button onClick={() => navigate(path)}>{title}</button>
+    </span>
   );
 };
 
 const NavHeader: React.FC<INavProps> = ({ routes }) => {
   return (
     <StyledNavHeader>
-      {routes.map((route: IRoute, index: number) => (
-        <SubTree key={index} {...route} />
-      ))}
+      {routes.map((route: IRoute, index: number) =>
+        route.path.split("/").length - 1 > 1 ? (
+          <SubRoute key={index} {...route} />
+        ) : (
+          <SuperRoute key={index} {...route} />
+        )
+      )}
     </StyledNavHeader>
   );
 };

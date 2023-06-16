@@ -9,3 +9,8 @@ Reads blog posts from github repository
 - Redux (not used yet)
 
 v1.0.0: blog with categories. footer. general structure. with tests. can be no design and no redux. everything cleared out with proper documentation (without JIRA). Try to make as much order as its possible
+
+korep:
+1h free. emails and messages always free
+mokytoj:
+visada klaust, galima ir susiskambint susitart, visada messages?/emails (add email structure to keep ir serious? or just messages to keep it cozy)
