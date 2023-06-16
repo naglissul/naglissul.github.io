@@ -1,11 +1,9 @@
-import { Routes, Route, HashRouter, Outlet } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import { routes } from "./constants";
 import NavHeader from "./generalComponents/NavHeader";
 import TitleHeader from "./generalComponents/TitleHeader";
-import NavRecent from "./generalComponents/NavRecent";
 import NavTree from "./generalComponents/NavTree";
 import Contacts from "./pages/homePage/components/Contacts";
-import HomePage from "./pages/homePage/HomePage";
 
 function App() {
   return (
@@ -15,16 +13,14 @@ function App() {
         <TitleHeader />
         <main>
           <aside>
-            <NavTree />
+            <NavTree routes={routes} />
           </aside>
           <Routes>
             {routes.map((route, index) => (
               <Route key={index} path={route.path} element={route.element} />
             ))}
           </Routes>
-          <aside>
-            <NavRecent />
-          </aside>
+          <aside></aside>
         </main>
         <footer>
           <Contacts />

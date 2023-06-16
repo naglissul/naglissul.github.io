@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Archive from "./components/Archive";
 import BestMusic from "./components/BestMusic";
 import Contacts from "./components/Contacts";
@@ -25,6 +26,13 @@ function HomePage() {
       </h5>
       <h1>Newest</h1>
       <h1>Structure to browse</h1>
+      <span style={{ display: "flex", justifyContent: "space-between" }}>
+        <Link to="/blog/">Blog</Link>
+        <Link to="/code/">Code</Link>
+        <Link to="/write/">Write</Link>
+        <Link to="/teach/">Teach</Link>
+        <Link to="/music/">Music</Link>
+      </span>
 
       <h1>Future projects/ideas</h1>
       <ul>

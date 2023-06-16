@@ -11,41 +11,55 @@ export const POSTS_URL =
 export const TUTORIALS_URL =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/tutorials/";
 
-export const routes = [
+export interface IRoute {
+  path: string;
+  title: string;
+  element: JSX.Element;
+}
+
+export const routes: IRoute[] = [
   {
     path: "/",
     element: <HomePage />,
     title: "No Point Writings",
   },
-  { path: "/blog", title: "Blog", element: <BlogPage /> },
-  { path: "/code", title: "Code", element: <CodePage /> },
+  { path: "/blog/", title: "Blog", element: <BlogPage /> },
+  { path: "/code/", title: "Code", element: <CodePage /> },
   {
-    path: "/write",
+    path: "/write/",
     title: "Write",
     element: <WritePage />,
   },
   {
-    path: "/write/fiction",
+    path: "/write/fiction/",
     title: "Fiction",
-    element: <h1>Sniegas, slam, kiti tekstai... Language categories</h1>,
+    element: (
+      <section>
+        <h1>Sniegas, slam, kiti tekstai... Language categories</h1>
+      </section>
+    ),
   },
   {
-    path: "/write/other",
+    path: "/write/other/",
     title: "Other writings",
-    element: <h1>Book of everything</h1>,
+    element: (
+      <section>
+        <h1>Book of everything</h1>
+      </section>
+    ),
   },
   {
-    path: "/teach",
+    path: "/teach/",
     title: "Teach",
     element: <TeachPage />,
   },
   {
-    path: "/teach/mgbi",
+    path: "/teach/mgbi/",
     title: "MGBI",
     element: <h1>Mokslas gali būti įdomus. Mostly addressed for LT</h1>,
   },
   {
-    path: "/teach/korep",
+    path: "/teach/korep/",
     title: "Korepetitorius",
     element: (
       <h1>
@@ -54,7 +68,7 @@ export const routes = [
     ),
   },
   {
-    path: "/teach/school",
+    path: "/teach/school/",
     title: "Mokykla",
     element: (
       <h1>
@@ -64,7 +78,7 @@ export const routes = [
     ),
   },
   {
-    path: "/teach/konsp",
+    path: "/teach/konsp/",
     title: "Konspektai",
     element: (
       <h1>
@@ -74,23 +88,23 @@ export const routes = [
   },
 
   {
-    path: "/music",
+    path: "/music/",
     title: "Music",
     element: <MusicPage />,
   },
   {
-    path: "/music/listen",
+    path: "/music/listen/",
     title: "Music to listen",
     element: <h1>Here about the music that I listen</h1>,
   },
   {
-    path: "/music/compose",
+    path: "/music/compose/",
     title: "My compositions",
     element: <h1>Fistly, the piano...</h1>,
   },
   {
-    path: "/music/piano",
-    title: "All about the classical piano music",
+    path: "/music/piano/",
+    title: "Classical piano",
     element: (
       <h1>
         I play on youtube, list of the best pieces..., places to play piano

@@ -78,6 +78,10 @@ function BlogPage() {
           than researched phylosophy summary)
         </li>
       </ul>
+      <p>
+        Posts will usually are uploaded after my student life stage (usually one
+        semester) is done
+      </p>
       {files
         ? files.map((file: post) => (
             <BlogPost key={file.name} id={file.name} text={file.content} />
