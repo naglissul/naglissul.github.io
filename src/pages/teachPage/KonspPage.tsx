@@ -71,6 +71,7 @@ function KonspPage() {
           </ul>
         </li>
         <li>PHYSICS - whatever I write about physics</li>
+        <li>IT - mostly for 5-7th grades</li>
       </ul>
       {files
         ? files.map((file: post) => (

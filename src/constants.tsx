@@ -1,13 +1,16 @@
 import BlogPage from "./pages/blogPage/BlogPage";
 import CodePage from "./pages/codePage/CodePage";
 import HomePage from "./pages/homePage/HomePage";
+import ComposePage from "./pages/musicPages/ComposePage";
 import ListenPage from "./pages/musicPages/ListenPage";
 import MusicPage from "./pages/musicPages/MusicPage";
 import PianoPage from "./pages/musicPages/PianoPage";
 import NotFoundPage from "./pages/notFoundPage/NotFoundPage";
 import KonspPage from "./pages/teachPage/KonspPage";
 import KorepPage from "./pages/teachPage/KorepPage";
-import SchoolPage from "./pages/teachPage/SchoolPage";
+import MgbiPage from "./pages/teachPage/MgbiPage";
+import SchoolItPage from "./pages/teachPage/SchoolItPage";
+import SchoolMathsPage from "./pages/teachPage/SchoolMathsPage";
 import TeachPage from "./pages/teachPage/TeachPage";
 import FictionPage from "./pages/writePage/FictionPage";
 import OtherWritingsPage from "./pages/writePage/OtherWritingsPage";
@@ -55,7 +58,7 @@ export const routes: IRoute[] = [
   {
     path: "/teach/mgbi/",
     title: "MGBI",
-    element: <h1>Mokslas gali būti įdomus. Mostly addressed for LT</h1>,
+    element: <MgbiPage />,
   },
   {
     path: "/teach/korep/",
@@ -63,16 +66,20 @@ export const routes: IRoute[] = [
     element: <KorepPage />,
   },
   {
-    path: "/teach/school/",
-    title: "Mokykla",
-    element: <SchoolPage />,
+    path: "/teach/school-maths/",
+    title: "Mokyklos matematika",
+    element: <SchoolMathsPage />,
+  },
+  {
+    path: "/teach/school-it/",
+    title: "Mokyklos IT",
+    element: <SchoolItPage />,
   },
   {
     path: "/teach/konsp/",
     title: "Konspektai",
     element: <KonspPage />,
   },
-
   {
     path: "/music/",
     title: "Music",
@@ -86,7 +93,7 @@ export const routes: IRoute[] = [
   {
     path: "/music/compose/",
     title: "My compositions",
-    element: <PianoPage />,
+    element: <ComposePage />,
   },
   {
     path: "/music/piano/",

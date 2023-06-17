@@ -24,9 +24,7 @@ section {
 aside {
   display: block;
   flex: 3 3 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
+  margin: 1em;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,6 +1,6 @@
 import CalcGrade from "./components/CalcGrade";
 
-function SchoolPage() {
+function SchoolItPage() {
   return (
     <section>
       <ul>
@@ -21,4 +21,4 @@ function SchoolPage() {
   );
 }
 
-export default SchoolPage;
+export default SchoolItPage;
