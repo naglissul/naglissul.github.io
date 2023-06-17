@@ -1,9 +1,16 @@
 import BlogPage from "./pages/blogPage/BlogPage";
 import CodePage from "./pages/codePage/CodePage";
 import HomePage from "./pages/homePage/HomePage";
+import ListenPage from "./pages/musicPages/ListenPage";
 import MusicPage from "./pages/musicPages/MusicPage";
+import PianoPage from "./pages/musicPages/PianoPage";
 import NotFoundPage from "./pages/notFoundPage/NotFoundPage";
+import KonspPage from "./pages/teachPage/KonspPage";
+import KorepPage from "./pages/teachPage/KorepPage";
+import SchoolPage from "./pages/teachPage/SchoolPage";
 import TeachPage from "./pages/teachPage/TeachPage";
+import FictionPage from "./pages/writePage/FictionPage";
+import OtherWritingsPage from "./pages/writePage/OtherWritingsPage";
 import WritePage from "./pages/writePage/WritePage";
 
 export const POSTS_URL =
@@ -33,20 +40,12 @@ export const routes: IRoute[] = [
   {
     path: "/write/fiction/",
     title: "Fiction",
-    element: (
-      <section>
-        <h1>Sniegas, slam, kiti tekstai... Language categories</h1>
-      </section>
-    ),
+    element: <FictionPage />,
   },
   {
     path: "/write/other/",
     title: "Other writings",
-    element: (
-      <section>
-        <h1>Book of everything</h1>
-      </section>
-    ),
+    element: <OtherWritingsPage />,
   },
   {
     path: "/teach/",
@@ -61,30 +60,17 @@ export const routes: IRoute[] = [
   {
     path: "/teach/korep/",
     title: "Korepetitorius",
-    element: (
-      <h1>
-        LT, cuz for now addressed only for LT (but options are open for English)
-      </h1>
-    ),
+    element: <KorepPage />,
   },
   {
     path: "/teach/school/",
     title: "Mokykla",
-    element: (
-      <h1>
-        Viskas apie LT švietimą. Įstatymai, egzaminai bei mano, kaip mokytojo,
-        taisyklės
-      </h1>
-    ),
+    element: <SchoolPage />,
   },
   {
     path: "/teach/konsp/",
     title: "Konspektai",
-    element: (
-      <h1>
-        Čia bus patalpinti visi konspektai - tik uždaviniai arba visa teorija
-      </h1>
-    ),
+    element: <KonspPage />,
   },
 
   {
@@ -95,21 +81,17 @@ export const routes: IRoute[] = [
   {
     path: "/music/listen/",
     title: "Music to listen",
-    element: <h1>Here about the music that I listen</h1>,
+    element: <ListenPage />,
   },
   {
     path: "/music/compose/",
     title: "My compositions",
-    element: <h1>Fistly, the piano...</h1>,
+    element: <PianoPage />,
   },
   {
     path: "/music/piano/",
     title: "Classical piano",
-    element: (
-      <h1>
-        I play on youtube, list of the best pieces..., places to play piano
-      </h1>
-    ),
+    element: <PianoPage />,
   },
   { path: "*", title: "404", element: <NotFoundPage /> },
 ];
