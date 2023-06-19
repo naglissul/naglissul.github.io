@@ -1,7 +1,7 @@
 import { NavigateFunction, useNavigate } from "react-router-dom";
 import { StyledNavTree } from "./NavTree.styled";
 import { IRoute } from "../../constants";
-import React from "react";
+import React, { useState } from "react";
 
 interface ISubRoute extends IRoute {}
 
@@ -18,15 +18,16 @@ interface INavProps {
 
 const SuperRoute: React.FC<ISuperRoute> = ({ path, title, children }) => {
   const navigate: NavigateFunction = useNavigate();
+  const [isExpanded, setIsExpanded] = useState<boolean>(false);
 
   return React.Children.count(children) !== 0 ? (
     <div style={{ width: "100px" }}>
-      <details>
-        <summary>
-          <button onClick={() => navigate(path)}>{title}</button>
-        </summary>
-        <ul>{children}</ul>
-      </details>
+      <button onClick={() => navigate(path)}>{title}</button>
+      <button onClick={() => setIsExpanded(!isExpanded)}>
+        {isExpanded ? "ʌ" : "v"}
+      </button>
+
+      {isExpanded && children}
     </div>
   ) : (
     <div style={{ width: "100px" }}>
@@ -39,7 +40,7 @@ const SubRoute: React.FC<ISubRoute> = ({ path, title }) => {
   const navigate: NavigateFunction = useNavigate();
 
   return (
-    <li>
+    <div style={{ paddingLeft: "1em" }}>
       <button
         onClick={() => {
           navigate(path);
@@ -47,7 +48,7 @@ const SubRoute: React.FC<ISubRoute> = ({ path, title }) => {
       >
         {title}
       </button>
-    </li>
+    </div>
   );
 };
 

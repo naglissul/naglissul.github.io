@@ -9,6 +9,7 @@ import {
   FaLinkedin,
   FaGithub,
   FaEnvelope,
+  FaTwitter,
 } from "react-icons/fa";
 
 interface IIcon {
@@ -35,6 +36,8 @@ const Icon: React.FC<IIcon> = ({ href }) => {
     icon = <FaGithub style={{ width: "100%", height: "100%" }} />;
   } else if (href.includes("mailto:")) {
     icon = <FaEnvelope style={{ width: "100%", height: "100%" }} />;
+  } else if (href.includes("twitter")) {
+    icon = <FaTwitter style={{ width: "100%", height: "100%" }} />;
   } else {
     icon = <p>No Icon</p>;
   }
@@ -70,6 +73,7 @@ const ContactsFooter: React.FC = () => {
         <Icon href="https://www.github.com/naglissul/" />
         <Icon href="https://www.reddit.com/user/naglis-audrius" />
         <Icon href="https://www.tiktok.com/@naglisaudrius" />
+        <Icon href="https://twitter.com/naglisaudrius" />
       </div>
       <h3>Writing contacts (Audrius Tyliūnas):</h3>
       <div>

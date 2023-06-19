@@ -1,7 +1,7 @@
 import { readingsOther, readingsSlam, readingsSnow } from "../../constants";
 import Reading from "./components/Reading";
 import WritingCategory from "./components/WritingCategory";
-
+//is eiles - pirmiausia dvipusis namas. padaryt kad galetu komentarus rasyt ir ivertinti zvaigzdutem. feedbackui el laiska rasyt
 function FictionPage() {
   return (
     <section>
@@ -29,7 +29,7 @@ function FictionPage() {
         6 parts in total. Then have it in good quality and have a movie or
         animation made about it. And would be nice if people read it :)
       </p>
-      <WritingCategory name="Snow. EXCERPTS ONLY" />
+      <WritingCategory name="Snow. EXCERPTS ONLY (cuz Alma littera competition 2024 April) " />
       <div
         style={{
           display: "flex",
