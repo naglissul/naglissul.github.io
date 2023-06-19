@@ -208,3 +208,5 @@ export const readingsOther = [
     fileName: "saldainiai.docx",
   },
 ];
+
+export const MOBILE_THRESHOLD = 768;

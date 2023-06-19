@@ -44,3 +44,7 @@ iframe {
 button {
   cursor: pointer;
 }
+
+* {
+  z-index: 10;
+}
