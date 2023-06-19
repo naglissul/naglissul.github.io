@@ -10,6 +10,6 @@ export const StyledNavHeaderMobile = styled.nav`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 10px 15px 5px 15px;
   align-items: center;
 `;

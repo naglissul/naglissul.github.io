@@ -4,12 +4,18 @@ import NavHeader from "./generalComponents/NavHeader";
 import TitleHeader from "./generalComponents/TitleHeader";
 import NavTree from "./generalComponents/NavTree";
 import ContactsFooter from "./generalComponents/ContactsFooter";
+import { useSelector } from "react-redux";
+import { selectIsScrollEnabled } from "./app/slices/backgroundLayerSlice";
 
 function App() {
   return (
     <HashRouter>
       <NavHeader routes={routes} />
-      <div style={{ margin: "30px 10% 0 10%" }}>
+      <div
+        style={{
+          margin: "30px 10% 0 10%",
+        }}
+      >
         <TitleHeader />
         <main>
           <aside>

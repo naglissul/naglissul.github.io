@@ -1,8 +1,9 @@
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import backgroundLayerReducer from "./slices/backgroundLayerSlice";
 
 export const store = configureStore({
   reducer: {
-
+    backgroundLayer: backgroundLayerReducer,
   },
 });
 

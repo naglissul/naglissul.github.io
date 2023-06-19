@@ -29,18 +29,10 @@ const SuperRoute: React.FC<ISuperRoute> = ({ path, title, children }) => {
       }
     };
 
-    const handleEscapeKey = (event: any) => {
-      if (event.key === "Escape") {
-        setIsExpanded(false);
-      }
-    };
-
     document.addEventListener("mousedown", handleOutsideClick);
-    document.addEventListener("keydown", handleEscapeKey);
 
     return () => {
       document.removeEventListener("mousedown", handleOutsideClick);
-      document.removeEventListener("keydown", handleEscapeKey);
     };
   }, []);
 
