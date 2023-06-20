@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import BlogPost from "./components/BlogPost";
 import { POSTS_URL } from "../../constants";
 
+//Will have two basic sections: normal posts and articles AND fiction short stories and excerpts.
+
 interface post {
   name: string;
   content: string;

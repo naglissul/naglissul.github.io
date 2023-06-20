@@ -29,6 +29,8 @@ function FictionPage() {
         6 parts in total. Then have it in good quality and have a movie or
         animation made about it. And would be nice if people read it :)
       </p>
+      <h1>Kurtinančiai tyli naktis dvipusiame name arba Ką padarysi...</h1>
+      <p>Here will be all the info about this short story</p>
       <WritingCategory name="Snow. EXCERPTS ONLY (cuz Alma littera competition 2024 April) " />
       <div
         style={{
