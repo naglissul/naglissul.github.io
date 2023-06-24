@@ -55,7 +55,8 @@ function KonspPage() {
   }, []);
   return (
     <section>
-      <h3>Here, in posts, you will find:</h3>
+      Čia bus patalpinti įvairūs 5-12 kl. matematikos konspektai.
+      {/* <h3>Here, in posts, you will find:</h3>
       <ul>
         <li>
           MATH:{" "}
@@ -82,7 +83,7 @@ function KonspPage() {
       <img
         src="assets\func-basic-10.png"
         alt="basics of functions problems 10 grade"
-      ></img>
+      ></img> */}
     </section>
   );
 }

@@ -15,56 +15,94 @@ import ContactsFooter from "../../generalComponents/ContactsFooter";
 function HomePage() {
   return (
     <section>
-      <BestMusic name="Royal Blood - Mountains At Midnight" />
+      <BestMusic name="Sir Sly - &Run" />
       <hr />
-      <h5>
+      <h1>
+        <em>This is...</em>
+      </h1>
+      <p>
         <em>
-          This is... Blog. And more. Currently putting everything aside and
-          enjoying Erasmus in Netherlands. So everything you read in this
-          website is suspended.
+          ... portfolio-like website/blog, to have all the things, I want to
+          share, categorized in one place. Good luck surfin' around!
         </em>
-      </h5>
-      <h1>Newest</h1>
-      <h1>Structure to browse</h1>
+      </p>
+      <h1>Latest</h1>
+      <p>New blog post</p>
+      <em>
+        &emsp;
+        <Link to="/blog/">
+          Productivity recap (documentation) - second study year
+        </Link>
+      </em>
+      <p>
+        Skanaus skaitymo!<sub> LT</sub>
+      </p>
+      <h1>Website structure</h1>
       <span style={{ display: "flex", justifyContent: "space-between" }}>
-        <Link to="/blog/">Blog</Link>
-        <Link to="/code/">Code</Link>
-        <Link to="/write/">Write</Link>
-        <Link to="/teach/">Teach</Link>
-        <Link to="/music/">Music</Link>
+        <div>
+          <Link to="/blog/">Blog</Link>
+        </div>
+        <div>
+          <Link to="/code/">Code</Link>
+        </div>
+        <div>
+          <div>
+            <Link to="/teach/">Teach</Link>
+          </div>
+          <div>
+            &emsp;
+            <Link to="/teach/school/">Mokykla 5-8 kl.</Link>
+          </div>
+          <div>
+            &emsp; &emsp;
+            <Link to="/teach/school/math/">Matematika</Link>
+          </div>
+          <div>
+            &emsp; &emsp;
+            <Link to="/teach/school/it/">Informatika</Link>
+          </div>
+          <div>
+            &emsp;
+            <Link to="/teach/mgbi/">MGBI</Link>
+          </div>
+          <div>
+            &emsp;
+            <Link to="/teach/korep/">Korepetitorius</Link>
+          </div>
+          <div>
+            &emsp;
+            <Link to="/teach/konsp/">Konspektai</Link>
+          </div>
+        </div>
+        <div>
+          <Link to="/music/">Music</Link>
+        </div>
       </span>
+      <p>...</p>
 
-      <h1>Future projects/ideas</h1>
+      <h1>Ideas for the future</h1>
       <ul>
-        <li>Tutorials about after school math/physics/computerScience</li>
+        <li>Blog about studies</li>
         <li>Electronics project - making SMP-1</li>
         <li>
-          Projects (and/or tutorials) according to the uni (|CS|, phy, math)
-          courses
+          New pages/categories:
+          <ul>
+            <li>chemistry</li>
+            <li>electronics</li>
+            <li>all about uni (Computer Science, Physics, Math)</li>
+          </ul>
         </li>
-        <li>
-          New pages/categories (with articles about what might be interesting to
-          regular people): Studies(PS and other INFO), Chemistry(KURMIS is pure
-          NaOH), Physics, ComputerScience and Math (separated from teaching, can
-          overlap with MGBI), Electronics (overlapping a lot...)
-        </li>
-        <li>Film development at home</li>
-        <li>Languages</li>
-        <li>
-          Animation. 3d models, animations. stop motion. (For music videos,
-          writing, gamedev)
-        </li>
-        <li>Creating and performing rock or indie music</li>
       </ul>
-
-      <br />
-      <h1>About Me + Contacts</h1>
-      <h3>Lifetime idea:</h3>
+      <h1>About Me</h1>
       <p>
-        Understand everything. Make something big out of it (something like a
-        new ideology)
+        I'm a lost soul, trying to do as much as it can in this life, cuz there
+        might not be another. On a mission to create something big.
       </p>
-
+      <p>
+        All the job market related stuff you can find in my LinkedIn profile :)
+      </p>
+      <h1>My contacts</h1>
+      <p>...</p>
       <Archive />
     </section>
   );

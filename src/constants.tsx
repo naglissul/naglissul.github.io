@@ -10,15 +10,19 @@ import KonspPage from "./pages/teachPage/KonspPage";
 import KorepPage from "./pages/teachPage/KorepPage";
 import MgbiPage from "./pages/teachPage/MgbiPage";
 import SchoolItPage from "./pages/teachPage/SchoolItPage";
-import SchoolMathsPage from "./pages/teachPage/SchoolMathsPage";
+import SchoolMathPage from "./pages/teachPage/SchoolMathPage";
+import SchoolPage from "./pages/teachPage/SchoolPage";
 import TeachPage from "./pages/teachPage/TeachPage";
+import DeafeningNightPage from "./pages/writePage/DeafeningNightPage";
 import FictionPage from "./pages/writePage/FictionPage";
 import OtherWritingsPage from "./pages/writePage/OtherWritingsPage";
+import SlamPage from "./pages/writePage/SlamPage";
+import TheFirstSnowPage from "./pages/writePage/TheFirstSnowPage";
 import WritePage from "./pages/writePage/WritePage";
 
-export const POSTS_URL =
+export const POSTS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/posts/";
-export const TUTORIALS_URL =
+export const TUTORIALS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/tutorials/";
 
 export interface IRoute {
@@ -46,6 +50,21 @@ export const routes: IRoute[] = [
     element: <FictionPage />,
   },
   {
+    path: "/write/fiction/slam/",
+    title: "Slam",
+    element: <SlamPage />,
+  },
+  {
+    path: "/write/fiction/the-first-snow/",
+    title: "Pirmasis sniegas",
+    element: <TheFirstSnowPage />,
+  },
+  {
+    path: "/write/fiction/deafening-night/",
+    title: "Kurtinančiai tyli naktis dvipusiame name arba Ką padarysi...",
+    element: <DeafeningNightPage />,
+  },
+  {
     path: "/write/other/",
     title: "Other writings",
     element: <OtherWritingsPage />,
@@ -66,13 +85,18 @@ export const routes: IRoute[] = [
     element: <KorepPage />,
   },
   {
-    path: "/teach/school-maths/",
-    title: "Mokyklos matematika",
-    element: <SchoolMathsPage />,
+    path: "/teach/school/",
+    title: "Mokykla 5-8 kl.",
+    element: <SchoolPage />,
   },
   {
-    path: "/teach/school-it/",
-    title: "Mokyklos IT",
+    path: "/teach/school/math/",
+    title: "Matematika 5-8 kl.",
+    element: <SchoolMathPage />,
+  },
+  {
+    path: "/teach/school/it/",
+    title: "IT 5-8 kl.",
     element: <SchoolItPage />,
   },
   {

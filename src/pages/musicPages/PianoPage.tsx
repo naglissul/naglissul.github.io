@@ -1,7 +1,8 @@
 function PianoPage() {
   return (
     <section>
-      <h1>Piano</h1>
+      This page gonna have various content about classical piano music.
+      {/* <h1>Piano</h1>
       <br />
 
       <a href="https://youtu.be/b-iR1_1BqbQ">Youtube Gymnopedia no 1</a>
@@ -23,7 +24,7 @@ function PianoPage() {
         <li>Debussy - je te veux</li>
         <li>Debussy - Golliwogg's Cakewalk</li>
         <li>Chopin - Etude Op. 25 No. 11</li>
-      </ul>
+      </ul> */}
     </section>
   );
 }

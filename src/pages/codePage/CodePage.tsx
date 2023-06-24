@@ -5,7 +5,7 @@ function CodePage() {
       working on these projects:
       <ul>
         <li>
-          No Point Writings. "Portfolio" website.{" "}
+          This website.{" "}
           <a href="https://github.com/naglissul/naglissul.github.io">
             link to the source code
           </a>
@@ -86,7 +86,7 @@ function CodePage() {
       <br />
       <br />
       <hr />
-      <h1>Future projects</h1>
+      {/* <h1>Future projects</h1>
       <ul>
         <li>MessG. All in one messaging app</li>
         <li>TimeLoopCave - C++ game based on time travel idea</li>
@@ -127,8 +127,8 @@ function CodePage() {
       <p>
         Make a game that would be played by everyone. Sth like angry birds, or
         flappy bird, or mario, but better. With mind bending story. Maybe that
-        would be the TimeLoopCave game?
-      </p>
+        would be the TimeLoopCave game...
+      </p> */}
     </section>
   );
 }

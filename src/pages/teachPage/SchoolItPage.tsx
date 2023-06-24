@@ -3,7 +3,8 @@ import CalcGrade from "./components/CalcGrade";
 function SchoolItPage() {
   return (
     <section>
-      <ul>
+      Čia bus patalpinta įvairi informacija apie 5-8 kl. informatiką.
+      {/* <ul>
         <li>Overleaf - slides...with more, with papildomi...</li>
         <li>Kahoot</li>
         <li>Dictionary for definitions EN-LT (or platform for that)</li>
@@ -15,7 +16,7 @@ function SchoolItPage() {
         LT education programme till 2024-08-31
       </a>
       <CalcGrade />
-      {/* Viskas apie LT švietimą. Įstatymai, egzaminai bei mano, kaip mokytojo,
+      Viskas apie LT švietimą. Įstatymai, egzaminai bei mano, kaip mokytojo,
         taisyklės */}
     </section>
   );

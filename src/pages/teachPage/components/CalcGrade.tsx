@@ -9,7 +9,7 @@ export default function CalcGrade() {
     <div style={calculatorStyle}>
       <h3>Grade calculator</h3>
       <details>
-        <summary>For now it is only based on these statements:</summary>
+        <summary>Expand to see on what statements the grading is based</summary>
         <ul>
           <li>Lowest grade is 2 - collected 0 points</li>
           <li>Highest grade is 10 - collected all the points</li>
@@ -19,10 +19,7 @@ export default function CalcGrade() {
           </li>
         </ul>
       </details>
-      <p>
-        Later probably will be complying with the Bukiškio progimnazija grading
-        policy
-      </p>
+
       <p>If I collected</p>
       <input
         placeholder="enter the number"

@@ -1,3 +1,5 @@
+import { FaMusic } from "react-icons/fa";
+
 interface music {
   name: string;
 }
@@ -7,10 +9,13 @@ function BestMusic({ name }: music) {
     <div
       style={{
         display: "flex",
-        justifyContent: "center",
+        justifyContent: "space-evenly",
+        padding: "10px 0 10px 0",
       }}
     >
-      This week's music: {name}
+      <FaMusic />
+      <em>This week's music: {name} </em>
+      <FaMusic />
     </div>
   );
 }

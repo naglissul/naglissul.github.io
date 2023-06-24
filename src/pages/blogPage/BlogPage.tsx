@@ -56,33 +56,9 @@ function BlogPage() {
   }, []);
   return (
     <section>
-      <h1>Currently</h1>working on other projects (Coding and Writing). I.e. in
-      order for me to write some new blog posts, I need to write a code that
-      would display and sort the posts I create. After that is done, I'm gonna
-      write a few posts about:
-      <ul>
-        <li>
-          3rd stage 1st sub-stage: Uni. Plans for 2nd sub-stage. Plans for
-          summarizing passed uni courses
-        </li>
-        <li>
-          Learning absurdities: independent learning / learning in a team.
-          +intrinsic motivation
-        </li>
-        <li>
-          Learning purpose: why did I learn physics (and why you shouldn't force
-          yourself to like doing domething, but rather discover yourself)
-        </li>
-        <li>
-          Math is like a religion OR why do scientist look even dumber when
-          arguing against flat-earthers: What is truth? (more my point of view
-          than researched phylosophy summary)
-        </li>
-      </ul>
-      <p>
-        Posts will usually are uploaded after my student life stage (usually one
-        semester) is done
-      </p>
+      <h3>
+        Here are some blog posts. Lekker lezing! <sub>NL</sub>
+      </h3>
       {files
         ? files.map((file: post) => (
             <BlogPost key={file.name} id={file.name} text={file.content} />
