@@ -60,29 +60,32 @@ const Icon: React.FC<IIcon> = ({ href }) => {
 const ContactsFooter: React.FC = () => {
   return (
     <StyledContactsFooter>
-      <h3>Social media and other links:</h3>
       <div>
-        <Icon href="mailto:naglis.suliokas@gmail.com" />
-        <Icon href="https://www.instagram.com/naglisaudrius/" />
-        <Icon href="https://www.linkedin.com/in/naglissul/" />
-        <Icon href="https://open.spotify.com/user/0labnwjaw8ife28ldwgqjpknh?si=93bc027711194fe1" />
-        <Icon href="https://www.facebook.com/profile.php?id=100014978984368" />
+        <p>Social media and other links:</p>
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <div>
+            <Icon href="mailto:naglis.suliokas@gmail.com" />
+            <Icon href="https://www.instagram.com/naglisaudrius/" />
+            <Icon href="https://www.linkedin.com/in/naglissul/" />
+            <Icon href="https://open.spotify.com/user/0labnwjaw8ife28ldwgqjpknh?si=93bc027711194fe1" />
+            <Icon href="https://www.facebook.com/profile.php?id=100014978984368" />
+          </div>
+          <div>
+            <Icon href="https://www.youtube.com/@naglisaudrius" />
+            <Icon href="https://www.github.com/naglissul/" />
+            <Icon href="https://www.reddit.com/user/naglis-audrius" />
+            <Icon href="https://www.tiktok.com/@naglisaudrius" />
+            <Icon href="https://twitter.com/naglisaudrius" />
+          </div>
+        </div>
       </div>
+
       <div>
-        <Icon href="https://www.youtube.com/@naglisaudrius" />
-        <Icon href="https://www.github.com/naglissul/" />
-        <Icon href="https://www.reddit.com/user/naglis-audrius" />
-        <Icon href="https://www.tiktok.com/@naglisaudrius" />
-        <Icon href="https://twitter.com/naglisaudrius" />
-      </div>
-      <h3>Writing contacts (Audrius Tyliūnas):</h3>
-      <div>
+        <p>Writing contacts (Audrius Tyliūnas):</p>
         <Icon href="mailto:tyliunas.audrius@gmail.com" />
         <Icon href="https://www.instagram.com/audriustyliunas/" />
         <Icon href="https://www.facebook.com/profile.php?id=100090809108632" />
       </div>
-
-      <p>Naglis/Audrius 2023</p>
     </StyledContactsFooter>
   );
 };

@@ -11,4 +11,6 @@ export const StyledNavHeaderWeb = styled.nav`
   flex-direction: row;
   justify-content: space-evenly;
   padding-top: 30px;
+  z-index: 1;
+  position: relative;
 `;

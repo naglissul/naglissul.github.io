@@ -79,7 +79,7 @@ const SubRoute: React.FC<ISubRoute> = ({ path, title }) => {
   const navigate: NavigateFunction = useNavigate();
 
   return (
-    <div style={{ zIndex: "1" }}>
+    <div style={{ margin: "10px" }}>
       <button
         onClick={() => {
           navigate(path);
