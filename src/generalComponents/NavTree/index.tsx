@@ -21,7 +21,7 @@ const SuperRoute: React.FC<ISuperRoute> = ({ path, title, children }) => {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
 
   return React.Children.count(children) !== 0 ? (
-    <div style={{ width: "100px" }}>
+    <div style={{ width: "100px", margin: "10px" }}>
       <button onClick={() => navigate(path)}>{title}</button>
       <button onClick={() => setIsExpanded(!isExpanded)}>
         {isExpanded ? "ʌ" : "v"}
@@ -30,7 +30,7 @@ const SuperRoute: React.FC<ISuperRoute> = ({ path, title, children }) => {
       {isExpanded && children}
     </div>
   ) : (
-    <div style={{ width: "100px" }}>
+    <div style={{ width: "100px", margin: "10px" }}>
       <button onClick={() => navigate(path)}>{title}</button>
     </div>
   );

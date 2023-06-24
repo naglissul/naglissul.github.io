@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import BlogPost from "./components/BlogPost";
 import { POSTS_URL } from "../../constants";
 
-//Will have two basic sections: normal posts and articles AND fiction short stories and excerpts.
-
+// 3 categories: normal posts, fiction short stories also excerpts, other (uni stuff with conspects, later a few articles), archive
 interface post {
   name: string;
   content: string;
@@ -27,7 +26,7 @@ const fetchPosts = async (): Promise<post[] | null> => {
       }
 
       const content = await response.text();
-      files.push({ name: `${i}.md`, content });
+      files.unshift({ name: `${i}.md`, content });
     } catch (error: any) {
       console.error(`Error fetching file ${i}.md: ${error}`);
       return null;

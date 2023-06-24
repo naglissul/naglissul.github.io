@@ -4,8 +4,6 @@ import NavHeader from "./generalComponents/NavHeader";
 import TitleHeader from "./generalComponents/TitleHeader";
 import NavTree from "./generalComponents/NavTree";
 import ContactsFooter from "./generalComponents/ContactsFooter";
-import { useSelector } from "react-redux";
-import { selectIsScrollEnabled } from "./app/slices/backgroundLayerSlice";
 
 function App() {
   return (
@@ -28,7 +26,6 @@ function App() {
           </Routes>
           <aside></aside>
         </main>
-
         <ContactsFooter />
       </div>
     </HashRouter>

@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const backgroundLayerSlice = createSlice({
   name: "backgroundLayer",
   initialState: {
-    isScrollEnabled: false,
+    isScrollEnabled: true,
   },
   reducers: {
     enableScroll: (state, action) => {
