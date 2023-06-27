@@ -13,6 +13,7 @@ import SchoolItPage from "./pages/teachPage/SchoolItPage";
 import SchoolMathPage from "./pages/teachPage/SchoolMathPage";
 import SchoolPage from "./pages/teachPage/SchoolPage";
 import TeachPage from "./pages/teachPage/TeachPage";
+import VocabularyPage from "./pages/teachPage/VocabularyPage";
 import DeafeningNightPage from "./pages/writePage/DeafeningNightPage";
 import FictionPage from "./pages/writePage/FictionPage";
 import OtherWritingsPage from "./pages/writePage/OtherWritingsPage";
@@ -103,6 +104,11 @@ export const routes: IRoute[] = [
     path: "/teach/konsp/",
     title: "Konspektai",
     element: <KonspPage />,
+  },
+  {
+    path: "/teach/vocabulary/",
+    title: "Žodynas",
+    element: <VocabularyPage />,
   },
   {
     path: "/music/",

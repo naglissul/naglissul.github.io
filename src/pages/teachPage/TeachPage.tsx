@@ -29,6 +29,9 @@ function TeachPage() {
       <h1>
         <Link to="/teach/konsp/">Konspektai</Link>
       </h1>
+      <h1>
+        <Link to="/teach/vocabulary/">Žodynas</Link>
+      </h1>
     </section>
   );
 }
