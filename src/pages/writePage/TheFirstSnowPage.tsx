@@ -1,6 +1,3 @@
-import { readingsSnow } from "../../constants";
-import Reading from "./components/Reading";
-
 export default function TheFirstSnowPage() {
   return (
     <section>

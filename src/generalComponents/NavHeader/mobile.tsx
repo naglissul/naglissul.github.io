@@ -4,8 +4,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link, useLocation } from "react-router-dom";
 import NavTree from "../NavTree";
-import { enableScroll } from "../../app/slices/backgroundLayerSlice";
-import { useDispatch } from "react-redux";
 
 interface INavProps {
   routes: IRoute[];

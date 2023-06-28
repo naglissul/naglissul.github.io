@@ -1,10 +1,7 @@
 import BlogPage from "./pages/blogPage/BlogPage";
 import CodePage from "./pages/codePage/CodePage";
 import HomePage from "./pages/homePage/HomePage";
-import ComposePage from "./pages/musicPages/ComposePage";
-import ListenPage from "./pages/musicPages/ListenPage";
 import MusicPage from "./pages/musicPages/MusicPage";
-import PianoPage from "./pages/musicPages/PianoPage";
 import NotFoundPage from "./pages/notFoundPage/NotFoundPage";
 import KonspPage from "./pages/teachPage/KonspPage";
 import KorepPage from "./pages/teachPage/KorepPage";
@@ -15,11 +12,9 @@ import SchoolPage from "./pages/teachPage/SchoolPage";
 import TeachPage from "./pages/teachPage/TeachPage";
 import VocabularyPage from "./pages/teachPage/VocabularyPage";
 import DeafeningNightPage from "./pages/writePage/DeafeningNightPage";
-import FictionPage from "./pages/writePage/FictionPage";
-import OtherWritingsPage from "./pages/writePage/OtherWritingsPage";
+import WritePage from "./pages/writePage/WritePage";
 import SlamPage from "./pages/writePage/SlamPage";
 import TheFirstSnowPage from "./pages/writePage/TheFirstSnowPage";
-import WritePage from "./pages/writePage/WritePage";
 
 export const POSTS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/posts/";
@@ -46,29 +41,19 @@ export const routes: IRoute[] = [
     element: <WritePage />,
   },
   {
-    path: "/write/fiction/",
-    title: "Fiction",
-    element: <FictionPage />,
-  },
-  {
-    path: "/write/fiction/slam/",
+    path: "/write/slam/",
     title: "Slam",
     element: <SlamPage />,
   },
   {
-    path: "/write/fiction/the-first-snow/",
+    path: "/write/the-first-snow/",
     title: "Pirmasis sniegas",
     element: <TheFirstSnowPage />,
   },
   {
-    path: "/write/fiction/deafening-night/",
+    path: "/write/deafening-night/",
     title: "Kurtinančiai tyli naktis dvipusiame name arba Ką padarysi...",
     element: <DeafeningNightPage />,
-  },
-  {
-    path: "/write/other/",
-    title: "Other writings",
-    element: <OtherWritingsPage />,
   },
   {
     path: "/teach/",
@@ -114,21 +99,6 @@ export const routes: IRoute[] = [
     path: "/music/",
     title: "Music",
     element: <MusicPage />,
-  },
-  {
-    path: "/music/listen/",
-    title: "Music to listen",
-    element: <ListenPage />,
-  },
-  {
-    path: "/music/compose/",
-    title: "My compositions",
-    element: <ComposePage />,
-  },
-  {
-    path: "/music/piano/",
-    title: "Classical piano",
-    element: <PianoPage />,
   },
   { path: "*", title: "404", element: <NotFoundPage /> },
 ];

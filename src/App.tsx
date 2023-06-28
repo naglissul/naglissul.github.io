@@ -11,7 +11,7 @@ function App() {
       <NavHeader routes={routes} />
       <div
         style={{
-          margin: "30px 10% 0 10%",
+          margin: "0 10% 0 10%",
         }}
       >
         <TitleHeader />

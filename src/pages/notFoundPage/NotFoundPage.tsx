@@ -1,8 +1,14 @@
 function NotFoundPage() {
   return (
-    <h1 style={{ paddingTop: "4em", textAlign: "center" }}>
-      Oopsie daisy, this page is crazy... How did you find it?
-    </h1>
+    <section>
+      <h1>
+        Oopsie daisy, you shouldn't see this page... Are you lost? Try going to
+        the home page
+      </h1>
+      <p style={{ textAlign: "right" }}>
+        <em>...unless you are a hacker :))</em>
+      </p>
+    </section>
   );
 }
 

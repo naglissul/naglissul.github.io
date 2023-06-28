@@ -15,10 +15,13 @@ function TeachPage() {
         phylosophy (related with math)
       </p>
       <h1>
-        <Link to="/teach/school-maths/">Mokykla - Matematika</Link>
+        <Link to="/teach/school/">Mokykla 5-8 kl.</Link>
       </h1>
       <h1>
-        <Link to="/teach/school-it/">Mokykla - IT</Link>
+        <Link to="/teach/school/math/">Mokykla - Matematika</Link>
+      </h1>
+      <h1>
+        <Link to="/teach/school/it/">Mokykla - IT</Link>
       </h1>
       <h1>
         <Link to="/teach/korep/">Korepetitorius</Link>

@@ -47,6 +47,25 @@ function HomePage() {
         </div>
         <div>
           <div>
+            <Link to="/W\write/">Write</Link>
+          </div>
+          <div>
+            &emsp;
+            <Link to="/write/deafening-night/">
+              Kurtinančiai tyli naktis dvipusiame name arba Ką padarysi...
+            </Link>
+          </div>
+          <div>
+            &emsp;
+            <Link to="/write/slam/">Slam</Link>
+          </div>
+          <div>
+            &emsp;
+            <Link to="/write/the-first-snow/">Pirmasis sniegas</Link>
+          </div>
+        </div>
+        <div>
+          <div>
             <Link to="/teach/">Teach</Link>
           </div>
           <div>
@@ -91,6 +110,12 @@ function HomePage() {
             <li>electronics</li>
             <li>all about uni (Computer Science, Physics, Math)</li>
           </ul>
+        </li>
+        <li>
+          "The Book of everything" - an article/book about logic rules and
+          paradigms (following Goedel's numbers, Goedel's incompleteness
+          theorem, Hilbert's Foundations of geometry, Principa Matematica, Set
+          theory, Peano axioms, Philosophy of science, Formal logic, etc.).
         </li>
       </ul>
       <h1>About Me</h1>
