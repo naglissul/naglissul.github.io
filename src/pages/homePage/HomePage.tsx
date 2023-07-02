@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import Archive from "./components/Archive";
 import BestMusic from "./components/BestMusic";
-import ContactsFooter from "../../generalComponents/ContactsFooter";
+import ContactsFooter, { Icon } from "../../generalComponents/ContactsFooter";
+import { MOBILE_THRESHOLD } from "../../constants";
 
 // USE SASS
 // Add more pages - branching from Home (or add "Other" thingy for the things that are permanently accomodated and leave Home for new/crumbs)
@@ -38,7 +39,15 @@ function HomePage() {
         Skanaus skaitymo!<sub> LT</sub>
       </p>
       <h1>Website structure</h1>
-      <span style={{ display: "flex", justifyContent: "space-between" }}>
+      <span
+        style={{
+          display: "flex",
+          flexDirection: `${
+            window.innerWidth < MOBILE_THRESHOLD ? "column" : "row"
+          }`,
+          justifyContent: "space-between",
+        }}
+      >
         <div>
           <Link to="/blog/">Blog</Link>
         </div>
@@ -47,7 +56,7 @@ function HomePage() {
         </div>
         <div>
           <div>
-            <Link to="/W\write/">Write</Link>
+            <Link to="/write/">Write</Link>
           </div>
           <div>
             &emsp;
@@ -97,7 +106,6 @@ function HomePage() {
           <Link to="/music/">Music</Link>
         </div>
       </span>
-      <p>...</p>
 
       <h1>Ideas for the future</h1>
       <ul>
@@ -114,8 +122,9 @@ function HomePage() {
         <li>
           "The Book of everything" - an article/book about logic rules and
           paradigms (following Goedel's numbers, Goedel's incompleteness
-          theorem, Hilbert's Foundations of geometry, Principa Matematica, Set
-          theory, Peano axioms, Philosophy of science, Formal logic, etc.).
+          theorem, Hilbert's Foundations of geometry, Principa Matematica,
+          Zermelo-Fraenkel set theory, Peano axioms, Philosophy of science,
+          First-order formal logic, etc.).
         </li>
       </ul>
       <h1>About Me</h1>
@@ -124,10 +133,100 @@ function HomePage() {
         might not be another. On a mission to create something big.
       </p>
       <p>
-        All the job market related stuff you can find in my LinkedIn profile :)
+        All the job market and social status stuff you can find in my LinkedIn
+        profile :)
       </p>
       <h1>My contacts</h1>
-      <p>...</p>
+      <h3>Audrius Tyliūnas (for writing)</h3>
+      <ul>
+        <li>
+          Email for feedback, corrections, suggestions, etc. about fiction:{" "}
+          <a href="mailto:tyliunas@audrius@gmail.com">
+            tyliunas.audrius@gmail.com
+          </a>
+        </li>
+        <li>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: `${
+                window.innerWidth < MOBILE_THRESHOLD ? "column" : "row"
+              }`,
+            }}
+          >
+            Social media - sharing fiction writing updates and other:__
+            <Icon href="https://instagram.com/audriustyliunas" />
+            __
+            <Icon href="https://www.facebook.com/profile.php?id=100090809108632" />
+          </div>
+        </li>
+      </ul>
+      <h3>For everything else</h3>
+      <ul>
+        <li>
+          Email:{" "}
+          <a href="mailto:naglis.suliokas@gmail.com">
+            naglis.suliokas@gmail.com
+          </a>
+          <ul>
+            <li>
+              <a href="mailto:naglis.suliokas@gmail.com?subject=Error%20report%20for%20NoPointWritings%20website&body=Hi,%0A%0AI've%20found%20an%20error%20in%20your%20NoPointWritings%20website...">
+                "I noticed an error" template
+              </a>
+            </li>
+            <li>
+              <a href="mailto:naglis.suliokas@gmail.com?subject=Suggestion%20for%20NoPointWritings%20website&body=Hi,%0A%0AI've%20a%20suggestion%20for%20your%20NoPointWritings%20website...">
+                "I have a suggestion" template
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: `${
+                window.innerWidth < MOBILE_THRESHOLD ? "column" : "row"
+              }`,
+            }}
+          >
+            LinkedIn:__
+            <Icon href="https://www.linkedin.com/in/naglissul/" />
+          </div>
+        </li>
+        <li>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: `${
+                window.innerWidth < MOBILE_THRESHOLD ? "column" : "row"
+              }`,
+            }}
+          >
+            Other social media:__
+            <Icon href="https://www.instagram.com/naglisaudrius" /> __
+            <Icon href="https://www.facebook.com/profile.php?id=100014978984368" />
+            __
+            <Icon href="https://www.youtube.com/@naglisaudrius" />
+          </div>
+        </li>
+        <li>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: `${
+                window.innerWidth < MOBILE_THRESHOLD ? "column" : "row"
+              }`,
+            }}
+          >
+            Others:__
+            <Icon href="https://open.spotify.com/user/0labnwjaw8ife28ldwgqjpknh?si=93bc027711194fe1" />
+            __
+            <Icon href="https://www.github.com/naglissul/" />
+          </div>
+        </li>
+      </ul>
+
       <Archive />
     </section>
   );

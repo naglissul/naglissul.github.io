@@ -20,6 +20,7 @@ main {
 section {
   flex: 10 10 0;
   padding-bottom: 2em;
+  width: 100%;
 }
 
 aside {

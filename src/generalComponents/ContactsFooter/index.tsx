@@ -16,7 +16,7 @@ interface IIcon {
   href: string;
 }
 
-const Icon: React.FC<IIcon> = ({ href }) => {
+export const Icon: React.FC<IIcon> = ({ href }) => {
   let icon;
   if (href.includes("instagram")) {
     icon = <FaInstagram style={{ width: "100%", height: "100%" }} />;
@@ -73,9 +73,6 @@ const ContactsFooter: React.FC = () => {
           <div>
             <Icon href="https://www.youtube.com/@naglisaudrius" />
             <Icon href="https://www.github.com/naglissul/" />
-            <Icon href="https://www.reddit.com/user/naglis-audrius" />
-            <Icon href="https://www.tiktok.com/@naglisaudrius" />
-            <Icon href="https://twitter.com/naglisaudrius" />
           </div>
         </div>
       </div>
@@ -85,6 +82,8 @@ const ContactsFooter: React.FC = () => {
         <Icon href="mailto:tyliunas.audrius@gmail.com" />
         <Icon href="https://www.instagram.com/audriustyliunas/" />
         <Icon href="https://www.facebook.com/profile.php?id=100090809108632" />
+        <br />
+        <p>© Naglis Šuliokas 2023</p>
       </div>
     </StyledContactsFooter>
   );
