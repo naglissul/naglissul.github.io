@@ -16,7 +16,7 @@ import { MOBILE_THRESHOLD } from "../../constants";
 function HomePage() {
   return (
     <section>
-      <BestMusic name="Sir Sly - &Run" />
+      <BestMusic name="K.Flay - T-Rex" />
       <hr />
       <h1>
         <em>This is...</em>
