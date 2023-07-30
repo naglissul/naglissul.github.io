@@ -1,8 +1,6 @@
 interface readingInfo {
   name: string;
   src: string;
-  date: string;
-  wordCount: number;
 }
 function Reading(props: readingInfo) {
   return (
@@ -22,8 +20,6 @@ function Reading(props: readingInfo) {
       <div style={{}}>
         <strong>{props.name}</strong>
       </div>
-      <div style={{}}>{props.date}</div>
-      <div style={{}}>{props.wordCount} words</div>
       <a style={{}} href={props.src} download>
         Download
       </a>

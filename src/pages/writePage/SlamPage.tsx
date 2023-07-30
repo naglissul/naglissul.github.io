@@ -19,8 +19,6 @@ export default function SlamPage() {
             key={reading.name}
             name={reading.name}
             src={`assets/readings/slam/${reading.fileName}`}
-            date={reading.date}
-            wordCount={reading.wordCount}
           />
         ))}
       </div>

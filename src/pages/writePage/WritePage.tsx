@@ -55,8 +55,6 @@ function WritePage() {
             key={reading.name}
             name={reading.name}
             src={`assets/readings/other/${reading.fileName}`}
-            date={reading.date}
-            wordCount={reading.wordCount}
           />
         ))}
         <p>

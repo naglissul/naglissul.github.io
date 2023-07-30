@@ -113,91 +113,27 @@ export const readingsSnow = [
 ];
 
 export const readingsSlam = [
+  { name: "Trumpas sapnas", fileName: "1.pdf" },
+  { name: "5 dalis. Antras skyrius. Vabalai yra tikri", fileName: "2.pdf" },
+  { name: "Pernykštis sniegas. Penktas skyrius. Kelionė", fileName: "3.pdf" },
+  { name: "Muzika. Trumpinys", fileName: "4.pdf" },
+  { name: "Nespėjau", fileName: "5.pdf" },
+  { name: "Smuikas", fileName: "6.pdf" },
+  { name: "Trumpas tutorialas, kaip sukurti visatą", fileName: "7.pdf" },
   {
-    name: "Trumpas sapnas",
-    date: "2021-11-25",
-    wordCount: 368,
-    fileName: "trumpas-sapnas.docx",
+    name: "Pirmasis sniegas. Pirmas skyrius: Klaidžiojimas. 8",
+    fileName: "10.pdf",
   },
-  {
-    name: "5 dalis. Antras skyrius. Vabalai yra tikri",
-    date: "2020-12-11",
-    wordCount: 157,
-    fileName: "5-dalis-antras-skyrius-vabalai-yra-tikri.docx",
-  },
-  {
-    name: "Pernykštis sniegas. Penktas skyrius. Kelionė",
-    date: "2021-12-23",
-    wordCount: 398,
-    fileName: "pernykstis-sniegas-penktas-skyrius-kelione.docx",
-  },
-  {
-    name: "Prieštaktis",
-    date: "2021-12-23",
-    wordCount: 405,
-    fileName: "priestaktis.docx",
-  },
-  {
-    name: "Nespėjau",
-    date: "2022-01-25",
-    wordCount: 243,
-    fileName: "nespejau.docx",
-  },
-  {
-    name: "Smuikas",
-    date: "2021-12-23",
-    wordCount: 334,
-    fileName: "smuikas.docx",
-  },
-  {
-    name: "Trumpas tutorialas, kaip sukurti visatą",
-    date: "2022-02-23",
-    wordCount: 883,
-    fileName: "trumpas-tutorialas-kaip-sukurti-visata.docx",
-  },
-  {
-    name: "Pirmasis sniegas. Pirmas skytrius. Klaidžiojimas. 8",
-    date: "2021-ruduo",
-    wordCount: 286,
-    fileName: "pirmasis-sniegas-pirmas-skyrius-klaidziojimas-8.docx",
-  },
-  {
-    name: "Be košmarų neįdomu",
-    date: "2022-03-31",
-    wordCount: 429,
-    fileName: "be-kosmaru-neidomu.docx",
-  },
-  {
-    name: "Odė tinkleliui nuo uodų",
-    date: "2021-12-23",
-    wordCount: 70,
-    fileName: "ode-tinkleliui-nuo-uodu.docx",
-  },
-
-  {
-    name: "Dar vienas sapnas",
-    date: "2022-04-28",
-    wordCount: 596,
-    fileName: "dar-vienas-sapnas.docx",
-  },
-  {
-    name: "Nelik sapne",
-    date: "2022-07-14",
-    wordCount: 298,
-    fileName: "nelik-sapne.docx",
-  },
-  {
-    name: "Negaliu patikėti (Nelik sapne tęsinys)",
-    date: "2022-07-14",
-    wordCount: 176,
-    fileName: "negaliu-patiketi-nelik-sapne-tesinys.docx",
-  },
-  {
-    name: "Žudyti arba būti nužudytam",
-    date: "2022-09-28",
-    wordCount: 178,
-    fileName: "zudyti-arba-buti-nuzudytam.docx",
-  },
+  { name: "Be košmarų neįdomu", fileName: "8.pdf" },
+  { name: "Odė tinkleliui nuo uodų", fileName: "9.pdf" },
+  { name: "Dar vienas sapnas", fileName: "11.pdf" },
+  { name: "Nelik sapne", fileName: "12.pdf" },
+  { name: "Negaliu patikėti (Nelik sapne tęsinys)", fileName: "13.pdf" },
+  { name: "Žudyti arba būti nužudytam", fileName: "14.pdf" },
+  { name: "Suodžiai", fileName: "15.pdf" },
+  { name: "Karštis gaivina", fileName: "16.pdf" },
+  { name: "Laikas sugrįžti", fileName: "17.pdf" },
+  { name: "Išjunk ir įjunk", fileName: "18.pdf" },
 ];
 
 export const readingsOther = [
