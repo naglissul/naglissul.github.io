@@ -32,15 +32,15 @@ function WritePage() {
       </p>
       <h1>My writings</h1>
       <p>
-        <Link to="/write/fiction/deafening-night/">
+        <Link to="/write/deafening-night/">
           Kurtinančiai tyli naktis dvipusiame name arba Ką padarysi...
         </Link>
       </p>
       <p>
-        <Link to="/write/fiction/the-first-snow/">Pirmasis sniegas</Link>
+        <Link to="/write/the-first-snow/">Pirmasis sniegas</Link>
       </p>
       <p>
-        <Link to="/write/fiction/slam/">Slam</Link>
+        <Link to="/write/slam/">Slam</Link>
       </p>
       <div
         style={{
