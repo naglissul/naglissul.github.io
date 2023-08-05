@@ -6,9 +6,6 @@ import NotFoundPage from "./pages/notFoundPage/NotFoundPage";
 import KonspPage from "./pages/teachPage/KonspPage";
 import KorepPage from "./pages/teachPage/KorepPage";
 import MgbiPage from "./pages/teachPage/MgbiPage";
-import SchoolItPage from "./pages/teachPage/SchoolItPage";
-import SchoolMathPage from "./pages/teachPage/SchoolMathPage";
-import SchoolPage from "./pages/teachPage/SchoolPage";
 import TeachPage from "./pages/teachPage/TeachPage";
 import VocabularyPage from "./pages/teachPage/VocabularyPage";
 import DeafeningNightPage from "./pages/writePage/DeafeningNightPage";
@@ -20,6 +17,8 @@ export const POSTS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/posts/";
 export const TUTORIALS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/tutorials/";
+export const SLAMS_URL: string =
+  "https://raw.githubusercontent.com/naglissul/blog-posts/main/slams/";
 
 export interface IRoute {
   path: string;
@@ -71,21 +70,6 @@ export const routes: IRoute[] = [
     element: <KorepPage />,
   },
   {
-    path: "/teach/school/",
-    title: "Mokykla 5-8 kl.",
-    element: <SchoolPage />,
-  },
-  {
-    path: "/teach/school/math/",
-    title: "Matematika 5-8 kl.",
-    element: <SchoolMathPage />,
-  },
-  {
-    path: "/teach/school/it/",
-    title: "IT 5-8 kl.",
-    element: <SchoolItPage />,
-  },
-  {
     path: "/teach/konsp/",
     title: "Konspektai",
     element: <KonspPage />,
@@ -114,8 +98,8 @@ export const readingsSnow = [
 
 export const readingsSlam = [
   { name: "Trumpas sapnas", fileName: "1.pdf" },
-  { name: "5 dalis. Antras skyrius. Vabalai yra tikri", fileName: "2.pdf" },
-  { name: "Pernykštis sniegas. Penktas skyrius. Kelionė", fileName: "3.pdf" },
+  { name: "5 dalis. Antras skyrius: Vabalai yra tikri", fileName: "2.pdf" },
+  { name: "Pernykštis sniegas. Penktas skyrius: Kelionė", fileName: "3.pdf" },
   { name: "Muzika. Trumpinys", fileName: "4.pdf" },
   { name: "Nespėjau", fileName: "5.pdf" },
   { name: "Smuikas", fileName: "6.pdf" },
