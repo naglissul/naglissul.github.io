@@ -16,7 +16,7 @@ import { MOBILE_THRESHOLD } from "../../constants";
 function HomePage() {
   return (
     <section>
-      <BestMusic name="K.Flay - T-Rex" />
+      <BestMusic name="Porcupine Tree - Anesthesize" />
       <hr />
       <h1>
         <em>This is...</em>
@@ -77,18 +77,7 @@ function HomePage() {
           <div>
             <Link to="/teach/">Teach</Link>
           </div>
-          <div>
-            &emsp;
-            <Link to="/teach/school/">Mokykla 5-8 kl.</Link>
-          </div>
-          <div>
-            &emsp; &emsp;
-            <Link to="/teach/school/math/">Matematika</Link>
-          </div>
-          <div>
-            &emsp; &emsp;
-            <Link to="/teach/school/it/">Informatika</Link>
-          </div>
+
           <div>
             &emsp;
             <Link to="/teach/mgbi/">MGBI</Link>
