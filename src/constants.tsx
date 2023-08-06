@@ -127,6 +127,19 @@ export const readingsOther = [
     wordCount: 493,
     fileName: "saldainiai.docx",
   },
+  {
+    name: "Suplaktos kavos lašas",
+    date: "2021-07-31",
+    wordCount: 264,
+    fileName: "suplaktos-kavos-lasas.docx",
+  },
+
+  {
+    name: "Kitas lapelis",
+    date: "2017-12",
+    wordCount: 2115,
+    fileName: "kitas-lapelis.docx",
+  },
 ];
 
 export const MOBILE_THRESHOLD = 768;

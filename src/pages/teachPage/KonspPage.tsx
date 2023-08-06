@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import BlogPost from "../blogPage/components/BlogPost";
 import { TUTORIALS_URL } from "../../constants";
+import { Link } from "react-router-dom";
 
 interface post {
   name: string;
@@ -84,6 +85,11 @@ function KonspPage() {
         src="assets\func-basic-10.png"
         alt="basics of functions problems 10 grade"
       ></img> */}
+      <p>
+        You can probably find more school (or science in general) related stuff
+        in
+        <Link to="/blog/"> blog page</Link>
+      </p>
     </section>
   );
 }

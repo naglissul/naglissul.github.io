@@ -58,6 +58,7 @@ export default function SlamPage() {
   return (
     <section>
       <h1>Texts</h1>
+      <p>Sėkmės skaitant! ALL FEEDBACK IS APPRECIATED</p>
       {files
         ? files.map((file: post) => (
             <BlogPost id={file.name} key={file.name} text={file.content} />

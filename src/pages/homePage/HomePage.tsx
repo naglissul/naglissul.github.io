@@ -109,6 +109,7 @@ function HomePage() {
 
       <h1>Ideas for the future</h1>
       <ul>
+        <li>A set of short stories, called "Trumpi sapnai"</li>
         <li>Blog about studies</li>
         <li>Electronics project - making SMP-1</li>
         <li>

@@ -62,8 +62,7 @@ function WritePage() {
           <Link to="/blog/">blog page</Link>
         </p>
       </div>
-      © Naglis Šuliokas
-      {/*2023 Later make that all the pdf files be stored in blog-posts repository, and there would be the copyright. And for this repository code you could make whatever you want */}
+      {/* Later make that all the pdf files be stored in blog-posts repository, and there would be the copyright. And for this repository code you could make whatever you want */}
       {/*Also make a new repository, so that the old writing files would ACTUALLY not be able to find */}
       {/* <h1>Sniegas, slam, kiti tekstai... Language categories</h1> */}
     </section>
