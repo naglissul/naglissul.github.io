@@ -2,7 +2,7 @@ interface readingInfo {
   name: string;
   src: string;
 }
-function Reading(props: readingInfo) {
+function Reading({ name, src }: readingInfo) {
   return (
     <div
       style={{
@@ -18,9 +18,9 @@ function Reading(props: readingInfo) {
       }}
     >
       <div style={{}}>
-        <strong>{props.name}</strong>
+        <strong>{name}</strong>
       </div>
-      <a style={{}} href={props.src} download>
+      <a style={{}} href={src} download>
         Download
       </a>
     </div>
