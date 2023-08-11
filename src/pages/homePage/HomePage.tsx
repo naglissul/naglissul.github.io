@@ -28,6 +28,11 @@ function HomePage() {
         </em>
       </p>
       <h1>Latest</h1>
+      <p>New slam texts</p>
+      <em>
+        &emsp;
+        <Link to="/write/slam/">Groningeno traukinys & People are basic </Link>
+      </em>
       <p>New blog post</p>
       <em>
         &emsp;

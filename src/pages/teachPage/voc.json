@@ -1,4 +1,5 @@
 [
-  { "lt": "išvestinė", "en": "derivative", "nl": "..." },
+  { "lt": "išvestinė", "en": "derivative", "nl": "afgeleide" },
+  { "lt": "tolygiai tolydi", "en": "uniformly continuous" },
   { "lt": "tolydi", "en": "continuous" }
 ]
