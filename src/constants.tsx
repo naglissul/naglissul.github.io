@@ -16,7 +16,7 @@ import TheFirstSnowPage from "./pages/writePage/TheFirstSnowPage";
 export const POSTS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/posts/";
 export const TUTORIALS_URL: string =
-  "https://raw.githubusercontent.com/naglissul/blog-posts/main/tutorials/";
+  "https://raw.githubusercontent.com/naglissul/blog-posts/main/tutorials/other/";
 export const SLAMS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/slams/";
 

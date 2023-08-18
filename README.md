@@ -14,3 +14,6 @@ korep:
 1h free. emails and messages always free
 mokytoj:
 visada klaust, galima ir susiskambint susitart, visada messages?/emails (add email structure to keep ir serious? or just messages to keep it cozy)
+
+      {/* CODING IDEA:
+      Paradyt, kad automatiskai pagal folderius githube padarytu/displayintu puslapius kur md. O kur ne md, padaryt kad atsisiusti galima */}

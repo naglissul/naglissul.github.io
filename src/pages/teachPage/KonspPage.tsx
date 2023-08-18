@@ -56,39 +56,35 @@ function KonspPage() {
   }, []);
   return (
     <section>
-      Čia bus patalpinti įvairūs 5-12 kl. matematikos konspektai.
-      {/* <h3>Here, in posts, you will find:</h3>
-      <ul>
-        <li>
-          MATH:{" "}
-          <ul>
-            <li>
-              PROBLEMS - all types of problems (for VBE/12th grade course)
-            </li>
-            <li>EVERYTHING - theory and all the content (for 5-8th grades)</li>
-            <li>
-              ABOUT - rules from me, as a teacher, explanations and thoughts
-              about math and everything else that is not mentioned
-            </li>
-          </ul>
-        </li>
-        <li>PHYSICS - whatever I write about physics</li>
-        <li>IT - mostly for 5-7th grades</li>
-      </ul>
+      <p>
+        Čia patalpinti įvairūs 5-12 kl. matematikos (ir fizikos bei IT)
+        konspektai (pagal senąją, iki 2023-08-31, mokyklos programą). 11-12 kl.
+        temos orientuotos į A lygį ir VBE užduotis
+      </p>
+      <p>
+        Deja, bet čia nerasit konspektų apie visą mokyklinę matematiką. Bet
+        galiu papildyti konspektus pagal prašymą. Kitaip tai sau pačiam tikrai
+        nėra reikalo rašinėtis konspektus. Man jau nebereikia, aš jau egzus
+        išsilaikiau :D
+      </p>
+      <p>
+        Idėja ateičiai: padaryti VBE matematikos konspektą, kur būtų TIK
+        uždavinių visi šabloniniai tipai su šabloniniais sprendimo būdais
+      </p>
+      <h1 style={{ fontSize: "40px" }}>5-8 kl. testai ir užduotys</h1>
+      ...
+      <h1 style={{ fontSize: "40px" }}>Kita</h1>
       {files
         ? files.map((file: post) => (
             <BlogPost id={file.name} key={file.name} text={file.content} />
           ))
         : null}
-      <h3>ARCHIVE</h3>
-      <img
-        src="assets\func-basic-10.png"
-        alt="basics of functions problems 10 grade"
-      ></img> */}
       <p>
         You can probably find more school (or science in general) related stuff
         in
         <Link to="/blog/"> blog page</Link>
+        {/* Padaryti blog post apie HOW MATH WORKS foudations... pirmakursiams */}
+        {/* 11kl fizika: Mechanika. Skridiniai - T1 = T2. Dvi atskiros sistemos. Darbas - vidurkis, energijos pokytis... */}
       </p>
     </section>
   );

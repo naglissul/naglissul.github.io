@@ -1,5 +1,62 @@
 [
   { "lt": "išvestinė", "en": "derivative", "nl": "afgeleide" },
+  { "lt": "tolydi", "en": "continuous" },
   { "lt": "tolygiai tolydi", "en": "uniformly continuous" },
-  { "lt": "tolydi", "en": "continuous" }
+  {
+    "lt": "trūkiai (trūkio taškai)",
+    "en": "Discontinuities (discontinuity points)"
+  },
+  {
+    "lt": "Neišreikštinis išvestinės skaičiavimas",
+    "en": "Implicit differentiation"
+  },
+  { "lt": "Dekarto", "en": "Cartesian" },
+  { "lt": "De Morgano", "en": "de Moivre’s" },
+  { "lt": "Deriniai", "en": "Combinations" },
+  { "lt": "Gretiniai", "en": "Permutations" },
+  { "lt": "Kėliniai", "en": "nPn permutations" },
+  { "lt": "matematinė viltis", "en": "expected value" },
+  { "lt": "dispersija", "en": "varience" },
+  { "lt": "vidutinis kvadratinis nuokrypis", "en": "standart deviation" },
+  { "lt": "Sąryšis", "en": "Relation" },
+  { "lt": "(ne-)suderinta (lygčių sistema)", "en": "(in-)consistent" },
+  { "lt": "Magnetinė indukcija", "en": "Magnetic flux density" },
+  { "lt": "(ne-)apibrėžta (lygčių sistema)", "en": "" },
+  {
+    "lt": "Trikampio taisyklė (Matricos determinantas)",
+    "en": "Rule of Sarrus"
+  },
+  { "lt": "Laplaso teorema", "en": "Laplace expansion" },
+  { "lt": "Kontinuumo galia", "en": "Cardinality of kontinuum" },
+  { "lt": "Kūnas", "en": "Field" },
+  { "lt": "Negalimo trečiojo dėsnis", "en": "Law of excluded middle" },
+  { "lt": "Gretutiniai kampai", "en": "Angles on one side of a straight line" },
+  { "lt": "sutvarkytas rinkinys", "en": "ordered tuple" },
+  { "lt": "Kėliniai", "en": "Permutation group (one-line notation)" },
+  { "lt": "Keitiniai", "en": "Permutation group (two-line notation)" },
+  { "lt": "Algoritmų teorija", "en": "Theory of computation" },
+  { "lt": "Matematinės logikos pradmenys", "en": "Boolean algebra" },
+  { "lt": "Prasilenkiančios tiesės", "en": "Skew lines" },
+  { "lt": "mišrioji vektorių daugyba", "en": "triple scalar/box product" },
+  { "lt": "koši-buniakovsio nelygybė", "en": "Cauchy-Schwarz inequality" },
+  { "lt": "Kanoninės lygtys", "en": "Symmetric equations :DD" },
+  { "lt": "Matricos rangas", "en": "matrix column space" },
+  { "lt": "egzistencinis kvantorius", "en": "existential quantifier" },
+  { "lt": "visuotinumo (bendrumo) kvantorius", "en": "universal quantifier" },
+  { "lt": "kirstinė ", "en": "traversal" },
+  { "lt": "atitinkamieji ", "en": "corresponding" },
+  { "lt": "priešiniai ", "en": "alternate" },
+  { "lt": "vienašaliai ", "en": "consecutive" },
+  { "lt": "kryžminiai", "en": "vertically opposite, vertical" },
+  {
+    "lt": "gretutiniai kampai",
+    "en": "angles on one side of a straight line"
+  },
+  { "lt": "diferencialiniai ir integraliniai skaičiavimai", "en": "calculus" },
+  { "lt": " eilutė", "en": "series" },
+  { "lt": " sandauga", "en": "product" },
+  { "lt": "", "en": "decidable" },
+  { "lt": " apskaičiuojamas", "en": "computable" },
+  { "lt": "rodyklė", "en": "pointer" },
+  { "lt": "tiesių pluoštas", "en": "family of lines" }
 ]
