@@ -28,6 +28,25 @@ function HomePage() {
         </em>
       </p>
       <h1>Latest</h1>
+      <p>New blog post</p>
+      <em>
+        &emsp;
+        <Link to="/blog/">
+          Studentas-studentui matieka ir kiti mokymo(si) projektai
+        </Link>
+      </em>
+      <p>LT-EN vocabulary</p>
+      <em>
+        &emsp;
+        <Link to="/teach/vocabulary/">Check out, use and contribute!</Link>
+      </em>
+      <p>Uploaded tutorial</p>
+      <em>
+        &emsp;
+        <Link to="/teach/konsp/">
+          IT VBE (until 2024) tutorial/template (scroll to the bottom)
+        </Link>
+      </em>
       <p>New slam texts</p>
       <em>
         &emsp;
