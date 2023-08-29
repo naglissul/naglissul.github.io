@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Added
 
 - More content/info and descriptions.
+- A LOT of other stuff. But its more of a continuous process...
 
 ## Fixed
 

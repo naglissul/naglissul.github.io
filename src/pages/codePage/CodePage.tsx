@@ -7,13 +7,13 @@ function CodePage() {
         <li>
           This website.{" "}
           <a href="https://github.com/naglissul/naglissul.github.io">
-            link to the source code
+            link to the source code (external link)
           </a>
         </li>
         <li>
           Time Loop Cave 1.0 - pixel art web game.{" "}
           <a href="https://github.com/naglissul/time-loop-cave">
-            link to the source code
+            link to the source code (external link)
           </a>
         </li>
         <li>
@@ -24,6 +24,27 @@ function CodePage() {
           oven, caramel croissants in your nearest market
         </li>
       </ul>
+      <hr />
+      <h1>Science Dictionary LT -{">"} EN</h1>
+      <p>
+        A website where you can find what do some "exotic" (or not so)
+        Lithuanian translations of scientific terms mean in English
+      </p>
+      <p>When googling about math, transition to English easily!</p>
+      <h3>
+        <a href="http://sci-dict.lt">
+          Check out, use and contribute here! (external link)
+        </a>
+      </h3>
+      <h3>
+        <a href="https://github.com/naglissul/sci-dict-lt">
+          Find source code here (external link)
+        </a>
+      </h3>
+      <p>
+        Docs comming soon... But everything's free and pretty much just do
+        whatever you want with the data and source code.
+      </p>
       <hr />
       <img
         style={{ float: "right", paddingTop: "20px" }}
@@ -37,10 +58,12 @@ function CodePage() {
       Multiplayer web game, where players are jumping around the canvas trying
       to pixel-draw the cave explorer Macro.
       <h3>
-        <a href="https://jsgd.web.app">Play here</a>
+        <a href="https://jsgd.web.app">Play here (external link)</a>
       </h3>
       <h3>
-        <a href="https://github.com/naglissul/jsgd">Find source code here</a>
+        <a href="https://github.com/naglissul/jsgd">
+          Find source code here (external link)
+        </a>
       </h3>
       © Naglis Šuliokas 2023
       <h2>Screenshots</h2>

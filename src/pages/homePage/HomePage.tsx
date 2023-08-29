@@ -38,7 +38,9 @@ function HomePage() {
       <p>LT-EN vocabulary</p>
       <em>
         &emsp;
-        <Link to="/teach/vocabulary/">Check out, use and contribute!</Link>
+        <a href="http://sci-dict.lt">
+          Check out, use and contribute! (external link)
+        </a>
       </em>
       <p>Uploaded tutorial</p>
       <em>
