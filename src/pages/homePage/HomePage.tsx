@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Archive from "./components/Archive";
 import BestMusic from "./components/BestMusic";
-import ContactsFooter, { Icon } from "../../generalComponents/ContactsFooter";
+import { Icon } from "../../generalComponents/ContactsFooter";
 import { MOBILE_THRESHOLD } from "../../constants";
 
 // USE SASS

@@ -7,7 +7,6 @@ import KonspPage from "./pages/teachPage/KonspPage";
 import KorepPage from "./pages/teachPage/KorepPage";
 import MgbiPage from "./pages/teachPage/MgbiPage";
 import TeachPage from "./pages/teachPage/TeachPage";
-import VocabularyPage from "./pages/teachPage/VocabularyPage";
 import DeafeningNightPage from "./pages/writePage/DeafeningNightPage";
 import WritePage from "./pages/writePage/WritePage";
 import SlamPage from "./pages/writePage/SlamPage";
@@ -74,11 +73,7 @@ export const routes: IRoute[] = [
     title: "Konspektai",
     element: <KonspPage />,
   },
-  {
-    path: "/teach/vocabulary/",
-    title: "Žodynas",
-    element: <VocabularyPage />,
-  },
+
   {
     path: "/music/",
     title: "Music",
