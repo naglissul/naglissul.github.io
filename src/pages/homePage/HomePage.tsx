@@ -35,7 +35,7 @@ function HomePage() {
           Studentas-studentui matieka ir kiti mokymo(si) projektai
         </Link>
       </em>
-      <p>LT-EN vocabulary</p>
+      <p>Science dictionary LT -{">"} EN</p>
       <em>
         &emsp;
         <a href="http://sci-dict.lt">
