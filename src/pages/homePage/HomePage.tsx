@@ -28,6 +28,11 @@ function HomePage() {
         </em>
       </p>
       <h1>Latest</h1>
+      <p>Old assembly game uploaded</p>
+      <em>
+        &emsp;
+        <Link to="/code/">Description of the jumper game from 2021</Link>
+      </em>
       <p>New blog post</p>
       <em>
         &emsp;

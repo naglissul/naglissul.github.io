@@ -25,6 +25,29 @@ function CodePage() {
         </li>
       </ul>
       <hr />
+      <h1>Assembly jumper game</h1>
+      <p>A small project from 2021 for university assignment.</p>
+      <p>Jump over obsticles and get to the uppermost layer!</p>
+      <h3>
+        <a href="https://github.com/naglissul/asm-jumper-game">
+          Source code with instructions on how to run here (external link)
+        </a>
+      </h3>
+      <h2>Screenshots</h2>
+      <img
+        style={{ paddingTop: "20px" }}
+        src="/assets/images/asm-ss1.png"
+        data-canonical-src="/assets/images/asm-ss1.png"
+        alt="Screenshot1"
+      />
+      <img
+        style={{ paddingTop: "20px" }}
+        src="/assets/images/asm-ss2.png"
+        data-canonical-src="/assets/images/asm-ss2.png"
+        alt="Screenshot2"
+      />
+      <p>They say only legends code with assembly. So good luck! :D</p>
+      <hr />
       <h1>Science Dictionary LT -{">"} EN</h1>
       <p>
         A website where you can find what do some "exotic" (or not so)
