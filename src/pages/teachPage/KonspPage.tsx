@@ -72,7 +72,10 @@ function KonspPage() {
         uždavinių visi šabloniniai tipai su šabloniniais sprendimo būdais
       </p>
       <h1 style={{ fontSize: "40px" }}>5-8 kl. testai ir užduotys</h1>
-      ...
+      For now pdf files only uploaded on github{" "}
+      <a href="https://github.com/naglissul/blog-posts/tree/main/tutorials/5-8tests">
+        here (external link)
+      </a>{" "}
       <h1 style={{ fontSize: "40px" }}>Kita</h1>
       {files
         ? files.map((file: post) => (
