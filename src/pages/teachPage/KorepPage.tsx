@@ -1,26 +1,19 @@
 function KorepPage() {
   return (
     <section>
-      Čia bus patalpinta informacija apie mano, kaip matematikos
-      korepetitoriaus, paslaugas. Taip pat, informacija apie mano, kaip fizikos
-      korepetitoriaus, ar bet kokio dalyko professional learner-/teacher
-      paslaugas.
-      {/* LT, cuz for now addressed only for LT (but options are open for English) 
-      
-      Korepetitorius
-15€/60min
-
-Matematika (galima ir fiziką)
-
-Nuotoliu. Jei įmanona suderint, tuomet galima ir gyvai.
-
-Vienkartiniam pasiaiškinimam susitarus laiką ofc galima nemokamai.
-
-El. laiškai visada nemokami 😉
-
-Konspektai
-… (coming soon)
-*/}
+      <p>Matematika (galima ir fiziką)</p>
+      <p>Kaina: 15€/60min</p>
+      <p>Nuotoliu. Jei įmanoma suderinti, tuomet galima ir gyvai.</p>
+      <p>Vienkartinį susiskambinimą/susitikimą galima nemokamai.</p>
+      <p>
+        El. laiškai su prašymu paaiškinti kokįnors dalyką, aišku, visuomet
+        nemokami ;)
+      </p>
+      <h2>Idėja ateičiai:</h2>
+      <p>
+        Patapti professional learner - t.y. išmokti pačiam naujus dalykus pagal
+        užsakymą ir tuomet paaiškinti/išmokyti užsisakiusįjį.
+      </p>
     </section>
   );
 }

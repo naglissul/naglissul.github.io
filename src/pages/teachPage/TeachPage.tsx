@@ -18,10 +18,13 @@ function TeachPage() {
         <Link to="/teach/korep/">Korepetitorius</Link>
       </h1>
       <h1>
-        <Link to="/teach/mgbi/">MGBI</Link>
+        <Link to="/teach/mgbi/">MGBI (mirus iniciatyva)</Link>
       </h1>
       <h1>
-        <Link to="/teach/konsp/">Konspektai</Link>
+        <Link to="/teach/konsp/">Konspektai (suspended iniciatyva)</Link>
+      </h1>
+      <h1>
+        <Link to="/teach/mokslo-gildija/">Mokslo gildija</Link>
       </h1>
     </section>
   );

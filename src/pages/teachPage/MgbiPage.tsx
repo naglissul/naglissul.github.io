@@ -1,8 +1,8 @@
 function MgbiPage() {
   return (
     <section>
-      Čia bus patalpinta informacija apie studentų paskaitų iniciatyvą "Mokslas
-      gali būti įdomus".
+      <h1>Truputį mirus iniciatyva</h1>
+      <p></p>
       <a href="https://drive.google.com/file/d/1iXnJA4AmH1dD26zyLRHr7WbXqIAl-Gs1/view?usp=sharing">
         Euler's identity lecture recording
       </a>

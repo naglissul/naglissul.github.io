@@ -11,6 +11,7 @@ import DeafeningNightPage from "./pages/writePage/DeafeningNightPage";
 import WritePage from "./pages/writePage/WritePage";
 import SlamPage from "./pages/writePage/SlamPage";
 import TheFirstSnowPage from "./pages/writePage/TheFirstSnowPage";
+import MoksloGildijaPage from "./pages/teachPage/MoksloGildijaPage";
 
 export const POSTS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/posts/";
@@ -60,7 +61,7 @@ export const routes: IRoute[] = [
   },
   {
     path: "/teach/mgbi/",
-    title: "MGBI",
+    title: "MGBI (mirus)",
     element: <MgbiPage />,
   },
   {
@@ -70,10 +71,14 @@ export const routes: IRoute[] = [
   },
   {
     path: "/teach/konsp/",
-    title: "Konspektai",
+    title: "Konspektai (suspended)",
     element: <KonspPage />,
   },
-
+  {
+    path: "/teach/mokslo-gildija/",
+    title: "Mokslo gildija",
+    element: <MoksloGildijaPage />,
+  },
   {
     path: "/music/",
     title: "Music",

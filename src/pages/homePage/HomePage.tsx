@@ -119,7 +119,7 @@ function HomePage() {
 
           <div>
             &emsp;
-            <Link to="/teach/mgbi/">MGBI</Link>
+            <Link to="/teach/mgbi/">MGBI (mirus)</Link>
           </div>
           <div>
             &emsp;
@@ -127,7 +127,11 @@ function HomePage() {
           </div>
           <div>
             &emsp;
-            <Link to="/teach/konsp/">Konspektai</Link>
+            <Link to="/teach/konsp/">Konspektai (suspended)</Link>
+          </div>
+          <div>
+            &emsp;
+            <Link to="/teach/mokslo-gildija/">Mokslo gildija</Link>
           </div>
         </div>
         <div>
