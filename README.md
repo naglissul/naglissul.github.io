@@ -1,7 +1,7 @@
 # naglissul.github.io
 
 Portfolio website [npw.lt](https://npw.lt)
-Reads blog posts from github repository
+Reads blog posts from [this github repo](https://github.com/naglissul/blog-posts/)
 
 ## Tech
 

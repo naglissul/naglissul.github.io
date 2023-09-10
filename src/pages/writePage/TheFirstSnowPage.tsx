@@ -2,6 +2,16 @@ export default function TheFirstSnowPage() {
   return (
     <section>
       Čia bus patalpinta informacija apie romaną "Pirmasis sniegas"
+      <p>
+        Žanras? Turbūt tiksliausiai būtų sakyti psichologinė fantastika, nors iš
+        tikrųjų nėra taip konkretu. Apie ką? Trumpai tariant, apie sapnus. Mažai
+        pažinto ir chaotiško pasaulio tyrinėjimą. Pavojus, slypinčius giliai
+        sapnuose. Ir kodėl geriau netapti klaidininku. Everything is in
+        progress.
+      </p>
+      <p>
+        Šiuo metu dirbu ties pirmos dalies (iš trijų) antru skyriumi (iš trijų)
+      </p>
       {/* <p>Snow. EXCERPTS ONLY (cuz Alma littera competition 2024 April)</p>
       {readingsSnow.map((reading) => (
         <Reading

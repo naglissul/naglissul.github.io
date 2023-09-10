@@ -1,7 +1,7 @@
 function KorepPage() {
   return (
     <section>
-      <p>Matematika (galima ir fiziką)</p>
+      <p>Matematika (galima ir fiziką), 9-12 kl.</p>
       <p>Kaina: 15€/60min</p>
       <p>Nuotoliu. Jei įmanoma suderinti, tuomet galima ir gyvai.</p>
       <p>Vienkartinį susiskambinimą/susitikimą galima nemokamai.</p>

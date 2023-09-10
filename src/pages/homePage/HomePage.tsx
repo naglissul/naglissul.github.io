@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Archive from "./components/Archive";
 import BestMusic from "./components/BestMusic";
 import { Icon } from "../../generalComponents/ContactsFooter";
 import { MOBILE_THRESHOLD } from "../../constants";
@@ -259,8 +258,6 @@ function HomePage() {
           </div>
         </li>
       </ul>
-
-      <Archive />
     </section>
   );
 }
