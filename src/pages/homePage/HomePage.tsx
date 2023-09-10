@@ -27,6 +27,11 @@ function HomePage() {
         </em>
       </p>
       <h1>Latest</h1>
+      <p>2023-09-10 Uploaded all old blog posts</p>
+      <em>
+        &emsp;
+        <Link to="/blog/">Archive blog posts (scroll to the end)</Link>
+      </em>
       <p>2023-09-01 Uploaded 5-8 grade math problems</p>
       <em>
         &emsp;
