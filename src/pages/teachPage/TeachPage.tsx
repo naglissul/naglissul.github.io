@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import CalcGrade from "./components/CalcGrade";
 
 function TeachPage() {
   return (
@@ -26,6 +27,8 @@ function TeachPage() {
       <h1>
         <Link to="/teach/mokslo-gildija/">Mokslo gildija</Link>
       </h1>
+      <h1>Fair grade calculator</h1>
+      <CalcGrade />
     </section>
   );
 }

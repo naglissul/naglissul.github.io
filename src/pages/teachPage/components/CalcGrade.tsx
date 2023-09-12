@@ -9,7 +9,7 @@ export default function CalcGrade() {
     <div style={calculatorStyle}>
       <h3>Grade calculator</h3>
       <details>
-        <summary>Expand to see on what statements the grading is based</summary>
+        <summary>Expand to see what statements the grading is based on</summary>
         <ul>
           <li>Lowest grade is 2 - collected 0 points</li>
           <li>Highest grade is 10 - collected all the points</li>
