@@ -3,26 +3,28 @@ import Reading from "./components/Reading";
 export default function DeafeningNightPage() {
   return (
     <section>
-      Čia bus patalpinta informacija apie siaubo trupmą istoriją "Kurtinančiai
-      tyli naktis dvipusiame name arba Ką padarysi..."
+      <p>
+        Čia bus patalpinta informacija apie trumpą siaubo istoriją "Kurtinančiai
+        tyli naktis dvipusiame name arba Ką padarysi..."
+      </p>
+      <h2>Cover</h2>
+      <h2>Plot</h2>
+      <p>
+        Siūvykloje naujai įsidarbinęs jaunuolis pamato šiurpiają naktinę darbo
+        vietos pusę
+      </p>
+      <h2>Sypnosis</h2>
+      <p></p>
+      <h2>Kur skaityti?</h2>
+      <p>Va čia :D</p>
       <Reading
         name="Kurtinančiai
         tyli naktis dvipusiame name arba Ką padarysi..."
         src="assets/readings/other/deafening-night.pdf"
       />
-      {/* <h1>
-        This gonna be a page for the book called "Kurtinančiai tyli naktis
-        dvipusiame name arba Ką padarysi..."
-      </h1>
-      <ul>
-        <li>Cover</li>
-        <li>Sypnosis</li>
-        <li>Bio?</li>
-        <li>Excerpts & sample chapters</li>
-        <li>Reviews & testimonials</li>
-        <li>How to get info</li>
-        <li>Media kit</li>
-      </ul> */}
+      <h2>Reviews & testimonials</h2>
+      <h2>Ilustrations</h2>
+      <h1>About</h1>
     </section>
   );
 }
