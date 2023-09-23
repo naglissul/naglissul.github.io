@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import BestMusic from "./components/BestMusic";
 import { Icon } from "../../generalComponents/ContactsFooter";
 import { MOBILE_THRESHOLD } from "../../constants";
+import Counter from "./components/Counter";
 
 // USE SASS
 // Add more pages - branching from Home (or add "Other" thingy for the things that are permanently accomodated and leave Home for new/crumbs)
@@ -26,6 +27,7 @@ function HomePage() {
           share, categorized in one place. Good luck surfin' around!
         </em>
       </p>
+      <Counter />
       <h1>Latest</h1>
       <p>2023-09-10 Uploaded all old blog posts</p>
       <em>

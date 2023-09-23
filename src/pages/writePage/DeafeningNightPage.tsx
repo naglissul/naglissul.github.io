@@ -24,7 +24,7 @@ export default function DeafeningNightPage() {
       />
       <h2>Reviews & testimonials</h2>
       <h2>Ilustrations</h2>
-      <h1>About</h1>
+      <h2>About</h2>
     </section>
   );
 }

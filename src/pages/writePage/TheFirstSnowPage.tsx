@@ -19,8 +19,15 @@ export default function TheFirstSnowPage() {
         sapnuose. Ir kodėl geriau netapti klaidininku. Everything is in
         progress.
       </p>
+      <p>
+        Apie ką Pirmasis sniegas? - Suaugusiems: Apie vaiko išgyvenimus praradus
+        tėtį, bandant neužsilikti niūriose mintyse, o judėti į priekį - Vaikams:
+        Apie kitokį sapnų pasaulį, kuriame galima sutikti kitus žmones ir daryti
+        sudėtingus, bet stebuklingus dalykus, tačiau ir tuo pačiu apie kupiną
+        pavojų sapnų pasaulį su pabaisomis,
+      </p>
       <h2>Excerpts and sample chapters</h2>
-      <h2>Kur skaityti? (dar nėra ką skaityti... in progres...)</h2>
+      <h2>Kur skaityti? (dar nėra ką skaityti... in progress...)</h2>
       <p>
         Kadangi planuoju šį kūrinuką dėti į konkursus (vienas iš jų - Alma
         littera konkursas 2024 balandį), negaliu viešai pasidalinti visu

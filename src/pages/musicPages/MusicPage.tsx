@@ -3,15 +3,17 @@ import { Link } from "react-router-dom";
 function MusicPage() {
   return (
     <section>
-      <h1>Piano compositions</h1>
-      This section gonna have all the info about my piano compositions.
-      {/* <a href="https://youtu.be/0Nwi_o2NJ1g">
-        Youtube Noname no 7 - Audrius Tyliūnas composition
-      </a>
-      <br />
-      Who's Audrius? It my creative personality. Or in other words, writing
-      nickname. For composition haven't come up with an idea how to sign my
-      work. So for now I'm borrowing Audrius Tyliūnas name from the writer. */}
+      <h1>Piano compositions (by Audrius Tyliūnas)</h1>
+      <p>
+        Who's Audrius? It's my creative personality. Or in other words, writing
+        nickname. For composition haven't come up with an idea how to sign my
+        work. So for now I'm borrowing Audrius Tyliūnas name from the writer.{" "}
+      </p>
+      <h3>Noname no. 7</h3>
+      <a href="https://youtu.be/0Nwi_o2NJ1g">Link to youtube (external link)</a>
+      <h3>Noname no. 3</h3>
+      <h3>Noname no. 2</h3>
+      <h3>Noname no. 5</h3>
       <h1>Classic piano music</h1>
       This section gonna have various content about classical piano music.
       {/* <h1>Piano</h1>
@@ -40,6 +42,7 @@ function MusicPage() {
       <h1>Spotify playlists</h1>
       This section gonna have various content about music that I think is worth
       sharing.
+      <a href="">My spotify profile (external link)</a>
       {/* <p>Rock, Metal, Pop, Classical, Indie and more... Spotify playlists...</p>
       <h3>Best piano music list:</h3>
       <ul>
