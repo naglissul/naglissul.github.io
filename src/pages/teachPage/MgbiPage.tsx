@@ -1,7 +1,13 @@
+import { Link } from "react-router-dom";
+
 function MgbiPage() {
   return (
     <section>
       <h3>Truputį mirus iniciatyva - šiuo metu niekas neorganizuojama</h3>
+      <h3>
+        Organizuojama kita iniciatyva -{" "}
+        <Link to="/teach/mokslo-gildija">Mokslo Gildija</Link>
+      </h3>
       <h1>Mokslas gali būti įdomus</h1>
       <p></p>
       <h2>What is dis?</h2>
@@ -65,6 +71,9 @@ function MgbiPage() {
         <a href="https://www.instagram.com/p/CeEtrdVLfymxNe5nkpeCP1MBw30rseVsMVIs3E0/?igshid=YmMyMTA2M2Y=">
           (nuotraukos)
         </a>
+      </li>
+      <li>
+        <a href="https://fb.me/e/3GcwlZCAT">Voiničiaus rankraštis</a>
       </li>
       <p>Potential paskaitos ateičiai:</p>
       <p>Mano vedamos:</p>

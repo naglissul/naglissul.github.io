@@ -27,7 +27,6 @@ function HomePage() {
           share, categorized in one place. Good luck surfin' around!
         </em>
       </p>
-      <Counter />
       <h1>Latest</h1>
       <p>2023-09-10 Uploaded all old blog posts</p>
       <em>

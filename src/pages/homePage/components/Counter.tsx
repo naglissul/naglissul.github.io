@@ -28,9 +28,12 @@ export default function Counter() {
             onClick={() => {
               if (!isButtonClicked) {
                 setIsButtonClicked(true);
-                fetch("http://sci-dict.lt:5001/api/counters/this-is-nice/inc", {
-                  method: "PATCH",
-                });
+                fetch(
+                  "https://sci-dict.lt:5001/api/counters/this-is-nice/inc",
+                  {
+                    method: "PATCH",
+                  }
+                );
               }
             }}
           >

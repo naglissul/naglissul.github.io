@@ -1,6 +1,46 @@
 function MoksloGildijaPage() {
   return (
     <section>
+      <h1>Kvietimas</h1>
+      <p>Labas! </p>
+      <p>
+        Ar kadanors susimąstei, kad yra už tavo studijuojamo dalyko ribų? Ar
+        nori išmokti kitų sričių mokslo, ar pagilinti savąją sritį, tačiau
+        įdomumas yra vienintelis variklis, kurio nepakanka prisiversti to
+        padaryti?
+      </p>
+      <p>
+        Tuomet kviečiu prisijungti prie Mokslo Gildijos! Čia susirinks įvairių
+        sričių Vilniaus studentai, norintys išmokti daugiau, negu kad juos
+        "spaudžia" egzaminai ir karjera. Bus vykdomi susitikimai kas 2 savaites,
+        per kuriuos reikės per 15 min pristatyti po vieną savo savarankiškai
+        išmoktą mokslo dalyką (teoremą, reiškinį, procesą, kategorizavimą ar
+        pnš.)
+      </p>
+      <p>Kodėl verta prisijungti?</p>
+      <ul>
+        <li>
+          Susipažinsi su įvairias sritis studijuojančiais studentais, kurie visi
+          dalinasi "passion" mokslui
+        </li>
+        <li>Patobulinsi savo viešojo kalbėjimo įgūdžius</li>
+        <li>Pagilinsi žinias ne tik savo, bet ir kitose mokslo srityse</li>
+      </ul>
+      <p>
+        Pirmajame susitikime reikės per 15 minučių bendrai pristatyti savo
+        pagrindinę mokslo sritį (tą, apie kurią šnekantysis daugiausiai žino),
+        bet tai tikrai nereiškia, kad ateityje pristatymus galės daryti tik iš
+        tos srities!
+      </p>
+      <p>Dėl daugiau informacijos prašome kreiptis į mane: </p>
+      <ul>
+        <li>naglis.suliokas@gmail.com</li>
+        <li>FB: Naglis Šuliokas</li>
+        <li>IG: @naglisaudrius</li>
+        <li>...bet kur kitur kur mane surasit</li>
+      </ul>
+      <p>Lauksiu žinių!</p>
+      <h1>Daugiau apie idėją</h1>
       <p>
         Tai bus dar vienas (jau trečiasis, regis) bandymas padaryti kažkokią
         belenkaip gerą ir naudingą mokymosi iniciatyvą, paremta
@@ -27,7 +67,6 @@ function MoksloGildijaPage() {
         (tai nereiškia, kad tik apie tą field ir galės esant gildijoje daryti
         pristatymus), ir gauti lengvą approve iš vyriausiųjų meistrų (I guess).
       </p>
-      <p>Dėl daugiau info susisiekit su manim</p>
     </section>
   );
 }
