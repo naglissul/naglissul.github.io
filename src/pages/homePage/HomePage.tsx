@@ -28,6 +28,24 @@ function HomePage() {
         </em>
       </p>
       <h1>Latest</h1>
+      <div
+        style={{
+          border: "1px solid black",
+          padding: "10px",
+          textAlign: "center",
+        }}
+      >
+        <h2>Prisijunk prie Mokslo Gildijos!</h2>
+        <em>
+          &emsp;
+          <Link to="/teach/mokslo-gildija/">Kvietimas ir aprašymas</Link>
+        </em>
+      </div>
+      <p>2023-10-05 New blog post (a bit autobio)</p>
+      <em>
+        &emsp;
+        <Link to="/blog/">Het is geneog!</Link>
+      </em>
       <p>2023-09-10 Uploaded all old blog posts</p>
       <em>
         &emsp;
