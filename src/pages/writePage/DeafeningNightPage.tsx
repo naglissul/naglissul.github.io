@@ -3,11 +3,13 @@ import Reading from "./components/Reading";
 export default function DeafeningNightPage() {
   return (
     <section>
-      <p>
-        Čia bus patalpinta informacija apie trumpą siaubo istoriją "Kurtinančiai
-        tyli naktis dvipusiame name arba Ką padarysi..."
-      </p>
       <h2>Cover</h2>
+      <img
+        src="/assets/images/d-n-cover.png"
+        data-canonical-src="/assets/images/d-n-cover.png"
+        width="500px"
+        alt="The Deafening Night book cover"
+      />
       <h2>Plot</h2>
       <p>
         Siūvykloje naujai įsidarbinęs jaunuolis pamato šiurpiają naktinę darbo

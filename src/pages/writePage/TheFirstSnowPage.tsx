@@ -6,6 +6,12 @@ export default function TheFirstSnowPage() {
         Šiuo metu dirbu ties pirmos dalies (iš trijų) antru skyriumi (iš trijų)
       </p>
       <h2>Cover</h2>
+      <img
+        src="/assets/images/f-s-cover.png"
+        data-canonical-src="/assets/images/f-s-cover.png"
+        width="500px"
+        alt="The First Snow book cover"
+      />
       <h2>Plot</h2>
       <p>
         Į pauglystę bekeliaujantis berniukas klaidžioja po sapnus ir susiduria
@@ -39,6 +45,10 @@ export default function TheFirstSnowPage() {
         , ir tuomet, jei krauju prisieksite su niekuo nesidalinti, duosiu
         paskaityti :)) Neturintiems laiko skaityti 50k žodžių, taip pat galėčiau
         pasidalinti viso kūrinio summary.
+      </p>
+      <p>
+        Bet čiuju vis tiek nieko nepaeis su konkursais, tai kazkur apie 2024
+        rudenį - 2025 pavasarį turėtų būti išleista iš savų šaibų :((
       </p>
       <h2>Reviews & testimonials</h2>
       <h2>Ilustrations</h2>

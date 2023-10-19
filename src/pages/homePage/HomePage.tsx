@@ -10,7 +10,8 @@ import Counter from "./components/Counter";
 // Also about cookies... And spotify embeds - make just a double link (youtube&spotify)
 
 // Separate pages for articles. And write articles MOSLY WITH STRUCTURE. Other articles could be more informal
-// ARTICLES formal (e.g. https://complianz.io/youtube-and-the-gdpr-how-to-embed-youtube-on-your-site/) or informal (Whats the diff between blog posts???) - BUT NOT UPDATES!!! all updates can be written in Currently section
+// ARTICLES formal (e.g. https://complianz.io/youtube-and-the-gdpr-how-to-embed-youtube-on-your-site/)
+// or informal (Whats the diff between blog posts???) - BUT NOT UPDATES!!! all updates can be written in Currently section
 // Articles can be fr Teach section (only (?) then use latex - otherwise md (?))
 
 function HomePage() {
