@@ -64,6 +64,19 @@ function CodePage() {
           Find source code here (external link)
         </a>
       </h3>
+      <h2>Screenshots</h2>
+      <img
+        style={{ paddingTop: "20px" }}
+        src="/assets/images/SSscidict1.png"
+        data-canonical-src="/assets/images/SSscidict1.png"
+        alt="Sci-dict.lt Screenshot 1"
+      />
+      <img
+        style={{ paddingTop: "20px" }}
+        src="/assets/images/SSscidict2.png"
+        data-canonical-src="/assets/images/SSscidict2.png"
+        alt="Sci-dict.lt Screenshot 2"
+      />
       <p>
         Docs comming soon... But everything's free and pretty much just do
         whatever you want with the data and source code.
