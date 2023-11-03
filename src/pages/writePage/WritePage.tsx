@@ -13,6 +13,7 @@ function WritePage() {
       <h1>Future projects</h1>
       <ul>
         <li>Continue writing "Pernykštis sniegas"</li>
+        <li>Finish writing "Trumpi sapnai" short stories</li>
       </ul>
       <h1>Featured</h1>
       <a
@@ -40,7 +41,16 @@ function WritePage() {
         <Link to="/write/the-first-snow/">Pirmasis sniegas</Link>
       </p>
       <p>
+        <Link to="/write/the-last-years-snow/">Pernykštis sniegas</Link>
+      </p>
+      <p>
+        <Link to="/write/other-snow/">Kitos Sniego dalys</Link>
+      </p>
+      <p>
         <Link to="/write/slam/">Slam</Link>
+      </p>
+      <p>
+        <Link to="/write/short-dreams/">Trumpi sapnai</Link>
       </p>
       <div
         style={{
@@ -62,9 +72,6 @@ function WritePage() {
           <Link to="/blog/">blog page</Link>
         </p>
       </div>
-      {/* Later make that all the pdf files be stored in blog-posts repository, and there would be the copyright. And for this repository code you could make whatever you want */}
-      {/*Also make a new repository, so that the old writing files would ACTUALLY not be able to find */}
-      {/* <h1>Sniegas, slam, kiti tekstai... Language categories</h1> */}
     </section>
   );
 }

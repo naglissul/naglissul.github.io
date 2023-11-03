@@ -12,6 +12,9 @@ import WritePage from "./pages/writePage/WritePage";
 import SlamPage from "./pages/writePage/SlamPage";
 import TheFirstSnowPage from "./pages/writePage/TheFirstSnowPage";
 import MoksloGildijaPage from "./pages/teachPage/MoksloGildijaPage";
+import TheLastYearsSnowPage from "./pages/writePage/TheLastYearsSnowPage";
+import OtherSnowPage from "./pages/writePage/OtherSnowPage";
+import ShortDreamsPage from "./pages/writePage/ShortDreamsPage";
 
 export const POSTS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/posts/";
@@ -53,6 +56,21 @@ export const routes: IRoute[] = [
     path: "/write/deafening-night/",
     title: "Kurtinančiai tyli naktis dvipusiame name arba Ką padarysi...",
     element: <DeafeningNightPage />,
+  },
+  {
+    path: "/write/the-last-years-snow/",
+    title: "Pernykštis sniegas",
+    element: <TheLastYearsSnowPage />,
+  },
+  {
+    path: "/write/other-snow/",
+    title: "Kitos Sniego dalys",
+    element: <OtherSnowPage />,
+  },
+  {
+    path: "/write/short-dreams/",
+    title: "Trumpi sapnai",
+    element: <ShortDreamsPage />,
   },
   {
     path: "/teach/",
