@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function TheFirstSnowPage() {
   return (
     <section>
@@ -51,6 +53,11 @@ export default function TheFirstSnowPage() {
         rudenį - 2025 pavasarį turėtų būti išleista iš savų šaibų :((
       </p>
       <h2>Excerpts</h2>
+      <h3>Encrypted excerpts</h3>
+      <p>
+        Checkout{" "}
+        <Link to="/write/the-first-snow/encrypted-excerpts/">here</Link>
+      </p>
       <h3>8</h3>
       <p>
         Pirma pamačiau kairįjį vartų kampą. Tada ir švelnios, žemos žolės lauką.

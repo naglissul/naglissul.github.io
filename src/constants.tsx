@@ -15,6 +15,7 @@ import MoksloGildijaPage from "./pages/teachPage/MoksloGildijaPage";
 import TheLastYearsSnowPage from "./pages/writePage/TheLastYearsSnowPage";
 import OtherSnowPage from "./pages/writePage/OtherSnowPage";
 import ShortDreamsPage from "./pages/writePage/ShortDreamsPage";
+import EncryptedExcerpts from "./pages/writePage/EncryptedExcerpts";
 
 export const POSTS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/posts/";
@@ -51,6 +52,11 @@ export const routes: IRoute[] = [
     path: "/write/the-first-snow/",
     title: "Pirmasis sniegas",
     element: <TheFirstSnowPage />,
+  },
+  {
+    path: "/write/the-first-snow/encrypted-excerpts/",
+    title: "Encrypted excerpts",
+    element: <EncryptedExcerpts />,
   },
   {
     path: "/write/deafening-night/",
