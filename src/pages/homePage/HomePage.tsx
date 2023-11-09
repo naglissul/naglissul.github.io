@@ -34,6 +34,23 @@ function HomePage() {
           border: "1px solid black",
           padding: "10px",
           textAlign: "center",
+          margin: "10px",
+        }}
+      >
+        <h2>Nujas Pirmojo sniego skyrelis!</h2>
+        <em>
+          &emsp;
+          <Link to="/write/the-first-snow/encrypted-excerpts/">
+            Skaitykit ir raškit feedback'ą
+          </Link>
+        </em>
+      </div>
+      <div
+        style={{
+          border: "1px solid black",
+          padding: "10px",
+          textAlign: "center",
+          margin: "10px",
         }}
       >
         <h2>Prisijunk prie Mokslo Gildijos!</h2>
