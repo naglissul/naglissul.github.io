@@ -37,7 +37,7 @@ function HomePage() {
           margin: "10px",
         }}
       >
-        <h2>Nujas Pirmojo sniego skyrelis!</h2>
+        <h2>Naujas Pirmojo sniego skyrelis!</h2>
         <em>
           &emsp;
           <Link to="/write/the-first-snow/encrypted-excerpts/">

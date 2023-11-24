@@ -64,6 +64,12 @@ function CodePage() {
           Find source code here (external link)
         </a>
       </h3>
+      <p>
+        If link doesn't work (website is not deployed at the time), download the{" "}
+        <a href="https://github.com/naglissul/sci-dict-lt/files/13461074/Science.Dictionary.LT.-_.EN.pdf">
+          PDF version
+        </a>
+      </p>
       <h2>Screenshots</h2>
       <img
         style={{ paddingTop: "20px" }}

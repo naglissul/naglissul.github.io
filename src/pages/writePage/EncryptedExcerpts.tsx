@@ -25,6 +25,7 @@ export default function EncryptedExcerpts() {
       <p>
         Parašykit man dėl slaptažodžio (galit į audriustyliunas instagramą).
       </p>
+      <p>Labai appreciatinčiau feedback'a!</p>
       <input
         type="password"
         placeholder="Enter password"
@@ -70,6 +71,7 @@ export default function EncryptedExcerpts() {
           padding: "10px",
           marginTop: "50px",
           resize: "vertical",
+          fontSize: "16px",
         }}
       />
       <a
