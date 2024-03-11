@@ -37,12 +37,12 @@ function HomePage() {
           margin: "10px",
         }}
       >
-        <h2>Naujas Pirmojo sniego skyrelis!</h2>
+        <Link to="/write/">
+          <h2>Write (Vilniaus knygų mugei)</h2>
+        </Link>
         <em>
           &emsp;
-          <Link to="/write/the-first-snow/encrypted-excerpts/">
-            Skaitykit ir raškit feedback'ą
-          </Link>
+          <Link to="/write/">Audriaus Tyliūno rašymo puslapis</Link>
         </em>
       </div>
       <div

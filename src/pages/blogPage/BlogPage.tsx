@@ -1,12 +1,19 @@
-import { useEffect, useState } from "react";
+import { ComponentType, ReactNode, useEffect, useState } from "react";
 import BlogPost from "./components/BlogPost";
 import { POSTS_URL } from "../../constants";
 
-// 3 categories: normal posts, fiction short stories also excerpts, other (uni stuff with conspects, later a few articles), archive
+import { MDXProvider } from "@mdx-js/react";
+import MDXContent from "./../../data/post.mdx";
+
 interface post {
   name: string;
   content: string;
 }
+
+//sample for mdx
+const components: { [key: string]: ComponentType<{ children: ReactNode }> } = {
+  button: (props) => <button {...props} />,
+};
 
 const fetchPosts = async (): Promise<post[] | null> => {
   const files: post[] = [];
@@ -59,6 +66,12 @@ function BlogPage() {
       <h3>
         Here are some blog posts. Lekker lezing! <sub>NL</sub>
       </h3>
+      <div>
+        <MDXProvider components={components}>
+          <MDXContent />
+        </MDXProvider>
+      </div>
+
       {files
         ? files.map((file: post) => (
             <BlogPost key={file.name} id={file.name} text={file.content} />

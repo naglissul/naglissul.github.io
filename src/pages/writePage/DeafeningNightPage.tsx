@@ -27,6 +27,7 @@ export default function DeafeningNightPage() {
         name="Kurtinančiai
         tyli naktis dvipusiame name arba Ką padarysi..."
         src="assets/readings/other/deafening-night.pdf"
+        read=""
       />
       <p>Arba čia, neturintiems laiko:</p>
       <h2>Sypnosis/summary - SPOILER ALERT!</h2>

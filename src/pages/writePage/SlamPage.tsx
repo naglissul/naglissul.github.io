@@ -79,12 +79,14 @@ export default function SlamPage() {
           <Reading
             key={reading.name}
             name={reading.name}
+            read=""
             src={`assets/readings/slam/${reading.fileName}`}
           />
         ))}
         <Reading
           name="EN | Part 5. Second chapter: The beetles are real"
           src="assets/readings/slam/19.pdf"
+          read=""
         />
       </div>
     </section>

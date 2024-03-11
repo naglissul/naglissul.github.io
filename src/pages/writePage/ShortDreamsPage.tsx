@@ -31,6 +31,7 @@ export default function ShortDreamsPage() {
       <Reading
         name="Trumpi sapnai"
         src="assets/readings/other/short-dreams.pdf"
+        read=""
       />
     </section>
   );

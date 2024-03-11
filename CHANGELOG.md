@@ -10,7 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Added
 
 - More content/info and descriptions.
-- A LOT of other stuff. But its more of a continuous process...
+- A LOT of other stuff
+- Decently viewable, updated content
+- Yarn instead odf npm
 
 ## Fixed
 

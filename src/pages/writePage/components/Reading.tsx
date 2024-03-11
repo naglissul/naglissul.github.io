@@ -1,8 +1,9 @@
 interface readingInfo {
   name: string;
   src: string;
+  read?: string;
 }
-function Reading({ name, src }: readingInfo) {
+function Reading({ name, src, read }: readingInfo) {
   return (
     <div
       style={{
@@ -17,11 +18,11 @@ function Reading({ name, src }: readingInfo) {
         alignItems: "center",
       }}
     >
-      <div style={{}}>
+      <div style={{ fontSize: "20px" }}>
         <strong>{name}</strong>
       </div>
-      <a style={{}} href={src} download>
-        Download
+      <a style={{ fontSize: "18px" }} href={src} download>
+        Atsisiųsti
       </a>
     </div>
   );
