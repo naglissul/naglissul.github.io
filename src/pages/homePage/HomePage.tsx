@@ -19,6 +19,26 @@ function HomePage() {
     <section>
       <BestMusic name="Royal Blood - Waves" />
       <hr />
+      <div
+        style={{
+          border: "1px solid black",
+          padding: "10px",
+          textAlign: "center",
+          margin: "10px",
+        }}
+      >
+        <h2>Tinklapis yra tvarkomas...</h2>
+        <em>
+          &emsp; Šiuo metu šis tinklapis yra tvarkomas. Planuojama:
+          <li>Sutvarkyti blog puslapį ir .md failų skaitymą</li>
+          <li>
+            Įkelti blog postų bei kitaip tinklapyje aprašyti dabartinius
+            projektus, planuojamus projektus ir veiklas: programavimas,
+            akademiniai dalykai, pagalba 12-okams laikant egzaminus, rašymas bei
+            kita.
+          </li>
+        </em>
+      </div>
       <h1>
         <em>This is...</em>
       </h1>
