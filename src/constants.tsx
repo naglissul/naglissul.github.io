@@ -24,6 +24,7 @@ import E from "./pages/writePage/e";
 import F from "./pages/writePage/f";
 import G from "./pages/writePage/g";
 import H from "./pages/writePage/h";
+import TempPage from "./pages/tempPage/TempPage";
 
 export const POSTS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/posts/";

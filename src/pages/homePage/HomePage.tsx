@@ -17,7 +17,8 @@ import Counter from "./components/Counter";
 function HomePage() {
   return (
     <section>
-      <BestMusic name="Royal Blood - Waves" />
+      <BestMusic name="P. Tchaikovsky - The Nutcracker, Op. 71, Act II, Scene XIV: Waltz of the Flowers" />
+      <BestMusic name="Mother Mother - Hayloft II" />
       <hr />
       <div
         style={{
