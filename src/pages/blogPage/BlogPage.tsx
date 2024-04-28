@@ -2,9 +2,6 @@ import { ComponentType, ReactNode, useEffect, useState } from "react";
 import BlogPost from "./components/BlogPost";
 import { POSTS_URL } from "../../constants";
 
-import { MDXProvider } from "@mdx-js/react";
-import MDXContent from "./../../data/post.mdx";
-
 interface post {
   name: string;
   content: string;
@@ -66,11 +63,7 @@ function BlogPage() {
       <h3>
         Here are some blog posts. Lekker lezing! <sub>NL</sub>
       </h3>
-      <div>
-        <MDXProvider components={components}>
-          <MDXContent />
-        </MDXProvider>
-      </div>
+      <h2>COMING SOON: SHOR'S ALGORITHM ANALYSIS, very basic neural network</h2>
 
       {files
         ? files.map((file: post) => (
