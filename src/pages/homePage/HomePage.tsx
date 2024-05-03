@@ -58,6 +58,58 @@ function HomePage() {
           margin: "10px",
         }}
       >
+        <Link to="https://www.vbesort.lt">
+          <h2>vbesort.lt</h2>
+        </Link>
+        <em>
+          &emsp;
+          <Link to="https://www.vbesort.lt">
+            Surūšiuotos VBE ir PUPP užduotys
+          </Link>
+        </em>
+      </div>{" "}
+      <div
+        style={{
+          border: "1px solid black",
+          padding: "10px",
+          textAlign: "center",
+          margin: "10px",
+        }}
+      >
+        <Link to="https://www.sci-dict.org">
+          <h2>sci-dict.org</h2>
+        </Link>
+        <em>
+          &emsp;
+          <Link to="https://www.sci-dict.org">Mokslinis žodynas</Link>
+        </em>
+      </div>{" "}
+      <div
+        style={{
+          border: "1px solid black",
+          padding: "10px",
+          textAlign: "center",
+          margin: "10px",
+        }}
+      >
+        <Link to="https://www.skafis.lt">
+          <h2>Skafis.lt</h2>
+        </Link>
+        <em>
+          &emsp;
+          <Link to="https://www.skafis.lt">
+            Testų generavimo priemonė (bei testavimo aplinkos alfa versija)
+          </Link>
+        </em>
+      </div>
+      <div
+        style={{
+          border: "1px solid black",
+          padding: "10px",
+          textAlign: "center",
+          margin: "10px",
+        }}
+      >
         <Link to="/write/">
           <h2>Write (Vilniaus knygų mugei)</h2>
         </Link>
@@ -200,7 +252,6 @@ function HomePage() {
           <Link to="/music/">Music</Link>
         </div>
       </span>
-
       <h1>Ideas for the future</h1>
       <ul>
         <li>A set of short stories, called "Trumpi sapnai"</li>
