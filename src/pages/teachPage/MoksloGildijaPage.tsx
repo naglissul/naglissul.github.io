@@ -1,7 +1,32 @@
 function MoksloGildijaPage() {
   return (
     <section>
-      <h1>Kvietimas</h1>
+      <h1>Kas ta Mokslo Gildija?</h1>
+      <p>
+        Tai studentų (bei moksleivių), įvairių mokslo sričių entuziastų grupė,
+        rengianti maždaug kas mėnesį susitikimus, iki 5 žmonių pristatant tam
+        tikrą mokslo temą. Kalbėti - pasidalinti tuo mokslo džiaugsmu, klausyti
+        - priimti tą mokslo džiaugsmą, plėsti žinias ir domėtis pasauliu.
+      </p>
+      <p>
+        Facebook grupė:{" "}
+        <a href="https://www.facebook.com/groups/1424165538479376/">
+          https://www.facebook.com/groups/1424165538479376/
+        </a>
+      </p>
+      <h1>Kada? Kur?</h1>
+      <p>
+        Šį sezoną planuojami dar du susitikimai (Naugarduko g. 24, Vilnius):
+      </p>
+      <ul>
+        <li>Šeštasis - 2024-05-15 18:00</li>
+        <li>Septintasis - 2024-06-12 18:00</li>
+      </ul>
+      <p></p>
+
+      <p></p>
+
+      <h1>Plačiau apie idėją (senas kvietimas)</h1>
       <p>Labas! </p>
       <p>
         Ar kadanors susimąstei, kas yra už tavo studijuojamo dalyko ribų? Ar
