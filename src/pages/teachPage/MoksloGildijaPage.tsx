@@ -22,10 +22,30 @@ function MoksloGildijaPage() {
         <li>Šeštasis - 2024-05-15 18:00</li>
         <li>Septintasis - 2024-06-12 18:00</li>
       </ul>
-      <p></p>
-
-      <p></p>
-
+      <h2>Šeštojo susitikimo kvietimas moksleiviams</h2>
+      <p>
+        Moksleivi! Susipažink su mokslu už mokyklos ribų ir lengviau apsispręsk,
+        ką studijuoti!
+      </p>
+      <p>
+        {" "}
+        Kviečiame į Mokslo gildijos šeštąjį susitikimą paklausyti mini paskaitų
+        (arba ir pravesti patiems). Evento link'as:{" "}
+        <a href="https://www.facebook.com/events/456302607055821/">
+          https://www.facebook.com/events/456302607055821/
+        </a>
+      </p>
+      <h2>Šeštojo susitikimo kvietimas studentams</h2>
+      <p>
+        Studente! Supažindink su savo mokslu kitus studentus bei moksleivius!
+      </p>
+      <p>
+        Kviečiame į Mokslo gildijos šeštąjį susitikimą pravesti mini paskaitų
+        (arba tiesiog paklausyti). Evento link'as:{" "}
+        <a href="https://www.facebook.com/events/456302607055821/">
+          https://www.facebook.com/events/456302607055821/
+        </a>
+      </p>
       <h1>Plačiau apie idėją (senas kvietimas)</h1>
       <p>Labas! </p>
       <p>

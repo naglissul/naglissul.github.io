@@ -20,7 +20,7 @@ function HomePage() {
       <BestMusic name="P. Tchaikovsky - The Nutcracker, Op. 71, Act II, Scene XIV: Waltz of the Flowers" />
       <BestMusic name="Mother Mother - Hayloft II" />
       <hr />
-      <div
+      {/* <div
         style={{
           border: "1px solid black",
           padding: "10px",
@@ -39,7 +39,7 @@ function HomePage() {
             kita.
           </li>
         </em>
-      </div>
+      </div> */}
       <h1>
         <em>This is...</em>
       </h1>
@@ -50,6 +50,45 @@ function HomePage() {
         </em>
       </p>
       <h1>Latest</h1>
+      <div
+        style={{
+          border: "1px solid black",
+          padding: "10px",
+          textAlign: "center",
+          margin: "10px",
+        }}
+      >
+        <Link to="https://testai.skafis.lt">
+          <h2>testai.skafis.lt</h2>
+        </Link>
+        <em>
+          &emsp;
+          <Link to="https://testai.skafis.lt">
+            Testavimo platforma (beta versija). Susipažinkite su platforma
+            "Naudotojo gide", registruotis galima tik susisiekus su manimi (nes
+            platforma nėra stabili).
+          </Link>
+        </em>
+      </div>
+      <div
+        style={{
+          border: "1px solid black",
+          padding: "10px",
+          textAlign: "center",
+          margin: "10px",
+        }}
+      >
+        <Link to="/teach/mokslo-gildija/">
+          <h2>Prisijunk prie Mokslo Gildijos!</h2>
+        </Link>
+        <em>
+          &emsp;
+          <Link to="/teach/mokslo-gildija/">
+            Kvietimas paklausyti arba pravesti mini paskaitas (moksleiviams)
+            apie savo mokslo sritį
+          </Link>
+        </em>
+      </div>
       <div
         style={{
           border: "1px solid black",
@@ -116,20 +155,6 @@ function HomePage() {
         <em>
           &emsp;
           <Link to="/write/">Audriaus Tyliūno rašymo puslapis</Link>
-        </em>
-      </div>
-      <div
-        style={{
-          border: "1px solid black",
-          padding: "10px",
-          textAlign: "center",
-          margin: "10px",
-        }}
-      >
-        <h2>Prisijunk prie Mokslo Gildijos!</h2>
-        <em>
-          &emsp;
-          <Link to="/teach/mokslo-gildija/">Kvietimas ir aprašymas</Link>
         </em>
       </div>
       <p>2023-10-05 New blog post (a bit autobio)</p>
