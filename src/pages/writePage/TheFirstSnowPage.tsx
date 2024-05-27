@@ -1,63 +1,41 @@
-import { Link } from "react-router-dom";
-
 export default function TheFirstSnowPage() {
   return (
     <section>
-      <p>Čia bus patalpinta informacija apie romaną "Pirmasis sniegas"</p>
-      <p>
-        Šiuo metu dirbu ties pirmos dalies (iš trijų) antru skyriumi (iš trijų)
-      </p>
-      <h2>Cover</h2>
       <img
+        style={{ display: "block", margin: "auto" }}
         src="/assets/images/f-s-cover.png"
         data-canonical-src="/assets/images/f-s-cover.png"
         width="500px"
         alt="The First Snow book cover"
       />
-      <h2>Plot</h2>
       <p>
         Į pauglystę bekeliaujantis berniukas klaidžioja po sapnus ir susiduria
         su senai pamirštom sapnų pabaisom.
       </p>
-      <h2>About</h2>
+      <h2>Apie</h2>
       <p>
-        Žanras? Turbūt tiksliausiai būtų sakyti psichologinė fantastika, nors iš
-        tikrųjų nėra taip konkretu. Apie ką? Trumpai tariant, apie sapnus. Mažai
-        pažinto ir chaotiško pasaulio tyrinėjimą. Pavojus, slypinčius giliai
-        sapnuose. Ir kodėl geriau netapti klaidininku. Everything is in
-        progress.
+        Realistinė fantastika. Trumpai tariant, apie sapnus. Mažai pažinto ir
+        chaotiško ir stebuklingo pasaulio tyrinėjimą, pavojus, slypinčius giliai
+        sapnuose, bei kodėl geriau netapti klaidininku.
       </p>
       <p>
-        Apie ką Pirmasis sniegas? - Suaugusiems: Apie vaiko išgyvenimus praradus
-        tėtį, bandant neužsilikti niūriose mintyse, o judėti į priekį - Vaikams:
-        Apie kitokį sapnų pasaulį, kuriame galima sutikti kitus žmones ir daryti
-        sudėtingus, bet stebuklingus dalykus, tačiau ir tuo pačiu apie kupiną
-        pavojų sapnų pasaulį su pabaisomis,
+        Kam patinka "išsigalvoti gilias prasmes", galima sakyti, kad knyga apie
+        vaiko išgyvenimus praradus tėtį, bandant neužsilikti niūriose mintyse, o
+        judėti į priekį.
       </p>
+      <p>Planuoju išleisti dar bent dvi kūrinio dalis.</p>
       <h2>Kur skaityti?</h2>
-      <p>Dar nėra ką skaityti. Rašymas yra in progress. </p>
       <p>
-        Kadangi planuoju šį kūrinuką dėti į konkursus (vienas iš jų - Alma
-        littera konkursas 2024 balandį), negaliu viešai pasidalinti visu
-        kūriniu. Tačiau, jei norit paskaityti prieš kūriniui būnant išleistu,
-        galite man raštelti į paštą{" "}
+        Negaliu dalintis viešai, nes dalyvauju Alma littera konkurse. Tačiau jei
+        parašysit į paštą{" "}
         <a href="mailto:tyliunas.audrius@gmail.com">
           tyliunas.audrius@gmail.com
-        </a>
-        , ir tuomet, jei krauju prisieksite su niekuo nesidalinti, duosiu
-        paskaityti :)) Neturintiems laiko skaityti 50k žodžių, taip pat galėčiau
-        pasidalinti viso kūrinio summary.
+        </a>{" "}
+        ir jei krauju prisieksite su niekuo nesidalinti, duosiu paskaityti :))
+        Neturintiems laiko skaityti 50k žodžių, taip pat galėčiau pasidalinti
+        kūrinio santrauka.
       </p>
-      <p>
-        Bet čiuju vis tiek nieko nepaeis su konkursais, tai kazkur apie 2024
-        rudenį - 2025 pavasarį turėtų būti išleista iš savų šaibų :((
-      </p>
-      <h2>Excerpts</h2>
-      <h3>Encrypted excerpts</h3>
-      <p>
-        Checkout{" "}
-        <Link to="/write/the-first-snow/encrypted-excerpts/">here</Link>
-      </p>
+      <h2>Ištraukos</h2>
       <h3>8</h3>
       <p>
         Pirma pamačiau kairįjį vartų kampą. Tada ir švelnios, žemos žolės lauką.
@@ -237,9 +215,6 @@ export default function TheFirstSnowPage() {
         tarp stovinčių pabaisų. Vos tik aš pajudėjau, visos jos pradėjo lėkt į
         mane. {"<...>"}
       </p>{" "}
-      <h2>Reviews & testimonials</h2>
-      <h2>Ilustrations</h2>
-      <h2>Sypnosis</h2>
     </section>
   );
 }

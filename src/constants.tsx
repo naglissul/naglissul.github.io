@@ -16,15 +16,6 @@ import TheLastYearsSnowPage from "./pages/writePage/TheLastYearsSnowPage";
 import OtherSnowPage from "./pages/writePage/OtherSnowPage";
 import ShortDreamsPage from "./pages/writePage/ShortDreamsPage";
 import EncryptedExcerpts from "./pages/writePage/EncryptedExcerpts";
-import A from "./pages/writePage/A";
-import B from "./pages/writePage/b";
-import C from "./pages/writePage/c";
-import D from "./pages/writePage/d";
-import E from "./pages/writePage/e";
-import F from "./pages/writePage/f";
-import G from "./pages/writePage/g";
-import H from "./pages/writePage/h";
-import TempPage from "./pages/tempPage/TempPage";
 
 export const POSTS_URL: string =
   "https://raw.githubusercontent.com/naglissul/blog-posts/main/posts/";
@@ -116,43 +107,6 @@ export const routes: IRoute[] = [
     path: "/music/",
     title: "Music",
     element: <MusicPage />,
-  },
-  {
-    path: "/write/a/",
-    title: "Saldainiai (500 žodžių)",
-    element: <A />,
-  },
-  {
-    path: "/write/b/",
-    title: "Suplaktos kavos lašas (300 žodžių)",
-    element: <B />,
-  },
-  {
-    path: "/write/c/",
-    title: "Trumpi sapnai (po 300 žodžių)",
-    element: <C />,
-  },
-  {
-    path: "/write/d/",
-    title: "Kitas lapelis (2100 žodžių)",
-    element: <D />,
-  },
-  {
-    path: "/write/e/",
-    title:
-      "Kurtinančiai tyli naktis dvipusiame name arba Ką padarysi... (8400 žodžių)",
-    element: <E />,
-  },
-  {
-    path: "/write/f/",
-    title:
-      "Santrauka: Kurtinančiai tyli naktis dvipusiame name arba Ką padarysi... (1200 žodžių)",
-    element: <F />,
-  },
-  {
-    path: "/write/g/",
-    title: "Šeštasis sapnas (pradžia) (300 žodžių)",
-    element: <G />,
   },
   { path: "*", title: "404", element: <NotFoundPage /> },
 ];

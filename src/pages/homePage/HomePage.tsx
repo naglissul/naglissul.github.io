@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import BestMusic from "./components/BestMusic";
 import { Icon } from "../../generalComponents/ContactsFooter";
 import { MOBILE_THRESHOLD } from "../../constants";
-import Counter from "./components/Counter";
 
 // USE SASS
 // Add more pages - branching from Home (or add "Other" thingy for the things that are permanently accomodated and leave Home for new/crumbs)
@@ -18,7 +17,6 @@ function HomePage() {
   return (
     <section>
       <BestMusic name="P. Tchaikovsky - The Nutcracker, Op. 71, Act II, Scene XIV: Waltz of the Flowers" />
-      <BestMusic name="Mother Mother - Hayloft II" />
       <hr />
       {/* <div
         style={{
@@ -50,6 +48,24 @@ function HomePage() {
         </em>
       </p>
       <h1>Latest</h1>
+      <div
+        style={{
+          border: "1px solid black",
+          padding: "10px",
+          textAlign: "center",
+          margin: "10px",
+        }}
+      >
+        <Link to="/write/the-first-snow/">
+          <h2>Pirmasis sniegas</h2>
+        </Link>
+        <em>
+          &emsp;
+          <Link to="/write/the-first-snow/">
+            Fantastikos su psichologijos elementais knyga apie sapnus
+          </Link>
+        </em>
+      </div>
       <div
         style={{
           border: "1px solid black",
